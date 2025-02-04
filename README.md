@@ -47,7 +47,8 @@ Functionality are added they come up. Here are some of the things I want to add:
 - [ ] SBOM for SQEX assets
 - [ ] Improve gallery shortcode
 
-## Copyright disclaimer
+## disclaimer
 
 FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd. \
-Some images, contents, and assets © SQUARE ENIX - Used under the [Material Usage License](https://support.na.square-enix.com/rule.php?id=5382&tag=authc).
+Some images, contents, and assets © SQUARE ENIX \
+Used under the [Material Usage License](https://support.na.square-enix.com/rule.php?id=5382&tag=authc).
