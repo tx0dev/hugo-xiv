@@ -1,0 +1,19 @@
+{{- $text := .Get 0 -}}
+{{- $type := .Get 1 | default "gil" -}}
+{{- $titles := dict
+    "gil" "Gil"
+    "poetics" "Allagan Tomestones of Poetics"
+    "aesthetics" "Allagan Tomestones of Aesthetics"
+    "heliometry" "Allagan Tomestones of Heliometry"
+    "nuts" "Sacks of Nuts"
+    "centurio" "Centurio Seal"
+    "allied" "Allied Seal"
+    "bicolor" "Bicolor Gemstone"
+-}}
+{{- $title := index $titles $type -}}
+
+<span
+    class="xiv-token xiv-token--{{ $type }}"
+    title="{{ $title }}"
+>{{ $text | safeHTML }}<span class="sr-only"> {{ $title }}</span></span>
+{{- /* end */ -}}

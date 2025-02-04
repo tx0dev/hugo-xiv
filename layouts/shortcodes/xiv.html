@@ -1,0 +1,109 @@
+{{/* layouts/shortcodes/game-ref.html */}}
+{{- $types := dict
+    "item" "item"
+    "quest" "quest"
+    "duty" "duty"
+    "npc" "npc/npc"
+    "enemy" "npc/enemy"
+    "recipe" "recipe"
+    "gathering" "gathering"
+    "achievement" "achievement"
+    "text_command" "text_command"
+    "shop" "shop"
+-}}
+
+{{- $questTypes := dict
+    "normal" "Quest"
+    "feature" "Feature quest"
+    "msq" "Main Story quest"
+    "levequest" "Levequest"
+    "other" "Other quest"
+    "featurerepeat" "Repeatable feature quest"
+    "normalrepeat" "Repeatable quest"
+    "levequest" "Levequest"
+-}}
+
+{{- $dutyTypes := dict
+    "dungeon" "Dungeon"
+    "guildhest" "Guildhest"
+    "chaotic" "Chaotic"
+    "pvp" "PvP"
+    "raid" "Raid"
+    "trial" "Trial"
+    "ultimate" "Ultimate Raid"
+    "variant" "Variant Dungeon"
+    "deep" "Deep Dungeon"
+    "field" "Field Opertations"
+-}}
+
+{{- $fateTypes := dict
+    "boss" "Kill Boss"
+    "chase" "Chase"
+    "collect" "Collect"
+    "defend" "Defend"
+    "escort" "Escort"
+    "fate" "FATE"
+    "slay" "Kill Enemies"
+-}}
+{{- $npcTypes := dict
+    "levemete" "Guildleve NPC"
+    "mob" "Monster"
+-}}
+
+{{- $text := .Get "text" | default .Inner -}}
+{{- $questType := .Get "quest" -}}
+{{- $dutyType := .Get "duty" -}}
+{{- $fateType := .Get "fate" -}}
+{{- $npcType := .Get "npc" -}}
+{{- $dbRef := .Get "db" -}}
+{{- $href := .Get "href" -}}
+
+{{/* Parse DB reference */}}
+{{- $dbType := "" -}}
+{{- $dbId := "" -}}
+{{- if $dbRef -}}
+    {{- $parts := split $dbRef "=" -}}
+    {{- if ge (len $parts) 2 -}}
+        {{- $dbType = index $parts 0 -}}
+        {{- $dbId = index $parts 1 -}}
+    {{- end -}}
+{{- end -}}
+
+{{/* Build content with appropriate icon */}}
+{{- $content := "" -}}
+{{- $hasIcon := false -}}
+{{- if $questType -}}
+    {{- $hasIcon = true -}}
+    {{- $questTitle := index $questTypes $questType -}}
+    {{- $content = printf `<span class="xiv-quest xiv-quest--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $questType $questTitle $text $questTitle -}}
+{{- else if $dutyType -}}
+    {{- $hasIcon = true -}}
+    {{- $dutyTitle := index $dutyTypes $dutyType -}}
+    {{- $content = printf `<span class="xiv-duty xiv-duty--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $dutyType $dutyTitle $text $dutyTitle -}}
+{{- else if $fateType -}}
+    {{- $hasIcon = true -}}
+    {{- $fateTitle := index $fateTypes $fateType -}}
+    {{- $content = printf `<span class="xiv-fate xiv-fate--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $fateType $fateTitle $text $fateTitle -}}
+{{- else if $npcType -}}
+    {{- $hasIcon = true -}}
+    {{- $npcTitle := index $npcTypes $npcType -}}
+    {{- $content = printf `<span class="xiv-npc xiv-npc--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $npcType $npcTitle $text $npcTitle -}}
+{{- else -}}
+    {{- $content = $text -}}
+{{- end -}}
+
+{{/* Wrap with appropriate link if needed */}}
+{{- if and $dbType $dbId (isset $types $dbType) -}}
+    {{- $dbPath := index $types $dbType -}}
+    {{- if $hasIcon -}}
+        <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/{{ $dbPath }}/{{ $dbId }}/" class="eorzeadb_link">{{ $content | safeHTML }}</a>
+    {{- else -}}
+        <a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/{{ $dbPath }}/{{ $dbId }}/" class="eorzeadb_link xiv-db">{{ $content | safeHTML }}</a>
+    {{- end -}}
+{{- else if $href -}}
+    <a href="{{ $href }}">{{ $content | safeHTML }}</a>
+{{- else if $hasIcon -}}
+    {{ $content | safeHTML }}
+{{- else -}}
+    <span class="xiv" style="padding: 0 4px">{{ $content | safeHTML }}</span>
+{{- end -}}

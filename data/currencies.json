@@ -1,0 +1,264 @@
+{
+  "currency": {
+    "gil": "Gil",
+    "mgp": "MGP",
+    "seals": "Company Seals",
+    "allied": "Allied Seals",
+    "centurio": "Centurio Seals",
+    "nuts": "Sacks of Nuts",
+    "wolf_marks": "Wolf Marks",
+    "seafarer": "Seafarer's Cowries",
+    "islander": "Islander's Cowries",
+    "faux_leaf": "Faux Leaf",
+    "ventures": "Ventures",
+    "skybuilder": "Skybuilder's Scrips"
+  },
+  "tomestone": {
+    "poetics": {
+      "name": "Allagan Tomestone of Poetics",
+      "added": 2.4,
+      "obsolete": null
+    },
+    "philosophy": {
+      "name": "Allagan Tomestone of Philosophy",
+      "added": 2.0,
+      "obsolete": 2.2
+    },
+    "mythology": {
+      "name": "Allagan Tomestone of Mythology",
+      "added": 2.0,
+      "obsolete": 2.4
+    },
+    "soldiery": {
+      "name": "Allagan Tomestone of Soldiery",
+      "added": 2.2,
+      "obsolete": 3.0
+    },
+    "law": {
+      "name": "Allagan Tomestone of Law",
+      "added": 3.0,
+      "obsolete": 3.2
+    },
+    "esoterics": {
+      "name": "Allagan Tomestone of Esoterics",
+      "added": 3.05,
+      "obsolete": 3.4
+    },
+    "lore": {
+      "name": "Allagan Tomestone of Lore",
+      "added": 3.2,
+      "obsolete": 4.0
+    },
+    "scripture": {
+      "name": "Allagan Tomestone of Scripture",
+      "added": 3.4,
+      "obsolete": 4.0
+    },
+    "verity": {
+      "name": "Allagan Tomestone of Verity",
+      "added": 4.0,
+      "obsolete": 4.2
+    },
+    "creation": {
+      "name": "Allagan Tomestone of Creation",
+      "added": 4.05,
+      "obsolete": 4.4
+    },
+    "mendacity": {
+      "name": "Allagan Tomestone of Mendacity",
+      "added": 4.2,
+      "obsolete": 5.0
+    },
+    "Genesis": {
+      "name": "Allagan Tomestone of Genesis",
+      "added": 4.4,
+      "obsolete": 5.0
+    },
+    "goetia": {
+      "name": "Allagan Tomestone of Goetia",
+      "added": 5.0,
+      "obsolete": 5.2
+    },
+    "phantasmagoria": {
+      "name": "Allagan Tomestone of Phantasmagoria",
+      "added": 5.05,
+      "obsolete": 5.4
+    },
+    "Allegory": {
+      "name": "Allagan Tomestone of Allegory",
+      "added": 5.2,
+      "obsolete": 6.0
+    },
+    "Revelation": {
+      "name": "Allagan Tomestone of Revelation",
+      "added": 5.4,
+      "obsolete": 6.0
+    },
+    "Aphorism": {
+      "name": "Allagan Tomestone of Aphorism",
+      "added": 6.0,
+      "obsolete": 6.2
+    },
+    "Astronomy": {
+      "name": "Allagan Tomestone of Astronomy",
+      "added": 6.05,
+      "obsolete": 6.4
+    },
+    "Causality": {
+      "name": "Allagan Tomestone of Causality",
+      "added": 6.2,
+      "obsolete": 7.0
+    },
+    "Comedy": {
+      "name": "Allagan Tomestone of Comedy",
+      "added": 6.4,
+      "obsolete": 7.0
+    },
+    "Aesthetics": {
+      "name": "Allagan Tomestone of Aesthetics",
+      "added": 7.0,
+      "obsolete": null
+    },
+    "heliometry": {
+      "name": "Allagan Tomestone of Heliometry",
+      "added": 7.05,
+      "obsolete": null
+    }
+  },
+  "Scrip": {
+    "blue": {
+      "added": 3.0,
+      "obsolete": 4.0
+    },
+    "red": {
+      "added": 3.05,
+      "obsolete": 5.0
+    },
+    "yellow": {
+      "added": 4.0,
+      "obsolete": 6.0
+    },
+    "white": {
+      "added": 5.0,
+      "obsolete": 7.0
+    },
+    "purple": {
+      "added": 6.0,
+      "obsolete": null
+    },
+    "orange": {
+      "added": 7.0,
+      "obsolete": null
+    }
+  },
+  "society": {
+    "amaljaa": {
+      "name": "Amalj'aa",
+      "currency": "Steel Amalj'ok",
+      "focus": "Combat",
+      "expension": "A Realm Reborn"
+    },
+    "sylphs": {
+      "name": "Sylphs",
+      "currency": "Sylphic Goldleaf",
+      "focus": "Combat",
+      "expension": "A Realm Reborn"
+    },
+    "kobolds": {
+      "name": "Kobolds",
+      "currency": "Titan Cobaltpiece",
+      "focus": "Combat",
+      "expension": "A Realm Reborn"
+    },
+    "sahagin": {
+      "name": "Sahagin",
+      "currency": "Rainbowtide Psashp",
+      "focus": "Combat",
+      "expension": "A Realm Reborn"
+    },
+    "ixali": {
+      "name": "Ixali",
+      "currency": "Ixali Oaknot",
+      "focus": "Crafting",
+      "expension": "A Realm Reborn"
+    },
+    "vanu_vanu": {
+      "name": "Vanu Vanu",
+      "currency": "Vanu Whitebone",
+      "focus": "Combat",
+      "expension": "Heavensward"
+    },
+    "vath": {
+      "name": "Vath",
+      "currency": "Black Copper Gil",
+      "focus": "Combat",
+      "expension": "Heavensward"
+    },
+    "moogles": {
+      "name": "Moogles",
+      "currency": "Carved Kupo Nut",
+      "focus": "Crafting",
+      "expension": "Heavensward"
+    },
+    "kojin": {
+      "name": "Kojin",
+      "currency": "Kojin Sango",
+      "focus": "Combat",
+      "expension": "Stormblood"
+    },
+    "ananta": {
+      "name": "Ananta",
+      "currency": "Ananta Dreamstaff",
+      "focus": "Combat",
+      "expension": "Stormblood"
+    },
+    "namazu": {
+      "name": "Namazu",
+      "currency": "Namazu Koban",
+      "focus": ["Crafting", "Gathering"],
+      "expension": "Stormblood"
+    },
+    "pixies": {
+      "name": "Pixies",
+      "currency": "Fae Fancies",
+      "focus": "Combat",
+      "expension": "Shadowbringers"
+    },
+    "dwarves": {
+      "name": "Dwarves",
+      "currency": "Hammered Frogment",
+      "focus": "Crafting",
+      "expension": "Shadowbringers"
+    },
+    "qitari": {
+      "name": "Qitari",
+      "currency": "Qitari Compliment",
+      "focus": "Gathering",
+      "expension": "Shadowbringers"
+    },
+    "arkasodara": {
+      "name": "Arkasodara",
+      "currency": "Arkasodara Pana",
+      "focus": "Combat",
+      "expension": ""
+    },
+    "loporrits": {
+      "name": "Loporrits",
+      "currency": "Loporrit Carat",
+      "focus": "Crafting",
+      "expension": "Endwalker"
+    },
+    "omicrons": {
+      "name": "Omicrons",
+      "currency": "Omicron Omnitoken",
+      "focus": "Gathering",
+      "expension": "Endwalker"
+    },
+    "pelupelu": {
+      "name": "Pelupelu",
+      "currency": "Pelu Pelplume",
+      "focus": "Combat",
+      "expension": "Dawntrail"
+    }
+  }
+}
