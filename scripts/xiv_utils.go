@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Mathieu C. <mathieu@tx0.dev>
+//
+// SPDX-License-Identifier: MIT
+
 package main
 
 import (
@@ -72,7 +76,7 @@ func generateSCSSVariables(currencies Currencies, outputPath string) error {
 	defer f.Close()
 
 	// Write header
-	f.WriteString("// Generated from xiv_currencies.json\n\n")
+	f.WriteString("// Generated from data json\n\n")
 
 	// Generate currency maps
 	f.WriteString("$xiv-currencies: (\n")
@@ -166,7 +170,7 @@ func downloadIcon(baseURL, category, iconID, name string) error {
 		return fmt.Errorf("failed to encode WebP: %v", err)
 	}
 
-	fmt.Printf("   -> Downloaded and converted to WebP: %s/%s.webp\n", category, name)
+	fmt.Printf("   -> Fetched: %s/%s.webp\n", category, name)
 	return nil
 }
 
@@ -187,7 +191,7 @@ func main() {
 	fmt.Println("==> Importing data...")
 	iconsFile, err := os.ReadFile(config.Icons)
 	if err != nil {
-		fmt.Printf("Error reading icons.json: %v\n", err)
+		fmt.Printf("Error reading %s: %v\n", config.Icons, err)
 		return
 	}
 	var icons Icons
@@ -198,7 +202,7 @@ func main() {
 
 	currenciesFile, err := os.ReadFile(config.Currencies)
 	if err != nil {
-		fmt.Printf("Error reading currencies.json: %v\n", err)
+		fmt.Printf("Error reading %s: %v\n", config.Currencies, err)
 		return
 	}
 	var currencies Currencies
@@ -208,7 +212,7 @@ func main() {
 	}
 
 	fmt.Printf("Source URL: %s\n", config.XIVApiUrl)
-	fmt.Println("==> Processing icons.json")
+	fmt.Printf("==> Processing %s\n", config.Icons)
 	for category, iconMap := range icons {
 		for name, iconID := range iconMap {
 			if err := downloadIcon(config.XIVApiUrl, category, iconID, name); err != nil {
@@ -218,7 +222,7 @@ func main() {
 
 	}
 
-	fmt.Println("==> Processing currencies.json")
+	fmt.Printf("==> Processing %s\n", config.Currencies)
 	// We're not doing the same things as icons since there's a bit more logic...
 	for name, curr := range currencies.Currency {
 		if err := downloadIcon(config.XIVApiUrl, "currency", curr.ID, name); err != nil {
