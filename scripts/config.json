@@ -1,0 +1,6 @@
+{
+  "xivApiUrl": "http://xivapi.com",
+  "currencies": "data/xiv_currencies.json",
+  "icons": "data/xiv_icons.json",
+  "scssVariables": "assets/scss/_xiv_variables.scss"
+}

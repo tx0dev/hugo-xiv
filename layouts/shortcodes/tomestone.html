@@ -1,0 +1,10 @@
+{{- $text := .Get 0 -}}
+{{- $type := .Get 1 | default "poetics" -}}
+
+{{- if not (index site.Data.xiv_currencies.tomestone $type) -}}
+    {{- errorf "Invalid tomestone type: %s" $type -}}
+{{- end -}}
+
+{{- $tomestone := index site.Data.xiv_currencies.tomestone $type -}}
+{{- partial "xiv/token.html" (dict "type" $type "text" $text "currencyName" $tomestone) -}}
+{{- /* end */ -}}

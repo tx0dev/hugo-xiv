@@ -1,0 +1,45 @@
+<h3>Currencies</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_currencies.currency -}}
+    <li>{{- partial "xiv/token.html" (dict "type" $key "text" "999,999" "currencyName" $value.name) -}} : {{ $value.name }}</li>
+{{- end -}}
+</ul>
+
+<h3>Tomestones</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_currencies.tomestone -}}
+    <li>{{- partial "xiv/token.html" (dict "type" $key "text" "999,999" "currencyName" $value.name) -}} : {{ $value.name }}
+    {{- if $value.obsolete }} (Obsolete){{ end -}}
+    </li>
+{{- end -}}
+</ul>
+<h3>Scrips</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_currencies.scrip -}}
+    <li>
+        {{- if $value.gatherer -}}
+            {{- partial "xiv/token.html" (dict "type" (printf "%s-gatherer" $key) "text" "999,999" "currencyName" (printf "%s Gatherer's Scrip" (title $key))) -}}
+        {{- end -}}
+        {{- if $value.crafter -}}
+            {{- if $value.gatherer }} / {{ end -}}
+            {{- partial "xiv/token.html" (dict "type" (printf "%s-crafter" $key) "text" "999,999" "currencyName" (printf "%s Crafter's Scrip" (title $key))) -}}
+        {{- end -}}
+        : {{ title $key }} Scrips
+        {{- if $value.obsolete }} (Obsolete){{ end -}}
+    </li>
+{{- end -}}
+</ul>
+
+<h3>Society Currencies</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_currencies.society -}}
+    <li>{{- partial "xiv/token.html" (dict "type" $key "text" "999,999" "currencyName" $value.currency) -}} : {{ $value.currency }} ({{ $value.name }} - {{ $value.expension }})</li>
+{{- end -}}
+</ul>
+
+{{- define "currency" -}}
+<span
+    class="xiv-token xiv-token--{{ .type }}"
+    title="{{ .currencyName  }}"
+>{{ .text | safeHTML }}<span class="sr-only"> {{ .currencyName }}</span></span>
+{{- end -}}

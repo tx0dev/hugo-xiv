@@ -4,150 +4,21 @@
  * SPDX-License-Identifier: MIT
  */
 
-// Individual icons for non-sprite images
-$xiv-icons: (
-    "duty": (
-        "variant",
-        "deep",
-        "field",
-    ),
-    "quest": (
-        "levequest",
-        "other",
-    ),
-    "fate": (
-        "boss",
-        "chase",
-        "collect",
-        "defend",
-        "escort",
-        "fate",
-        "slay",
-    ),
-    "npc": (
-        "mob",
-        "levemete",
-    ),
-);
-
-// For the Currency/Token shortcode
-$currencies: (
-    "poetics",
-    "gil",
-    "aesthetics",
-    "heliometry",
-    "nuts",
-    "centurio",
-    "allied",
-    "bicolor"
-);
-
-// Mapping eorzea-sprite.png file
-// Sprite dimensions
-$sprite-width: 2120px;
-$sprite-height: 64px;
-$icon-size: 1.3em;
-$scale-ratio: $sprite-height / $icon-size;
-
-// Organized sprite positions map
-$sprite-icons: (
-    "duty": (
-        "dungeon": 180px,
-        "guildhest": 244px,
-        "chaotic": 308px,
-        "pvp": 372px,
-        "raid": 436px,
-        "trial": 500px,
-        "ultimate": 564px,
-    ),
-    "quest": (
-        "normal": 1482px,
-        "repeat": 1546px,
-        "feature": 1610px,
-        "featurerepeat": 1674px,
-        "msq": 1738px,
-        "seasonal": 1802px,
-    ),
-    "fate": (),
-    "npc": (),
-);
-
-/* Baseline "pill" for ref and currency */
-.xiv {
-    background-repeat: no-repeat;
-    background-size: 1.3em 1.3em;
-    position: relative;
-    display: inline-block; // make sure icon is on the same line as text
-    background-color: rgba(128, 128, 128, 0.2); // subtle background
-    border-radius: 4px; // rounded corners
-}
+@import "xiv_variables"; // Generated
+@import "xiv_base";
 
 .xiv-token {
-    @extend .xiv;
-    background-position: right center;
-    padding: 0px ($icon-size + 0.3em) 0px 4px;
-    &::after {
-        content: "";
-        position: absolute;
-        right: 2px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: $icon-size;
-        height: $icon-size;
-        background-size: $icon-size $icon-size;
-    }
+    @include xiv-token-base;
 
-    // Generate type classes for each category
-    @each $currency in $currencies {
-        &--#{$currency}::after {
-            background-image: url("/xiv/currency/#{$currency}.png");
-        }
-    }
-}
-
-// Generate classes for individual icons
-@each $category, $icons in $xiv-icons {
-    .xiv-#{$category} {
-        @extend .xiv;
-        padding: 0px 4px 0px ($icon-size + 0.3em);
-
-        &::before {
-            content: "";
-            position: absolute;
-            left: 2px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: $icon-size;
-            height: $icon-size;
-            background-repeat: no-repeat;
-        }
-
-        @each $icon in $icons {
-            &--#{$icon}::before {
-                background-image: url("/xiv/#{$category}/#{$icon}.png");
-                background-size: $icon-size $icon-size;
+    // Generate classes for each currency type
+    @each $category, $items in $xiv-currencies {
+        @each $name in $items {
+            &--#{$name}::after {
+                background-image: url("/xiv/#{$category}/#{$name}.webp");
             }
         }
     }
 }
-// Generate classes for each category
-.sprite-baseline {
-    background-image: url("/xiv/eorzea-sprite.png");
-    background-size: ($sprite-width / $sprite-height) * $icon-size $icon-size;
-}
-
-@each $category, $sprites in $sprite-icons {
-    // Generate type classes for each category
-    .xiv-#{$category} {
-        @each $type, $position in $sprites {
-            &--#{$type}::before {
-                @extend .sprite-baseline;
-                background-position: ($position / $scale-ratio) * -1 0;
-            }
-        }
-    }
-}
-
 // Base style for Eorzea Database links
 .eorzeadb_link {
     color: #efc050;
@@ -162,13 +33,6 @@ $sprite-icons: (
     }
     &:visited {
         color: #efc050 !important;
-    }
-
-    // Ensure contained icons maintain their styling
-    @each $category, $icons in $xiv-icons {
-        .xiv-#{$category} {
-            background-color: transparent; // Remove default icon background
-        }
     }
 }
 

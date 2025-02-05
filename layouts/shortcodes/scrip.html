@@ -1,0 +1,18 @@
+{{- $text := .Get 0 -}}
+{{- $color := .Get 1 | default "purple" -}}
+{{- $type := .Get 2 | default "crafter" -}}
+
+{{- $validScrip := false -}}
+{{- $scripName := "" -}}
+
+{{- if index site.Data.xiv_currencies.scrip $color -}}
+    {{- $validScrip = true -}}
+    {{- $scripName = printf "%s %s's Scrip" (title $color) (title $type) -}}
+{{- end -}}
+
+{{- if not $validScrip -}}
+    {{- errorf "Invalid scrip color: %s" $color -}}
+{{- end -}}
+
+{{- partial "xiv/token.html" (dict "type" (printf "%s-%s" $color $type) "text" $text "currencyName" $scripName) -}}
+{{- /* end */ -}}

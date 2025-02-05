@@ -1,0 +1,32 @@
+/*
+ * SPDX-FileCopyrightText: 2025 Mathieu C. <mathieu@tx0.dev>
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+.xiv {
+    background-repeat: no-repeat;
+    background-size: 1.3em 1.3em;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 4px;
+}
+
+$icon-size: 1.3em;
+
+@mixin xiv-token-base {
+    @extend .xiv;
+    background-position: right center;
+    padding: 0px ($icon-size + 0.3em) 0px 4px;
+    &::after {
+        content: "";
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: $icon-size;
+        height: $icon-size;
+        background-size: $icon-size $icon-size;
+    }
+}

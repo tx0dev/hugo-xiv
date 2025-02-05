@@ -28,7 +28,7 @@
       "name": "Sacks of Nuts",
       "id": "065068"
     },
-    "wolf_marks": {
+    "wolf-marks": {
       "name": "Wolf Marks",
       "id": "065014"
     },
@@ -40,7 +40,7 @@
       "name": "Islander's Cowries",
       "id": "065097"
     },
-    "faux_leaf": {
+    "faux-leaf": {
       "name": "Faux Leaf",
       "id": "065078"
     },
@@ -65,171 +65,171 @@
     "poetics": {
       "name": "Allagan Tomestone of Poetics",
       "id": "065023",
-      "added": 2.4,
+      "added": "2.4",
       "obsolete": null
     },
     "philosophy": {
       "name": "Allagan Tomestone of Philosophy",
       "id": "065012",
-      "added": 2.0,
-      "obsolete": 2.2
+      "added": "2.0",
+      "obsolete": "2.2"
     },
     "mythology": {
       "name": "Allagan Tomestone of Mythology",
       "id": "065013",
-      "added": 2.0,
-      "obsolete": 2.4
+      "added": "2.0",
+      "obsolete": "2.4"
     },
     "soldiery": {
       "name": "Allagan Tomestone of Soldiery",
       "id": "065022",
-      "added": 2.2,
-      "obsolete": 3.0
+      "added": "2.2",
+      "obsolete": "3.0"
     },
     "law": {
       "name": "Allagan Tomestone of Law",
       "id": "065032",
-      "added": 3.0,
-      "obsolete": 3.2
+      "added": "3.0",
+      "obsolete": "3.2"
     },
     "esoterics": {
       "name": "Allagan Tomestone of Esoterics",
       "id": "065033",
-      "added": 3.05,
-      "obsolete": 3.4
+      "added": "3.05",
+      "obsolete": "3.4"
     },
     "lore": {
       "name": "Allagan Tomestone of Lore",
       "id": "065038",
-      "added": 3.2,
-      "obsolete": 4.0
+      "added": "3.2",
+      "obsolete": "4.0"
     },
     "scripture": {
       "name": "Allagan Tomestone of Scripture",
       "id": "065041",
-      "added": 3.4,
-      "obsolete": 4.0
+      "added": "3.4",
+      "obsolete": "4.0"
     },
     "verity": {
       "name": "Allagan Tomestone of Verity",
       "id": "065045",
-      "added": 4.0,
-      "obsolete": 4.2
+      "added": "4.0",
+      "obsolete": "4.2"
     },
     "creation": {
       "name": "Allagan Tomestone of Creation",
       "id": "065046",
-      "added": 4.05,
-      "obsolete": 4.4
+      "added": "4.05",
+      "obsolete": "4.4"
     },
     "mendacity": {
       "name": "Allagan Tomestone of Mendacity",
       "id": "065062",
-      "added": 4.2,
-      "obsolete": 5.0
+      "added": "4.2",
+      "obsolete": "5.0"
     },
-    "Genesis": {
+    "genesis": {
       "name": "Allagan Tomestone of Genesis",
       "id": "065065",
-      "added": 4.4,
-      "obsolete": 5.0
+      "added": "4.4",
+      "obsolete": "5.0"
     },
     "goetia": {
       "name": "Allagan Tomestone of Goetia",
       "id": "065066",
-      "added": 5.0,
-      "obsolete": 5.2
+      "added": "5.0",
+      "obsolete": "5.2"
     },
     "phantasmagoria": {
       "name": "Allagan Tomestone of Phantasmagoria",
       "id": "065067",
-      "added": 5.05,
-      "obsolete": 5.4
+      "added": "5.05",
+      "obsolete": "5.4"
     },
-    "Allegory": {
+    "allegory": {
       "name": "Allagan Tomestone of Allegory",
       "id": "065075",
-      "added": 5.2,
-      "obsolete": 6.0
+      "added": "5.2",
+      "obsolete": "6.0"
     },
-    "Revelation": {
+    "revelation": {
       "name": "Allagan Tomestone of Revelation",
       "id": "065083",
-      "added": 5.4,
-      "obsolete": 6.0
+      "added": "5.4",
+      "obsolete": "6.0"
     },
-    "Aphorism": {
+    "aphorism": {
       "name": "Allagan Tomestone of Aphorism",
       "id": "065085",
-      "added": 6.0,
-      "obsolete": 6.2
+      "added": "6.0",
+      "obsolete": "6.2"
     },
-    "Astronomy": {
+    "astronomy": {
       "name": "Allagan Tomestone of Astronomy",
       "id": "065086",
-      "added": 6.05,
-      "obsolete": 6.4
+      "added": "6.05",
+      "obsolete": "6.4"
     },
-    "Causality": {
+    "causality": {
       "name": "Allagan Tomestone of Causality",
       "id": "065094",
-      "added": 6.2,
-      "obsolete": 7.0
+      "added": "6.2",
+      "obsolete": "7.0"
     },
-    "Comedy": {
+    "comedy": {
       "name": "Allagan Tomestone of Comedy",
       "id": "065103",
-      "added": 6.4,
-      "obsolete": 7.0
+      "added": "6.4",
+      "obsolete": "7.0"
     },
-    "Aesthetics": {
+    "aesthetics": {
       "name": "Allagan Tomestone of Aesthetics",
       "id": "065107",
-      "added": 7.0,
+      "added": "7.0",
       "obsolete": null
     },
     "heliometry": {
       "name": "Allagan Tomestone of Heliometry",
       "id": "065108",
-      "added": 7.05,
+      "added": "7.05",
       "obsolete": null
     }
   },
   "scrip": {
     "blue": {
-      "gather": "065028",
+      "gatherer": "065028",
       "crafter": "065030",
-      "added": 3.0,
-      "obsolete": 4.0
+      "added": "3.0",
+      "obsolete": "4.0"
     },
     "red": {
       "gatherer": "065029",
       "crafter": "065031",
-      "added": 3.05,
-      "obsolete": 5.0
+      "added": "3.05",
+      "obsolete": "5.0"
     },
     "yellow": {
       "gatherer": "065043",
       "crafter": "065044",
-      "added": 4.0,
-      "obsolete": 6.0
+      "added": "4.0",
+      "obsolete": "6.0"
     },
     "white": {
       "gatherer": "065069",
       "crafter": "065070",
-      "added": 5.0,
-      "obsolete": 7.0
+      "added": "5.0",
+      "obsolete": "7.0"
     },
     "purple": {
       "gatherer": "065087",
       "crafter": "065088",
-      "added": 6.0,
+      "added": "6.0",
       "obsolete": null
     },
     "orange": {
       "gatherer": "065109",
       "crafter": "065110",
-      "added": 7.0,
+      "added": "7.0",
       "obsolete": null
     }
   },
@@ -274,7 +274,7 @@
       "societyId": "065018",
       "currencyId": "065054"
     },
-    "vanu_vanu": {
+    "vanuvanu": {
       "name": "Vanu Vanu",
       "currency": "Vanu Whitebone",
       "focus": "Combat",

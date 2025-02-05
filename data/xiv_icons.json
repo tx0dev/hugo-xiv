@@ -10,7 +10,7 @@
     "field": "061837",
     "chaotic": "061850",
     "lore": "061392",
-    "xiv": "061396"
+    "deep": "061824"
   },
   "quest": {
     "msq": "061432",
@@ -18,11 +18,15 @@
     "repeat": "061433",
     "other": "061436",
     "feature": "061439",
-    "featurerepeat": "061941"
+    "featurerepeat": "061941",
+    "levequest": "071241"
   },
   "dmg": {
     "physical": "060011",
     "magical": "060012",
     "unique": "060013"
+  },
+  "misc": {
+    "xiv": "061396"
   }
 }
