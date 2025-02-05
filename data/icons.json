@@ -1,0 +1,28 @@
+{
+  "duty": {
+    "pvp": "061806",
+    "trial": "061804",
+    "raid": "061802",
+    "dungeon": "061801",
+    "guildhest": "061803",
+    "roulette": "061807",
+    "ultimate": "061832",
+    "field": "061837",
+    "chaotic": "061850",
+    "lore": "061392",
+    "xiv": "061396"
+  },
+  "quest": {
+    "msq": "061432",
+    "side": "061431",
+    "repeat": "061433",
+    "other": "061436",
+    "feature": "061439",
+    "featurerepeat": "061941"
+  },
+  "dmg": {
+    "physical": "060011",
+    "magical": "060012",
+    "unique": "060013"
+  }
+}

@@ -1,152 +1,234 @@
 {
   "currency": {
-    "gil": "Gil",
-    "mgp": "MGP",
-    "seals": "Company Seals",
-    "allied": "Allied Seals",
-    "centurio": "Centurio Seals",
-    "nuts": "Sacks of Nuts",
-    "wolf_marks": "Wolf Marks",
-    "seafarer": "Seafarer's Cowries",
-    "islander": "Islander's Cowries",
-    "faux_leaf": "Faux Leaf",
-    "ventures": "Ventures",
-    "skybuilder": "Skybuilder's Scrips"
+    "exp": {
+      "name": "Experience Points",
+      "id": "065001"
+    },
+    "gil": {
+      "name": "Gil",
+      "id": "065002"
+    },
+    "mgp": {
+      "name": "MGP",
+      "id": "065025"
+    },
+    "seals": {
+      "name": "Company Seals",
+      "id": "065004"
+    },
+    "allied": {
+      "name": "Allied Seals",
+      "id": "065024"
+    },
+    "centurio": {
+      "name": "Centurio Seals",
+      "id": "065034"
+    },
+    "nuts": {
+      "name": "Sacks of Nuts",
+      "id": "065068"
+    },
+    "wolf_marks": {
+      "name": "Wolf Marks",
+      "id": "065014"
+    },
+    "seafarer": {
+      "name": "Seafarer's Cowries",
+      "id": "065096"
+    },
+    "islander": {
+      "name": "Islander's Cowries",
+      "id": "065097"
+    },
+    "faux_leaf": {
+      "name": "Faux Leaf",
+      "id": "065078"
+    },
+    "ventures": {
+      "name": "Ventures",
+      "id": "065049"
+    },
+    "skybuilder": {
+      "name": "Skybuilder's Scrips",
+      "id": "065073"
+    },
+    "bicolor": {
+      "name": "Bicolor Gemstones",
+      "id": "065071"
+    },
+    "achievement": {
+      "name": "Achievement Certificate",
+      "id": "065059"
+    }
   },
   "tomestone": {
     "poetics": {
       "name": "Allagan Tomestone of Poetics",
+      "id": "065023",
       "added": 2.4,
       "obsolete": null
     },
     "philosophy": {
       "name": "Allagan Tomestone of Philosophy",
+      "id": "065012",
       "added": 2.0,
       "obsolete": 2.2
     },
     "mythology": {
       "name": "Allagan Tomestone of Mythology",
+      "id": "065013",
       "added": 2.0,
       "obsolete": 2.4
     },
     "soldiery": {
       "name": "Allagan Tomestone of Soldiery",
+      "id": "065022",
       "added": 2.2,
       "obsolete": 3.0
     },
     "law": {
       "name": "Allagan Tomestone of Law",
+      "id": "065032",
       "added": 3.0,
       "obsolete": 3.2
     },
     "esoterics": {
       "name": "Allagan Tomestone of Esoterics",
+      "id": "065033",
       "added": 3.05,
       "obsolete": 3.4
     },
     "lore": {
       "name": "Allagan Tomestone of Lore",
+      "id": "065038",
       "added": 3.2,
       "obsolete": 4.0
     },
     "scripture": {
       "name": "Allagan Tomestone of Scripture",
+      "id": "065041",
       "added": 3.4,
       "obsolete": 4.0
     },
     "verity": {
       "name": "Allagan Tomestone of Verity",
+      "id": "065045",
       "added": 4.0,
       "obsolete": 4.2
     },
     "creation": {
       "name": "Allagan Tomestone of Creation",
+      "id": "065046",
       "added": 4.05,
       "obsolete": 4.4
     },
     "mendacity": {
       "name": "Allagan Tomestone of Mendacity",
+      "id": "065062",
       "added": 4.2,
       "obsolete": 5.0
     },
     "Genesis": {
       "name": "Allagan Tomestone of Genesis",
+      "id": "065065",
       "added": 4.4,
       "obsolete": 5.0
     },
     "goetia": {
       "name": "Allagan Tomestone of Goetia",
+      "id": "065066",
       "added": 5.0,
       "obsolete": 5.2
     },
     "phantasmagoria": {
       "name": "Allagan Tomestone of Phantasmagoria",
+      "id": "065067",
       "added": 5.05,
       "obsolete": 5.4
     },
     "Allegory": {
       "name": "Allagan Tomestone of Allegory",
+      "id": "065075",
       "added": 5.2,
       "obsolete": 6.0
     },
     "Revelation": {
       "name": "Allagan Tomestone of Revelation",
+      "id": "065083",
       "added": 5.4,
       "obsolete": 6.0
     },
     "Aphorism": {
       "name": "Allagan Tomestone of Aphorism",
+      "id": "065085",
       "added": 6.0,
       "obsolete": 6.2
     },
     "Astronomy": {
       "name": "Allagan Tomestone of Astronomy",
+      "id": "065086",
       "added": 6.05,
       "obsolete": 6.4
     },
     "Causality": {
       "name": "Allagan Tomestone of Causality",
+      "id": "065094",
       "added": 6.2,
       "obsolete": 7.0
     },
     "Comedy": {
       "name": "Allagan Tomestone of Comedy",
+      "id": "065103",
       "added": 6.4,
       "obsolete": 7.0
     },
     "Aesthetics": {
       "name": "Allagan Tomestone of Aesthetics",
+      "id": "065107",
       "added": 7.0,
       "obsolete": null
     },
     "heliometry": {
       "name": "Allagan Tomestone of Heliometry",
+      "id": "065108",
       "added": 7.05,
       "obsolete": null
     }
   },
-  "Scrip": {
+  "scrip": {
     "blue": {
+      "gather": "065028",
+      "crafter": "065030",
       "added": 3.0,
       "obsolete": 4.0
     },
     "red": {
+      "gatherer": "065029",
+      "crafter": "065031",
       "added": 3.05,
       "obsolete": 5.0
     },
     "yellow": {
+      "gatherer": "065043",
+      "crafter": "065044",
       "added": 4.0,
       "obsolete": 6.0
     },
     "white": {
+      "gatherer": "065069",
+      "crafter": "065070",
       "added": 5.0,
       "obsolete": 7.0
     },
     "purple": {
+      "gatherer": "065087",
+      "crafter": "065088",
       "added": 6.0,
       "obsolete": null
     },
     "orange": {
+      "gatherer": "065109",
+      "crafter": "065110",
       "added": 7.0,
       "obsolete": null
     }
@@ -154,13 +236,17 @@
   "society": {
     "amaljaa": {
       "name": "Amalj'aa",
+      "societyId": "065016",
       "currency": "Steel Amalj'ok",
+      "currencyId": "065050",
       "focus": "Combat",
       "expension": "A Realm Reborn"
     },
     "sylphs": {
       "name": "Sylphs",
+      "societyId": "065017",
       "currency": "Sylphic Goldleaf",
+      "currencyId": "065051",
       "focus": "Combat",
       "expension": "A Realm Reborn"
     },
@@ -168,97 +254,129 @@
       "name": "Kobolds",
       "currency": "Titan Cobaltpiece",
       "focus": "Combat",
-      "expension": "A Realm Reborn"
+      "expension": "A Realm Reborn",
+      "societyId": "065019",
+      "currencyId": "065052"
     },
     "sahagin": {
       "name": "Sahagin",
       "currency": "Rainbowtide Psashp",
       "focus": "Combat",
-      "expension": "A Realm Reborn"
+      "expension": "A Realm Reborn",
+      "societyId": "065020",
+      "currencyId": "065053"
     },
     "ixali": {
       "name": "Ixali",
       "currency": "Ixali Oaknot",
       "focus": "Crafting",
-      "expension": "A Realm Reborn"
+      "expension": "A Realm Reborn",
+      "societyId": "065018",
+      "currencyId": "065054"
     },
     "vanu_vanu": {
       "name": "Vanu Vanu",
       "currency": "Vanu Whitebone",
       "focus": "Combat",
-      "expension": "Heavensward"
+      "expension": "Heavensward",
+      "societyId": "065036",
+      "currencyId": "065055"
     },
     "vath": {
       "name": "Vath",
       "currency": "Black Copper Gil",
       "focus": "Combat",
-      "expension": "Heavensward"
+      "expension": "Heavensward",
+      "societyId": "065037",
+      "currencyId": "065056"
     },
     "moogles": {
       "name": "Moogles",
       "currency": "Carved Kupo Nut",
       "focus": "Crafting",
-      "expension": "Heavensward"
+      "expension": "Heavensward",
+      "societyId": "065039",
+      "currencyId": "065057"
     },
     "kojin": {
       "name": "Kojin",
       "currency": "Kojin Sango",
       "focus": "Combat",
-      "expension": "Stormblood"
+      "expension": "Stormblood",
+      "societyId": "065048",
+      "currencyId": "065058"
     },
     "ananta": {
       "name": "Ananta",
       "currency": "Ananta Dreamstaff",
       "focus": "Combat",
-      "expension": "Stormblood"
+      "expension": "Stormblood",
+      "societyId": "065047",
+      "currencyId": "065061"
     },
     "namazu": {
       "name": "Namazu",
       "currency": "Namazu Koban",
       "focus": ["Crafting", "Gathering"],
-      "expension": "Stormblood"
+      "expension": "Stormblood",
+      "societyId": "065063",
+      "currencyId": "065064"
     },
     "pixies": {
       "name": "Pixies",
       "currency": "Fae Fancies",
       "focus": "Combat",
-      "expension": "Shadowbringers"
+      "expension": "Shadowbringers",
+      "societyId": "065072",
+      "currencyId": "065074"
     },
     "dwarves": {
       "name": "Dwarves",
       "currency": "Hammered Frogment",
       "focus": "Crafting",
-      "expension": "Shadowbringers"
+      "expension": "Shadowbringers",
+      "societyId": "065079",
+      "currencyId": "065080"
     },
     "qitari": {
       "name": "Qitari",
       "currency": "Qitari Compliment",
       "focus": "Gathering",
-      "expension": "Shadowbringers"
+      "expension": "Shadowbringers",
+      "societyId": "065076",
+      "currencyId": "065077"
     },
     "arkasodara": {
       "name": "Arkasodara",
       "currency": "Arkasodara Pana",
       "focus": "Combat",
-      "expension": ""
+      "expension": "Endwalker",
+      "societyId": "065092",
+      "currencyId": "065091"
     },
     "loporrits": {
       "name": "Loporrits",
       "currency": "Loporrit Carat",
       "focus": "Crafting",
-      "expension": "Endwalker"
+      "expension": "Endwalker",
+      "societyId": "065101",
+      "currencyId": "065100"
     },
     "omicrons": {
       "name": "Omicrons",
       "currency": "Omicron Omnitoken",
       "focus": "Gathering",
-      "expension": "Endwalker"
+      "expension": "Endwalker",
+      "societyId": "065093",
+      "currencyId": "065095"
     },
     "pelupelu": {
       "name": "Pelupelu",
       "currency": "Pelu Pelplume",
       "focus": "Combat",
-      "expension": "Dawntrail"
+      "expension": "Dawntrail",
+      "societyId": "065113",
+      "currencyId": "065111"
     }
   }
 }
