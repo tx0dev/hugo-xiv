@@ -11,6 +11,7 @@
     @include xiv-token-base;
 
     // Generate classes for each currency type
+    // Data is generated from the json file by the xiv_utils code.
     @each $category, $items in $xiv-currencies {
         @each $name in $items {
             &--#{$name}::after {
@@ -54,9 +55,4 @@
     clip: rect(0, 0, 0, 0);
     border: 0;
     // Still allows text to be copied
-}
-
-/* Fix something with my current theme where the toolbox is hidden */
-#eorzeadb_tooltip {
-    overflow: inherit !important;
 }

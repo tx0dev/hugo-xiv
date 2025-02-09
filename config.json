@@ -1,0 +1,13 @@
+{
+  "rateLimit": 500,
+  "xivApiUrl": "http://xivapi.com",
+  "currencies": "data/xiv_currencies.json",
+  "icons": "data/xiv_icons.json",
+  "scssVariables": "assets/scss/_xiv_variables.scss",
+  "sources": {
+    "maps": "https://raw.githubusercontent.com/ffxiv-teamcraft/ffxiv-teamcraft/refs/heads/staging/libs/data/src/lib/json/maps.json",
+    "places": "https://raw.githubusercontent.com/ffxiv-teamcraft/ffxiv-teamcraft/refs/heads/staging/libs/data/src/lib/json/places.json",
+    "aetherytes": "https://raw.githubusercontent.com/ffxiv-teamcraft/ffxiv-teamcraft/refs/heads/staging/libs/data/src/lib/json/aetherytes.json"
+  },
+  "_xivapiv2": "https://v2.xivapi.com/api/"
+}
