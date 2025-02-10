@@ -7,6 +7,13 @@
 @import "xiv_variables"; // Generated
 @import "xiv_base";
 
+// Generic container
+.xiv-container {
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+}
+
 .xiv-token {
     @include xiv-token-base;
 
@@ -55,4 +62,37 @@
     clip: rect(0, 0, 0, 0);
     border: 0;
     // Still allows text to be copied
+}
+
+/* Map and other containers */
+.xiv-map {
+    position: relative;
+    width: 100%; /* or specific pixel size */
+    &--image {
+        width: 100%;
+        height: auto;
+    }
+    &--marker {
+        position: absolute; /* Position relative to contain the tooltip */
+        display: block;
+        transform: translate(-50%, -50%); /* Center to the coordinates */
+        background-image: url("/xiv/marker.png");
+        cursor: pointer;
+        height: 32px;
+        width: 32px;
+
+        @include xiv-tooltip-base;
+        &::after {
+            content: attr(data-tooltip);
+            line-height: 1;
+            border-radius: 5px; /* Rounded corners */
+            transform: translateX(-50%); /* Same shift as the marker */
+            bottom: 37px;
+            left: 50%;
+        }
+        &::before {
+            top: -10px;
+            left: 11px;
+        }
+    }
 }

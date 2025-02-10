@@ -15,17 +15,17 @@ import (
 // Data is sourced from Teamcraft, which gets it from the XIVAPI and SaintCoinach.
 // It's just already formatted for my purposes. Thanks Teamcraft!
 
-type GameData struct {
+type MapData struct {
 	Maps       map[string]types.Map
 	Places     map[string]types.Place
 	Aetherytes []types.Aetheryte
 }
 
 // Fetch or load the game data
-func ProcessMapData(ctx context.Context, config types.Config) (GameData, error) {
+func DownloadMapData(ctx context.Context, config types.Config) (MapData, error) {
 	fmt.Println("==> Fetching/loading game data")
 
-	var data GameData
+	var data MapData
 
 	// Define data types and their associated configuration
 	dataConfigs := []struct {
@@ -64,7 +64,7 @@ func ProcessMapData(ctx context.Context, config types.Config) (GameData, error) 
 			fmt.Printf("  -> Fetching %s from: %s\n", dc.dataType, dc.sourceURL)
 			if err := fetch.FetchData(ctx, dc.sourceURL, dc.target); err != nil {
 				fmt.Printf("Error fetching %s: %v\n", dc.dataType, err)
-				return GameData{}, err
+				return MapData{}, err
 			}
 			// Count fetched items depending on data type
 			var count int
@@ -80,14 +80,14 @@ func ProcessMapData(ctx context.Context, config types.Config) (GameData, error) 
 
 			// Save to cache
 			if err := SaveGameDataJSON(cachePath, dc.target); err != nil {
-				return GameData{}, err
+				return MapData{}, err
 			}
 		} else {
 			// Load from cache if it exists
 			fmt.Printf("  -> %s cache already exists, skipping download\n", dc.dataType)
 			if err := LoadGameDataJSON(cachePath, dc.target); err != nil {
 				fmt.Printf("Error loading %s from file: %v\n", dc.dataType, err)
-				return GameData{}, err
+				return MapData{}, err
 			}
 
 			// Count loaded items depending on data type
@@ -144,7 +144,7 @@ func LoadGameDataJSON(inputPath string, data interface{}) error {
 }
 
 // Get the map data and add the place name and aetherytes
-func SynthesisMapData(config types.Config, data GameData) (map[string]types.Map, error) {
+func SynthesisMapData(config types.Config, data MapData) (map[string]types.Map, error) {
 	fmt.Println("==> Synthesizing map data")
 
 	// Create a reverse lookup for places
@@ -157,7 +157,7 @@ func SynthesisMapData(config types.Config, data GameData) (map[string]types.Map,
 	filteredMaps := make(map[string]types.Map)
 
 	// Iterate through maps and enrich them with related aetherytes
-	for mapID, gameMap := range data.Maps {
+	for _, gameMap := range data.Maps {
 		var relatedAetherytes []types.Aetheryte
 		//Update Map place and sub name
 		if place, ok := placeMap[fmt.Sprintf("%d", gameMap.PlaceNameID)]; ok {
@@ -199,7 +199,7 @@ func SynthesisMapData(config types.Config, data GameData) (map[string]types.Map,
 
 		// Filter the map, only keeping maps that have aetherytes and are neither housing nor dungeon
 		if len(relatedAetherytes) > 0 && !gameMap.Dungeon {
-			filteredMaps[mapID] = gameMap // Add the map to the filtered map
+			filteredMaps[gameMap.PlaceName.EN] = gameMap // Add the map to the filtered map
 		}
 	}
 

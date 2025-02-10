@@ -49,7 +49,7 @@ func main() {
 		return
 	}
 
-	mapData, err := gamedata.ProcessMapData(ctx, cfg)
+	mapData, err := gamedata.DownloadMapData(ctx, cfg)
 	if err != nil {
 		fmt.Printf("Game data processing error: %v\n", err)
 		os.Exit(1)

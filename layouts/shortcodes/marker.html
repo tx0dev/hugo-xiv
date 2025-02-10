@@ -1,0 +1,16 @@
+{{- $text := .Get "text" -}}
+{{- $x := .Get "x" -}}
+{{- $y := .Get "y" -}}
+{{- $img := .Get "img" | default "/xiv/marker.png" -}}
+
+
+{{ with .Parent }}
+{{- $map := .Get 0 -}}
+
+{{- $mapObj := index site.Data.xiv_maps $map -}}
+{{- $scale := div (mul $mapObj.size_factor 50) 2048 -}}
+{{- $offset := 1 -}}
+{{- $xPercent := mul (sub $x $offset) $scale -}}
+{{- $yPercent := mul (sub $y $offset) $scale -}}
+<div class="xiv-map--marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%;background-image: url({{ $img }});" data-tooltip="{{$text}}"></div>
+{{- end -}}

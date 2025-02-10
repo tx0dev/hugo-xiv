@@ -1,0 +1,33 @@
+{{- $map := .Get 0 -}}
+
+{{- if not (index site.Data.xiv_maps $map) -}}
+    {{- errorf "Invalid Map name: %s" $map -}}
+{{- end -}}
+
+{{- $mapObj := index site.Data.xiv_maps $map -}}
+<div class="xiv-container">
+    <div class="xiv-map">
+    <img class="xiv-map--image" src="https://v2.xivapi.com/api/asset/map/{{$mapObj.image}}" alt="" />
+    {{- range $mapObj.aetherytes }}
+        {{- $markerImage := "/xiv/marker.png" -}}
+        {{- if eq (int .type) 0 -}}
+            {{- $markerImage = "/xiv/aetheryte.png" -}}
+        {{- else if eq (int .type) 1 -}}
+            {{- $markerImage = "/xiv/aetheryte_shard.png" -}}
+        {{- end -}}
+        {{- $scale := div (mul $mapObj.size_factor 50) 2048 -}}
+        {{- $offset := 1 -}}
+        {{- $xPercent := mul (sub .x $offset) $scale -}}
+        {{- $yPercent := mul (sub .y $offset) $scale -}}
+        <div class="xiv-map--marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%;background-image: url({{ $markerImage }});" data-tooltip="{{.name.en}}"></div>
+
+
+        <!--<img src="{{ $markerImage }}" class="marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%;" data-tooltip="{{.name.en}}"/>-->
+    {{- end -}}
+    {{.Inner}}
+    </div>
+</div>
+
+
+<style>
+</style>
