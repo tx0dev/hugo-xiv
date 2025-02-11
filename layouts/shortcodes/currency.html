@@ -11,11 +11,11 @@
     {{- $currencyName = (index site.Data.xiv_currencies.currency $type).name -}}
 {{- end -}}
 
-{{/* Check in tomestones */}}
+{{/* Check in Society */}}
 {{- if not $validCurrency -}}
-    {{- if index site.Data.xiv_currencies.tomestone $type -}}
+    {{- if index site.Data.xiv_society $type -}}
         {{- $validCurrency = true -}}
-        {{- $currencyName = (index site.Data.xiv_currencies.tomestone $type).name -}}
+        {{- $currencyName = (index site.Data.xiv_.society $type).currency -}}
     {{- end -}}
 {{- end -}}
 {{- if not $validCurrency -}}

@@ -1,0 +1,272 @@
+{
+  "amaljaa": {
+    "name": "Amalj'aa",
+    "currency": "Steel Amalj'ok",
+    "societyId": "065016",
+    "currencyId": "065050",
+    "focus": "Combat",
+    "expansion": "A Realm Reborn",
+    "location": {
+      "name": "Ring of Ash",
+      "map": "Southern Thanalan",
+      "aetheryte": "Little Ala Mhigo",
+      "x": 23.5,
+      "y": 14.5
+    }
+  },
+  "sylphs": {
+    "name": "Sylphs",
+    "societyId": "065017",
+    "currency": "Sylphic Goldleaf",
+    "currencyId": "065051",
+    "focus": "Combat",
+    "expansion": "A Realm Reborn",
+    "location": {
+      "name": "Little Solace",
+      "map": "East Shroud",
+      "aetheryte": "Hawthorne Hut",
+      "x": 21.5,
+      "y": 26.5
+    }
+  },
+  "kobolds": {
+    "name": "Kobolds",
+    "currency": "Titan Cobaltpiece",
+    "societyId": "065019",
+    "currencyId": "065052",
+    "focus": "Combat",
+    "expansion": "A Realm Reborn",
+    "location": {
+      "name": "The 789th Order Dig",
+      "map": "Outer La Noscea",
+      "aetheryte": "Camp Overlook",
+      "x": 21.5,
+      "y": 17.5
+    }
+  },
+  "sahagin": {
+    "name": "Sahagin",
+    "currency": "Rainbowtide Psashp",
+    "societyId": "065020",
+    "currencyId": "065053",
+    "focus": "Combat",
+    "expansion": "A Realm Reborn",
+    "location": {
+      "name": "Novv's Nursery",
+      "map": "Western La Noscea",
+      "aetheryte": "Aleport",
+      "x": 26.5,
+      "y": 26.5
+    }
+  },
+  "ixali": {
+    "name": "Ixali",
+    "currency": "Ixali Oaknot",
+    "societyId": "065018",
+    "currencyId": "065054",
+    "focus": "Crafting",
+    "expansion": "A Realm Reborn",
+    "location": {
+      "name": "The Hawthorne Hut",
+      "map": "East Shroud",
+      "aetheryte": "Hawthorne Hut",
+      "x": 23.5,
+      "y": 26.5
+    }
+  },
+  "vanuvanu": {
+    "name": "Vanu Vanu",
+    "currency": "Vanu Whitebone",
+    "societyId": "065036",
+    "currencyId": "065055",
+    "focus": "Combat",
+    "expansion": "Heavensward",
+    "location": {
+      "name": "Ok' Gundu Nakki",
+      "map": "The Sea of Clouds",
+      "aetheryte": "Camp Cloudtop",
+      "x": 6.5,
+      "y": 14.5
+    }
+  },
+  "vath": {
+    "name": "Vath",
+    "currency": "Black Copper Gil",
+    "societyId": "065037",
+    "currencyId": "065056",
+    "focus": "Combat",
+    "expansion": "Heavensward",
+    "location": {
+      "name": "Loth ast Vath",
+      "map": "Dravanian Forelands",
+      "aetheryte": "Anyx Trine",
+      "x": 23.5,
+      "y": 19.5
+    }
+  },
+  "moogles": {
+    "name": "Moogles",
+    "currency": "Carved Kupo Nut",
+    "societyId": "065039",
+    "currencyId": "065057",
+    "focus": "Crafting",
+    "expansion": "Heavensward",
+    "location": {
+      "name": "Bahrr Lehs",
+      "map": "The Churning Mists",
+      "aetheryte": "Zenith",
+      "x": 15.7,
+      "y": 28.8
+    }
+  },
+  "kojin": {
+    "name": "Kojin",
+    "currency": "Kojin Sango",
+    "societyId": "065048",
+    "currencyId": "065058",
+    "focus": "Combat",
+    "expansion": "Stormblood",
+    "location": {
+      "name": "Tamamizu",
+      "map": "The Ruby Sea",
+      "aetheryte": "Tamamizu",
+      "x": 29.3,
+      "y": 16.5
+    }
+  },
+  "ananta": {
+    "name": "Ananta",
+    "currency": "Ananta Dreamstaff",
+    "societyId": "065047",
+    "currencyId": "065061",
+    "focus": "Combat",
+    "expansion": "Stormblood",
+    "location": {
+      "name": "Castellum Velodyna",
+      "map": "The Fringes",
+      "aetheryte": "Castellum Velodyna",
+      "x": 21.7,
+      "y": 26.2
+    }
+  },
+  "namazu": {
+    "name": "Namazu",
+    "currency": "Namazu Koban",
+    "societyId": "065063",
+    "currencyId": "065064",
+    "focus": ["Crafting", "Gathering"],
+    "expansion": "Stormblood",
+    "location": {
+      "name": "Dhoro Iloh",
+      "map": "The Azim Steppe",
+      "aetheryte": "Dhoro Iloh",
+      "x": 5.8,
+      "y": 23.4
+    }
+  },
+  "pixies": {
+    "name": "Pixies",
+    "currency": "Fae Fancies",
+    "societyId": "065072",
+    "currencyId": "065074",
+    "focus": "Combat",
+    "expansion": "Shadowbringers",
+    "location": {
+      "name": "Lydha Lran",
+      "map": "Il Mheg",
+      "aetheryte": "Lydha Lran",
+      "x": 12.4,
+      "y": 32.9
+    }
+  },
+  "qitari": {
+    "name": "Qitari",
+    "currency": "Qitari Compliment",
+    "societyId": "065076",
+    "currencyId": "065077",
+    "focus": "Gathering",
+    "expansion": "Shadowbringers",
+    "location": {
+      "name": "Hopl's Stopple",
+      "map": "The Rak'tika Greatwood",
+      "aetheryte": "Fanow",
+      "x": 37.7,
+      "y": 17.5
+    }
+  },
+  "dwarves": {
+    "name": "Dwarves",
+    "currency": "Hammered Frogment",
+    "societyId": "065079",
+    "currencyId": "065080",
+    "focus": "Crafting",
+    "expansion": "Shadowbringers",
+    "location": {
+      "name": "Watts's Anvil",
+      "map": "Lakeland",
+      "aetheryte": "The Ostall Imperative",
+      "x": 9.1,
+      "y": 12.9
+    }
+  },
+  "arkasodara": {
+    "name": "Arkasodara",
+    "currency": "Arkasodara Pana",
+    "societyId": "065092",
+    "currencyId": "065091",
+    "focus": "Combat",
+    "expansion": "Endwalker",
+    "location": {
+      "name": "Svarna",
+      "map": "Thavnair",
+      "aetheryte": "Yedlihmad",
+      "x": 20.4,
+      "y": 28.4
+    }
+  },
+  "omicrons": {
+    "name": "Omicrons",
+    "currency": "Omicron Omnitoken",
+    "societyId": "065093",
+    "currencyId": "065095",
+    "focus": "Gathering",
+    "expansion": "Endwalker",
+    "location": {
+      "name": "A-4 Research",
+      "map": "Ultima Thule",
+      "aetheryte": "Base Omicron",
+      "x": 27.7,
+      "y": 24.4
+    }
+  },
+  "loporrits": {
+    "name": "Loporrits",
+    "currency": "Loporrit Carat",
+    "societyId": "065101",
+    "currencyId": "065100",
+    "focus": "Crafting",
+    "expansion": "Endwalker",
+    "location": {
+      "name": "Hoper's Hold",
+      "map": "Mare Lamentorum",
+      "aetheryte": "Bestways Burrow",
+      "x": 17.4,
+      "y": 16.0
+    }
+  },
+  "pelupelu": {
+    "name": "Pelupelu",
+    "currency": "Pelu Pelplume",
+    "societyId": "065113",
+    "currencyId": "065111",
+    "focus": "Combat",
+    "expansion": "Dawntrail",
+    "location": {
+      "name": "Dock Poga",
+      "map": "Kozama'uka",
+      "aetheryte": "Dock Poga",
+      "x": 32.2,
+      "y": 16.8
+    }
+  }
+}

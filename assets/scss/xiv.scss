@@ -14,6 +14,24 @@
     box-sizing: border-box;
 }
 
+.xiv {
+    @include xiv-base;
+    &-pill {
+        padding: 0 4px;
+    }
+    &-icon {
+        background-size: 1.3em 1.3em;
+        background-position: left 2px center;
+        padding: 0px 4px 0px ($icon-size + 0.3em);
+        &--aetheryte {
+            background-image: url("xiv/aetheryte.png");
+        }
+        &--db {
+            background-image: url("xiv/eorzea-db.png");
+        }
+    }
+}
+
 .xiv-token {
     @include xiv-token-base;
 
@@ -27,6 +45,7 @@
         }
     }
 }
+
 // Base style for Eorzea Database links
 .eorzeadb_link {
     color: #efc050;
@@ -42,14 +61,6 @@
     &:visited {
         color: #efc050 !important;
     }
-}
-
-// Additional style for DB icon when needed
-.xiv-db {
-    @extend .xiv;
-    background-image: url("xiv/eorzea-db.png");
-    background-position: left 2px center;
-    padding: 0px 4px 0px ($icon-size + 0.3em);
 }
 
 .sr-only {

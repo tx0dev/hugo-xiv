@@ -3,8 +3,9 @@
  *
  * SPDX-License-Identifier: MIT
  */
+$icon-size: 1.3em;
 
-.xiv {
+@mixin xiv-base {
     background-repeat: no-repeat;
     background-size: 1.3em 1.3em;
     position: relative;
@@ -13,8 +14,6 @@
     border-radius: 4px;
     vertical-align: middle;
 }
-
-$icon-size: 1.3em;
 
 @mixin xiv-token-base {
     @extend .xiv;
@@ -32,7 +31,7 @@ $icon-size: 1.3em;
     }
 }
 
-@mixin xiv-tooltip-setup {
+@mixin xiv-tooltip-style {
     position: absolute;
     background-color: #333;
     color: #fff;
@@ -46,13 +45,13 @@ $icon-size: 1.3em;
 @mixin xiv-tooltip-base {
     /* Tooltip baseline */
     &::after {
-        @include xiv-tooltip-setup;
+        @include xiv-tooltip-style;
         content: attr(data-tooltip); /* Use the data-tooltip attribute value */
         border-radius: 5px;
     }
     /* The little triangle */
     &::before {
-        @include xiv-tooltip-setup;
+        @include xiv-tooltip-style;
         content: "";
         transform: rotate(45deg);
         padding: 5px;
