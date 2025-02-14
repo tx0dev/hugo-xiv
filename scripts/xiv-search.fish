@@ -1,5 +1,9 @@
 #!/usr/bin/fish
 
+# SPDX-FileCopyrightText: 2025 Mathieu C. <mathieu@tx0.dev>
+#
+# SPDX-License-Identifier: MIT
+
 function xivapi_search_map
   set -l sheet $argv[1]
   set -l query $argv[2]

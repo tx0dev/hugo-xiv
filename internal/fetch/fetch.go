@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Mathieu C. <mathieu@tx0.dev>
+//
+// SPDX-License-Identifier: MIT
+
 package fetch
 
 import (
