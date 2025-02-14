@@ -34,21 +34,40 @@ func main() {
 		os.Exit(1)
 		return
 	}
+	societies, err := config.LoadSocieties(cfg)
+	if err != nil {
+		fmt.Printf("Error loading societies: %v\n", err)
+		os.Exit(1)
+		return
+	}
 
-	ctx := context.Background()
-
-	if err := gamedata.ProcessIcons(cfg, icons); err != nil { // processIcons is in icons.go
+	if err := gamedata.ProcessIcons(cfg, icons); err != nil {
 		fmt.Printf("Icon processing error: %v\n", err)
 		os.Exit(1)
 		return
 	}
 
-	if err := gamedata.ProcessCurrencies(cfg, currencies); err != nil { // processCurrencies is in currencies.go
+	if err := gamedata.ProcessCurrencies(cfg, currencies); err != nil {
 		fmt.Printf("Currency processing error: %v\n", err)
 		os.Exit(1)
 		return
 	}
+	if err := gamedata.ProcessSocieties(cfg, societies); err != nil {
+		fmt.Printf("Society processing error: %v\n", err)
+		os.Exit(1)
+		return
+	}
 
+	// Generate SCSS variables
+	fmt.Println("==> Generating SCSS variables")
+	if err := gamedata.GenerateSCSSVariables(icons, currencies, societies, cfg.ScssVariables); err != nil {
+		fmt.Printf("Error generating SCSS variables: %v\n", err)
+		os.Exit(1)
+		return
+	}
+
+	os.Exit(0) // Just aborting before processing maps
+	ctx := context.Background()
 	mapData, err := gamedata.DownloadMapData(ctx, cfg)
 	if err != nil {
 		fmt.Printf("Game data processing error: %v\n", err)

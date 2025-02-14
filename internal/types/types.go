@@ -6,6 +6,7 @@ type Config struct {
 	XIVApiUrl     string        `json:"xivApiUrl"`
 	Currencies    string        `json:"currencies"`
 	Icons         string        `json:"icons"`
+	Societies     string        `json:"societies"`
 	ScssVariables string        `json:"scssVariables"`
 	Sources       SourcesConfig `json:"sources"`
 	// xivapi        string        `json:"_xivapiv2"`
@@ -19,10 +20,9 @@ type SourcesConfig struct {
 
 // Currencies represents the currencies.json structure
 type Currencies struct {
-	Currency  map[string]CurrencyItem   `json:"currency"`
-	Tomestone map[string]TomestoneItem  `json:"tomestone"`
-	Scrip     map[string]ScripItem      `json:"scrip"`
-	Society   map[string]BeastTribeItem `json:"society"`
+	Currency  map[string]CurrencyItem  `json:"currency"`
+	Tomestone map[string]TomestoneItem `json:"tomestone"`
+	Scrip     map[string]ScripItem     `json:"scrip"`
 }
 
 type CurrencyItem struct {
@@ -44,10 +44,24 @@ type ScripItem struct {
 	Obsolete *string `json:"obsolete"`
 }
 
-type BeastTribeItem struct {
-	Name       string `json:"name"`
-	SocietyID  string `json:"societyId"`
-	CurrencyID string `json:"currencyId"`
+type Societies map[string]SocietyItem
+
+type SocietyItem struct {
+	Name       string          `json:"name"`
+	SocietyID  string          `json:"societyId"`
+	CurrencyID string          `json:"currencyId"`
+	Currency   string          `json:"currency"`
+	Focus      []string        `json:"focus"`
+	Expansion  string          `json:"expansion"`
+	Location   SocietyLocation `json:"location"`
+}
+
+type SocietyLocation struct {
+	Name      string  `json:"name"`
+	Map       string  `json:"map"`
+	Aetheryte string  `json:"aetheryte"`
+	X         float32 `json:"x"`
+	Y         float32 `json:"y"`
 }
 
 // Icons represents the icons.json structure

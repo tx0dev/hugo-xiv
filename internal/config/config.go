@@ -51,6 +51,18 @@ func LoadCurrencies(config types.Config) (types.Currencies, error) {
 	return currencies, nil
 }
 
+func LoadSocieties(config types.Config) (types.Societies, error) {
+	societiesFile, err := os.ReadFile(config.Societies)
+	if err != nil {
+		return types.Societies{}, fmt.Errorf("error reading %s: %w", config.Societies, err)
+	}
+	var societies types.Societies
+	if err := json.Unmarshal(societiesFile, &societies); err != nil {
+		return types.Societies{}, fmt.Errorf("error parsing societies.json: %w", err)
+	}
+	return societies, nil
+}
+
 // Return a limiter object
 func GetLimiter() *rate.Limiter {
 	return rate.NewLimiter(rate.Every(time.Duration(config.RateLimit)*time.Millisecond), 1) // 1 request every 500ms
