@@ -1,0 +1,7703 @@
+{
+  "Amh Araeng": {
+    "id": 493,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "n4f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 365,
+    "placename_id": 2955,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 815,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 140,
+        "zoneid": 2955,
+        "map": 493,
+        "x": 26.43,
+        "y": 16.86,
+        "z": 0.1,
+        "type": 0,
+        "territory": 815,
+        "nameid": 3122,
+        "aethernetCoords": {
+          "x": 696,
+          "y": 10737
+        },
+        "name": {
+          "en": "Mord Souq",
+          "ja": "モルド・スーク",
+          "de": "Mordh Souq",
+          "fr": "Mord Souq"
+        }
+      },
+      {
+        "id": 141,
+        "zoneid": 2955,
+        "map": 493,
+        "x": 11.26,
+        "y": 16.98,
+        "z": 0.45,
+        "type": 0,
+        "territory": 815,
+        "nameid": 3135,
+        "aethernetCoords": {
+          "x": 589,
+          "y": 10740
+        },
+        "name": {
+          "en": "Twine",
+          "ja": "トゥワイン",
+          "de": "Pfotenschlag",
+          "fr": "Queues-liées"
+        }
+      },
+      {
+        "id": 161,
+        "zoneid": 2955,
+        "map": 493,
+        "x": 29.48,
+        "y": 27.43,
+        "z": -0.29,
+        "type": 0,
+        "territory": 815,
+        "nameid": 3129,
+        "aethernetCoords": {
+          "x": 713,
+          "y": 10772
+        },
+        "name": {
+          "en": "The Inn at Journey's Head",
+          "ja": "旅立ちの宿",
+          "de": "Ruhstatt vor der Langen Reise",
+          "fr": "Auberge du Grand Départ"
+        }
+      }
+    ],
+    "name": {
+      "en": "Amh Araeng",
+      "ja": "アム・アレーン",
+      "de": "Amh Araeng",
+      "fr": "Amh Araeng"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Azys Lla": {
+    "id": 216,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "a2f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 166,
+    "placename_id": 2101,
+    "placename_sub_id": 0,
+    "region_id": 497,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 402,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 74,
+        "zoneid": 2101,
+        "map": 216,
+        "x": 8.34,
+        "y": 10.71,
+        "z": -1.87,
+        "type": 0,
+        "territory": 402,
+        "nameid": 2131,
+        "aethernetCoords": {
+          "x": 1300,
+          "y": 230
+        },
+        "name": {
+          "en": "Helix",
+          "ja": "ポート・ヘリックス",
+          "de": "Helix",
+          "fr": "Hélice"
+        }
+      }
+    ],
+    "name": {
+      "en": "Azys Lla",
+      "ja": "アジス・ラー",
+      "de": "Azys Lla",
+      "fr": "Azys Lla"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Central Shroud": {
+    "id": 4,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "f1f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 5,
+    "placename_id": 54,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 148,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 3,
+        "zoneid": 54,
+        "map": 4,
+        "x": 21.89,
+        "y": 22.32,
+        "z": -0.02,
+        "type": 0,
+        "territory": 148,
+        "nameid": 94,
+        "aethernetCoords": {
+          "x": 1540,
+          "y": 820
+        },
+        "name": {
+          "en": "Bentbranch Meadows",
+          "ja": "ベントブランチ牧場",
+          "de": "Gut Zwieselgrund",
+          "fr": "Ranch de Brancharquée"
+        }
+      },
+      {
+        "id": 31,
+        "zoneid": 54,
+        "map": 4,
+        "x": 24.07,
+        "y": 15.44,
+        "z": 0.25,
+        "type": 1,
+        "territory": 148,
+        "nameid": 597,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Blue Badger Gate (Central Shroud)",
+          "ja": "青狢門（中央森林東方面）",
+          "de": "Blaudachs-Pforte (zum Tiefen Wald / Ost)",
+          "fr": "Forêt centrale est via la porte du Blaireau bleu"
+        }
+      },
+      {
+        "id": 54,
+        "zoneid": 54,
+        "map": 4,
+        "x": 15.41,
+        "y": 15.91,
+        "z": 0.63,
+        "type": 1,
+        "territory": 148,
+        "nameid": 408,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "White Wolf Gate (Central Shroud)",
+          "ja": "白狼門（中央森林西方面）",
+          "de": "Weißwolf-Pforte (zum Tiefen Wald / West)",
+          "fr": "Forêt centrale ouest via la porte du Loup blanc"
+        }
+      }
+    ],
+    "name": {
+      "en": "Central Shroud",
+      "ja": "黒衣森：中央森林",
+      "de": "Tiefer Wald",
+      "fr": "Forêt centrale"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Central Thanalan": {
+    "id": 21,
+    "hierarchy": 1,
+    "priority_ui": 7,
+    "image": "w1f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 39,
+    "placename_id": 43,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 141,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 53,
+        "zoneid": 43,
+        "map": 21,
+        "x": 21.17,
+        "y": 18.23,
+        "z": -0.02,
+        "type": 0,
+        "territory": 141,
+        "nameid": 290,
+        "aethernetCoords": {
+          "x": 1290,
+          "y": 1230
+        },
+        "name": {
+          "en": "Black Brush Station",
+          "ja": "ブラックブラッシュ停留所",
+          "de": "Kohlenstaub-Bahnhof",
+          "fr": "Gare de Roncenoire"
+        }
+      },
+      {
+        "id": 39,
+        "zoneid": 43,
+        "map": 21,
+        "x": 19.02,
+        "y": 27.73,
+        "z": 0.15,
+        "type": 1,
+        "territory": 141,
+        "nameid": 780,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Gate of Nald (Central Thanalan)",
+          "ja": "ナル大門（中央ザナラーン北方面）",
+          "de": "Tor des Nald (Zentrales Thanalan)",
+          "fr": "Thanalan central nord via la porte de Nald"
+        }
+      },
+      {
+        "id": 40,
+        "zoneid": 43,
+        "map": 21,
+        "x": 22.24,
+        "y": 33.05,
+        "z": 0.15,
+        "type": 1,
+        "territory": 141,
+        "nameid": 781,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Gate of Thal (Central Thanalan)",
+          "ja": "ザル大門（中央ザナラーン南方面）",
+          "de": "Tor des Thal (Zentrales Thanalan)",
+          "fr": "Thanalan central sud via la porte de Thal"
+        }
+      }
+    ],
+    "name": {
+      "en": "Central Thanalan",
+      "ja": "中央ザナラーン",
+      "de": "Zentrales Thanalan",
+      "fr": "Thanalan central"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Coerthas Central Highlands": {
+    "id": 53,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "r1f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 102,
+    "placename_id": 63,
+    "placename_sub_id": 0,
+    "region_id": 25,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 155,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 23,
+        "zoneid": 63,
+        "map": 53,
+        "x": 26.07,
+        "y": 16.72,
+        "z": 3.12,
+        "type": 0,
+        "territory": 155,
+        "nameid": 388,
+        "aethernetCoords": {
+          "x": 1180,
+          "y": 580
+        },
+        "name": {
+          "en": "Camp Dragonhead",
+          "ja": "キャンプ・ドラゴンヘッド",
+          "de": "Camp Drachenkopf",
+          "fr": "Camp de la Tête du dragon"
+        }
+      },
+      {
+        "id": 88,
+        "zoneid": 63,
+        "map": 53,
+        "x": 18.25,
+        "y": 15.05,
+        "z": 3.04,
+        "type": 1,
+        "territory": 155,
+        "nameid": 1659,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Gates of Judgement (Coerthas Central Highlands)",
+          "ja": "聖徒門（クルザス中央高地方面）",
+          "de": "Bogen des Würdigen",
+          "fr": "Arc des Valeureux"
+        }
+      }
+    ],
+    "name": {
+      "en": "Coerthas Central Highlands",
+      "ja": "クルザス中央高地",
+      "de": "Zentrales Hochland von Coerthas",
+      "fr": "Hautes terres du Coerthas central"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Coerthas Western Highlands": {
+    "id": 211,
+    "hierarchy": 1,
+    "priority_ui": 6,
+    "image": "r2f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 161,
+    "placename_id": 2200,
+    "placename_sub_id": 0,
+    "region_id": 25,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 397,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 71,
+        "zoneid": 2200,
+        "map": 211,
+        "x": 31.9,
+        "y": 36.54,
+        "z": 2.12,
+        "type": 0,
+        "territory": 397,
+        "nameid": 2204,
+        "aethernetCoords": {
+          "x": 1000,
+          "y": 400
+        },
+        "name": {
+          "en": "Falcon's Nest",
+          "ja": "ファルコンネスト",
+          "de": "Falkenhorst",
+          "fr": "Nid du faucon"
+        }
+      }
+    ],
+    "name": {
+      "en": "Coerthas Western Highlands",
+      "ja": "クルザス西部高地",
+      "de": "Westliches Hochland von Coerthas",
+      "fr": "Hautes terres du Coerthas occidental"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "East Shroud": {
+    "id": 5,
+    "hierarchy": 1,
+    "priority_ui": 6,
+    "image": "f1f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 6,
+    "placename_id": 55,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 152,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 4,
+        "zoneid": 55,
+        "map": 5,
+        "x": 17.57,
+        "y": 27.34,
+        "z": 0.03,
+        "type": 0,
+        "territory": 152,
+        "nameid": 107,
+        "aethernetCoords": {
+          "x": 1700,
+          "y": 820
+        },
+        "name": {
+          "en": "The Hawthorne Hut",
+          "ja": "ホウソーン家の山塞",
+          "de": "Jagdhütte der Hawthornes",
+          "fr": "Hutte des Hawthorne"
+        }
+      }
+    ],
+    "name": {
+      "en": "East Shroud",
+      "ja": "黒衣森：東部森林",
+      "de": "Ostwald",
+      "fr": "Forêt de l'est"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Eastern La Noscea": {
+    "id": 17,
+    "hierarchy": 1,
+    "priority_ui": 8,
+    "image": "s1f3/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 76,
+    "placename_id": 32,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 137,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 11,
+        "zoneid": 32,
+        "map": 17,
+        "x": 31.34,
+        "y": 31,
+        "z": 0.18,
+        "type": 0,
+        "territory": 137,
+        "nameid": 206,
+        "aethernetCoords": {
+          "x": 820,
+          "y": 1120
+        },
+        "name": {
+          "en": "Costa del Sol",
+          "ja": "コスタ・デル・ソル",
+          "de": "Sonnenküste",
+          "fr": "Costa del Sol"
+        }
+      },
+      {
+        "id": 12,
+        "zoneid": 32,
+        "map": 17,
+        "x": 21.01,
+        "y": 21.57,
+        "z": 0.7,
+        "type": 0,
+        "territory": 137,
+        "nameid": 216,
+        "aethernetCoords": {
+          "x": 780,
+          "y": 1040
+        },
+        "name": {
+          "en": "Wineport",
+          "ja": "ワインポート",
+          "de": "Weinhafen",
+          "fr": "Port-aux-Vins"
+        }
+      }
+    ],
+    "name": {
+      "en": "Eastern La Noscea",
+      "ja": "東ラノシア",
+      "de": "Östliches La Noscea",
+      "fr": "Noscea orientale"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Eastern Thanalan": {
+    "id": 22,
+    "hierarchy": 1,
+    "priority_ui": 8,
+    "image": "w1f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 41,
+    "placename_id": 44,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 145,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 18,
+        "zoneid": 44,
+        "map": 22,
+        "x": 13.89,
+        "y": 24.35,
+        "z": -0.6,
+        "type": 0,
+        "territory": 145,
+        "nameid": 300,
+        "aethernetCoords": {
+          "x": 1360,
+          "y": 1210
+        },
+        "name": {
+          "en": "Camp Drybone",
+          "ja": "キャンプ・ドライボーン",
+          "de": "Camp Knochenbleich",
+          "fr": "Camp des Os desséchés"
+        }
+      }
+    ],
+    "name": {
+      "en": "Eastern Thanalan",
+      "ja": "東ザナラーン",
+      "de": "Östliches Thanalan",
+      "fr": "Thanalan oriental"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Elpis": {
+    "id": 700,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "n5f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 482,
+    "placename_id": 3713,
+    "placename_sub_id": 0,
+    "region_id": 3705,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 961,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 176,
+        "zoneid": 3713,
+        "map": 700,
+        "x": 24.51,
+        "y": 24.19,
+        "z": 0.1,
+        "type": 0,
+        "territory": 961,
+        "nameid": 3928,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Anagnorisis",
+          "ja": "アナグノリシス天測園",
+          "de": "Anagnorisis",
+          "fr": "L'Anagnorisis"
+        }
+      },
+      {
+        "id": 177,
+        "zoneid": 3713,
+        "map": 700,
+        "x": 8.6,
+        "y": 32.47,
+        "z": -0.22,
+        "type": 0,
+        "territory": 961,
+        "nameid": 3929,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Twelve Wonders",
+          "ja": "十二節の園",
+          "de": "Die Zwölf Gärten",
+          "fr": "Les Douze Merveilles"
+        }
+      },
+      {
+        "id": 178,
+        "zoneid": 3713,
+        "map": 700,
+        "x": 10.68,
+        "y": 17.17,
+        "z": 1.59,
+        "type": 0,
+        "territory": 961,
+        "nameid": 3938,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Poieten Oikos",
+          "ja": "ポイエテーン・オイコス",
+          "de": "Poieten Oikos",
+          "fr": "Poièten Oïkos"
+        }
+      }
+    ],
+    "name": {
+      "en": "Elpis",
+      "ja": "エルピス",
+      "de": "Elpis",
+      "fr": "Elpis"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Empyreum": {
+    "id": 679,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "r1h1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 463,
+    "placename_id": 4139,
+    "placename_sub_id": 3687,
+    "region_id": 25,
+    "zone_id": 3687,
+    "size_factor": 200,
+    "territory_id": 979,
+    "index": 1,
+    "dungeon": false,
+    "housing": true,
+    "aetherytes": [
+      {
+        "id": 1966145,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 12.22,
+        "y": 14.72,
+        "z": -0.16,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3714,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Highmorn's Horizon",
+          "ja": "ハイモーン広場",
+          "de": "Morgenglanz",
+          "fr": "Place du Halte-Matin"
+        }
+      },
+      {
+        "id": 1966146,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 14.23,
+        "y": 13.13,
+        "z": -0.5,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3715,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Empyreum Southeast",
+          "ja": "エンピレアム南東",
+          "de": "Südost-Empyreum",
+          "fr": "Empyrée sud-est"
+        }
+      },
+      {
+        "id": 1966147,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 12.62,
+        "y": 11.4,
+        "z": -0.19,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3716,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Central Empyreum",
+          "ja": "エンピレアム中央",
+          "de": "Zentral-Empyreum",
+          "fr": "Empyrée centre"
+        }
+      },
+      {
+        "id": 1966148,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 9.81,
+        "y": 12.8,
+        "z": 0,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3717,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Empyreum Southwest",
+          "ja": "エンピレアム南西",
+          "de": "Südwest-Empyreum",
+          "fr": "Empyrée sud-ouest"
+        }
+      },
+      {
+        "id": 1966149,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 8.51,
+        "y": 10.9,
+        "z": 0.1,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3718,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Ingleside",
+          "ja": "イングルサイド",
+          "de": "Adlerblick",
+          "fr": "Le Coin de l'Âtre"
+        }
+      },
+      {
+        "id": 1966150,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 9.34,
+        "y": 8.99,
+        "z": 0,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3719,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Empyreum Northwest",
+          "ja": "エンピレアム北西",
+          "de": "Nordwest-Empyreum",
+          "fr": "Empyrée nord-ouest"
+        }
+      },
+      {
+        "id": 1966151,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 15.2,
+        "y": 10.99,
+        "z": -0.4,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3720,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Empyreum East",
+          "ja": "エンピレアム東",
+          "de": "Ost-Empyreum",
+          "fr": "Empyrée est"
+        }
+      },
+      {
+        "id": 1966152,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 13.49,
+        "y": 9.09,
+        "z": -0.2,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3721,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Empyreum Northeast",
+          "ja": "エンピレアム北東",
+          "de": "Nordost-Empyreum",
+          "fr": "Empyrée nord-est"
+        }
+      },
+      {
+        "id": 1966161,
+        "zoneid": 4139,
+        "map": 679,
+        "x": 10.25,
+        "y": 11.25,
+        "z": -0.21,
+        "type": 1,
+        "territory": 0,
+        "nameid": 3795,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Halberd's Head",
+          "ja": "斧槍通り（居住区担当官）",
+          "de": "Hellebardenspalier",
+          "fr": "Avenue Fer-de-hallebarde"
+        }
+      }
+    ],
+    "name": {
+      "en": "Empyreum",
+      "ja": "エンピレアム",
+      "de": "Empyreum",
+      "fr": "Empyrée"
+    },
+    "sub_name": {
+      "en": "Empyreum",
+      "ja": "エンピレアム",
+      "de": "Empyreum",
+      "fr": "Empyrée"
+    }
+  },
+  "Eulmore": {
+    "id": 498,
+    "hierarchy": 1,
+    "priority_ui": 9,
+    "image": "n4t2/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 371,
+    "placename_id": 2952,
+    "placename_sub_id": 3259,
+    "region_id": 2950,
+    "zone_id": 3259,
+    "size_factor": 200,
+    "territory_id": 820,
+    "index": 1,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 134,
+        "zoneid": 2952,
+        "map": 498,
+        "x": 11.24,
+        "y": 11.48,
+        "z": 0.82,
+        "type": 0,
+        "territory": 820,
+        "nameid": 2952,
+        "aethernetCoords": {
+          "x": 170,
+          "y": 10562
+        },
+        "name": {
+          "en": "Eulmore",
+          "ja": "ユールモア",
+          "de": "Eulmore",
+          "fr": "Eulmore"
+        }
+      },
+      {
+        "id": 135,
+        "zoneid": 2952,
+        "map": 498,
+        "x": 12.66,
+        "y": 12.55,
+        "z": -0.11,
+        "type": 1,
+        "territory": 820,
+        "nameid": 3337,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Southeast Derelicts",
+          "ja": "廃船街南東",
+          "de": "Wrackstadt (Südosten)",
+          "fr": "Sud-est de La Fange"
+        }
+      },
+      {
+        "id": 157,
+        "zoneid": 2952,
+        "map": 498,
+        "x": 11.48,
+        "y": 11.13,
+        "z": 0.36,
+        "type": 1,
+        "territory": 820,
+        "nameid": 3338,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Mainstay",
+          "ja": "メインステイ",
+          "de": "Grundpfeiler der Ordnung",
+          "fr": "Ballast principal"
+        }
+      },
+      {
+        "id": 159,
+        "zoneid": 2952,
+        "map": 498,
+        "x": 11.35,
+        "y": 10.09,
+        "z": 0.05,
+        "type": 1,
+        "territory": 820,
+        "nameid": 3340,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Glory Gate",
+          "ja": "栄光の門",
+          "de": "Tor der Herrlichkeit",
+          "fr": "Porte de la Gloire"
+        }
+      },
+      {
+        "id": 158,
+        "zoneid": 2952,
+        "map": 498,
+        "x": 10.1,
+        "y": 12.29,
+        "z": -0.01,
+        "type": 1,
+        "territory": 820,
+        "nameid": 3339,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Nightsoil Pots",
+          "ja": "腐臭の花園",
+          "de": "Gärten der Gestrigen Genüsse",
+          "fr": "Les Goguenots fleuris"
+        }
+      }
+    ],
+    "name": {
+      "en": "Eulmore",
+      "ja": "ユールモア",
+      "de": "Eulmore",
+      "fr": "Eulmore"
+    },
+    "sub_name": {
+      "en": "The Buttress",
+      "ja": "樹根の層",
+      "de": "Die Wurzeln",
+      "fr": "Les Racines"
+    }
+  },
+  "Foundation": {
+    "id": 218,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "r2t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 159,
+    "placename_id": 2300,
+    "placename_sub_id": 0,
+    "region_id": 25,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 418,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 70,
+        "zoneid": 2300,
+        "map": 218,
+        "x": 10.04,
+        "y": 11.94,
+        "z": 0.08,
+        "type": 0,
+        "territory": 418,
+        "nameid": 2300,
+        "aethernetCoords": {
+          "x": 1150,
+          "y": 450
+        },
+        "name": {
+          "en": "Foundation",
+          "ja": "イシュガルド：下層",
+          "de": "Fundamente",
+          "fr": "Ishgard - L'Assise"
+        }
+      },
+      {
+        "id": 82,
+        "zoneid": 2300,
+        "map": 218,
+        "x": 12.24,
+        "y": 12.66,
+        "z": -0.13,
+        "type": 1,
+        "territory": 418,
+        "nameid": 1653,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Brume",
+          "ja": "雲霧街",
+          "de": "Die Schwaden",
+          "fr": "Brouillasse"
+        }
+      },
+      {
+        "id": 80,
+        "zoneid": 2300,
+        "map": 218,
+        "x": 12.24,
+        "y": 11.2,
+        "z": 0.23,
+        "type": 1,
+        "territory": 418,
+        "nameid": 1651,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Forgotten Knight",
+          "ja": "忘れられた騎士亭前（聖バルロアイアン広場）",
+          "de": "Der Vergessene Ritter",
+          "fr": "Le Chevalier oublié"
+        }
+      },
+      {
+        "id": 81,
+        "zoneid": 2300,
+        "map": 218,
+        "x": 9.09,
+        "y": 10.57,
+        "z": 0.15,
+        "type": 1,
+        "territory": 418,
+        "nameid": 1652,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Skysteel Manufactory",
+          "ja": "スカイスチール機工房前（聖レネット広場）",
+          "de": "Himmelsstahl-Werkstätte",
+          "fr": "Manufacture de Cielacier"
+        }
+      }
+    ],
+    "name": {
+      "en": "Foundation",
+      "ja": "イシュガルド：下層",
+      "de": "Fundamente",
+      "fr": "Ishgard - L'Assise"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Gangos": {
+    "id": 603,
+    "hierarchy": 1,
+    "priority_ui": 0,
+    "image": "n4ea/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 410,
+    "placename_id": 3478,
+    "placename_sub_id": 0,
+    "region_id": 2405,
+    "zone_id": 0,
+    "size_factor": 400,
+    "territory_id": 915,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 163,
+        "zoneid": 3478,
+        "map": 603,
+        "x": 5.22,
+        "y": 5.32,
+        "z": 0,
+        "type": 1,
+        "territory": 915,
+        "nameid": 2935,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Gangos",
+          "ja": "ガンゴッシュ",
+          "de": "Gangos",
+          "fr": "Gangos"
+        }
+      }
+    ],
+    "name": {
+      "en": "Gangos",
+      "ja": "ガンゴッシュ",
+      "de": "Gangos",
+      "fr": "Gangos"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Garlemald": {
+    "id": 697,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "m5f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 479,
+    "placename_id": 3710,
+    "placename_sub_id": 0,
+    "region_id": 3703,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 958,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 172,
+        "zoneid": 3710,
+        "map": 697,
+        "x": 13.33,
+        "y": 31.27,
+        "z": 0.22,
+        "type": 0,
+        "territory": 958,
+        "nameid": 3903,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Camp Broken Glass",
+          "ja": "キャンプ・ブロークングラス",
+          "de": "Camp Splitterglas",
+          "fr": "Camp Bris-de-glace"
+        }
+      },
+      {
+        "id": 173,
+        "zoneid": 3710,
+        "map": 697,
+        "x": 31.97,
+        "y": 18.01,
+        "z": -0.37,
+        "type": 0,
+        "territory": 958,
+        "nameid": 3915,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Tertium",
+          "ja": "テルティウム駅",
+          "de": "Tertium",
+          "fr": "Gare de Tertium"
+        }
+      }
+    ],
+    "name": {
+      "en": "Garlemald",
+      "ja": "ガレマルド",
+      "de": "Garlemald",
+      "fr": "Garlemald"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Heritage Found": {
+    "id": 861,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "x6f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 626,
+    "placename_id": 4509,
+    "placename_sub_id": 0,
+    "region_id": 4501,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1191,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 210,
+        "zoneid": 4509,
+        "map": 861,
+        "x": 31.66,
+        "y": 25.78,
+        "z": 1.46,
+        "type": 0,
+        "territory": 1191,
+        "nameid": 4678,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Yyasulani Station",
+          "ja": "ヤースラニ駅",
+          "de": "Bahnhof Yyasulani",
+          "fr": "Gare de Yyasulani"
+        }
+      },
+      {
+        "id": 211,
+        "zoneid": 4509,
+        "map": 861,
+        "x": 16.76,
+        "y": 10.04,
+        "z": 0.3,
+        "type": 0,
+        "territory": 1191,
+        "nameid": 4685,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Outskirts",
+          "ja": "アウトスカーツ",
+          "de": "Außenbezirke",
+          "fr": "Les Faubourgs"
+        }
+      },
+      {
+        "id": 212,
+        "zoneid": 4509,
+        "map": 861,
+        "x": 16.9,
+        "y": 24.06,
+        "z": 0.31,
+        "type": 0,
+        "territory": 1191,
+        "nameid": 4694,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Electrope Strike",
+          "ja": "エレクトロープ採石場",
+          "de": "Elektrob-Bruch",
+          "fr": "Mines d'Électrope"
+        }
+      },
+      {
+        "id": 237,
+        "zoneid": 4509,
+        "map": 861,
+        "x": 15.63,
+        "y": 4.84,
+        "z": 0.46,
+        "type": 1,
+        "territory": 1191,
+        "nameid": 4740,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Scanning Port Nine (Heritage Found)",
+          "ja": "スキャンポート（ヘリテージファウンド方面）",
+          "de": "Scanpass Neun (zum Ewigen Erbe)",
+          "fr": "Sentinelle Neuf (L'Hoirie recouvrée)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Heritage Found",
+      "ja": "ヘリテージファウンド",
+      "de": "Ewiges Erbe",
+      "fr": "L'Hoirie recouvrée"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Idyllshire": {
+    "id": 257,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "d2t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 182,
+    "placename_id": 2082,
+    "placename_sub_id": 0,
+    "region_id": 498,
+    "zone_id": 0,
+    "size_factor": 400,
+    "territory_id": 478,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 75,
+        "zoneid": 2082,
+        "map": 257,
+        "x": 7.72,
+        "y": 5.55,
+        "z": 2.07,
+        "type": 0,
+        "territory": 478,
+        "nameid": 2082,
+        "aethernetCoords": {
+          "x": 550,
+          "y": 430
+        },
+        "name": {
+          "en": "Idyllshire",
+          "ja": "イディルシャイア",
+          "de": "Frohehalde",
+          "fr": "Idyllée"
+        }
+      },
+      {
+        "id": 90,
+        "zoneid": 2082,
+        "map": 257,
+        "x": 4.7,
+        "y": 5.66,
+        "z": 2.08,
+        "type": 1,
+        "territory": 478,
+        "nameid": 1681,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "West Idyllshire",
+          "ja": "イディルシャイア西",
+          "de": "West-Frohehalde",
+          "fr": "Idyllée ouest"
+        }
+      }
+    ],
+    "name": {
+      "en": "Idyllshire",
+      "ja": "イディルシャイア",
+      "de": "Frohehalde",
+      "fr": "Idyllée"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Il Mheg": {
+    "id": 494,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "n4f4/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 366,
+    "placename_id": 2956,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 816,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 144,
+        "zoneid": 2956,
+        "map": 494,
+        "x": 14.43,
+        "y": 31.56,
+        "z": 0.47,
+        "type": 0,
+        "territory": 816,
+        "nameid": 3147,
+        "aethernetCoords": {
+          "x": 717,
+          "y": 10344
+        },
+        "name": {
+          "en": "Lydha Lran",
+          "ja": "リダ・ラーン",
+          "de": "Lydha Lran",
+          "fr": "Lydha Lran"
+        }
+      },
+      {
+        "id": 145,
+        "zoneid": 2956,
+        "map": 494,
+        "x": 20.04,
+        "y": 4.19,
+        "z": 1.02,
+        "type": 0,
+        "territory": 816,
+        "nameid": 3156,
+        "aethernetCoords": {
+          "x": 755,
+          "y": 10152
+        },
+        "name": {
+          "en": "Pla Enni",
+          "ja": "プラ・エンニ茸窟",
+          "de": "Pla Enni",
+          "fr": "Pla Enni"
+        }
+      },
+      {
+        "id": 146,
+        "zoneid": 2956,
+        "map": 494,
+        "x": 29.11,
+        "y": 7.48,
+        "z": 0.86,
+        "type": 0,
+        "territory": 816,
+        "nameid": 3157,
+        "aethernetCoords": {
+          "x": 818,
+          "y": 10176
+        },
+        "name": {
+          "en": "Wolekdorf",
+          "ja": "ヴォレクドルフ",
+          "de": "Wolekdorf",
+          "fr": "Wolekdorf"
+        }
+      }
+    ],
+    "name": {
+      "en": "Il Mheg",
+      "ja": "イル・メグ",
+      "de": "Il Mheg",
+      "fr": "Il Mheg"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Kholusia": {
+    "id": 492,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "n4f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 364,
+    "placename_id": 2954,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 814,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 137,
+        "zoneid": 2954,
+        "map": 492,
+        "x": 34.87,
+        "y": 27.42,
+        "z": 0.28,
+        "type": 0,
+        "territory": 814,
+        "nameid": 3075,
+        "aethernetCoords": {
+          "x": 254,
+          "y": 10430
+        },
+        "name": {
+          "en": "Stilltide",
+          "ja": "スティルタイド",
+          "de": "Stillwasser",
+          "fr": "Douceonde"
+        }
+      },
+      {
+        "id": 138,
+        "zoneid": 2954,
+        "map": 492,
+        "x": 16.61,
+        "y": 29.04,
+        "z": 0.19,
+        "type": 0,
+        "territory": 814,
+        "nameid": 3094,
+        "aethernetCoords": {
+          "x": 126,
+          "y": 10440
+        },
+        "name": {
+          "en": "Wright",
+          "ja": "ライト村",
+          "de": "Werfting",
+          "fr": "Cherpant"
+        }
+      },
+      {
+        "id": 139,
+        "zoneid": 2954,
+        "map": 492,
+        "x": 12.89,
+        "y": 8.89,
+        "z": 4.17,
+        "type": 0,
+        "territory": 814,
+        "nameid": 3105,
+        "aethernetCoords": {
+          "x": 100,
+          "y": 10303
+        },
+        "name": {
+          "en": "Tomra",
+          "ja": "トメラの村",
+          "de": "Tomra",
+          "fr": "Tomra"
+        }
+      },
+      {
+        "id": 160,
+        "zoneid": 2954,
+        "map": 492,
+        "x": 24.97,
+        "y": 38.54,
+        "z": 0.56,
+        "type": 1,
+        "territory": 814,
+        "nameid": 3351,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Path to Glory (Kholusia)",
+          "ja": "栄光の道（コルシア島方面）",
+          "de": "Pfad zum Ruhm (Kholusia)",
+          "fr": "Marches de la Gloire (Kholusia)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Kholusia",
+      "ja": "コルシア島",
+      "de": "Kholusia",
+      "fr": "Kholusia"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Kozama'uka": {
+    "id": 858,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "y6f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 623,
+    "placename_id": 4506,
+    "placename_sub_id": 0,
+    "region_id": 4500,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1188,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 202,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 18.1,
+        "y": 11.64,
+        "z": 0.06,
+        "type": 0,
+        "territory": 1188,
+        "nameid": 4582,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Ok'hanu",
+          "ja": "オック・ハヌ",
+          "de": "Ok'hanu",
+          "fr": "Ok'hanu"
+        }
+      },
+      {
+        "id": 203,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 32.36,
+        "y": 25.75,
+        "z": 1.17,
+        "type": 0,
+        "territory": 1188,
+        "nameid": 4598,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Many Fires",
+          "ja": "朋友の灯火",
+          "de": "Viele Flammen",
+          "fr": "Maints-Feux"
+        }
+      },
+      {
+        "id": 204,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 11.72,
+        "y": 27.93,
+        "z": 1.23,
+        "type": 0,
+        "territory": 1188,
+        "nameid": 4603,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Earthenshire",
+          "ja": "アースンシャイア",
+          "de": "Irdehalde",
+          "fr": "La Fournée"
+        }
+      },
+      {
+        "id": 227,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 36.4,
+        "y": 32.76,
+        "z": 1.14,
+        "type": 1,
+        "territory": 1188,
+        "nameid": 4743,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Ihuykatumu (Kozama'uka)",
+          "ja": "イフイカ・トゥム（コザマル・カ上流域方面）",
+          "de": "Ihuykatumu (ins obere Kozama'uka)",
+          "fr": "Cours inférieur de l'Ihuykatumu (Kozama'uka)"
+        }
+      },
+      {
+        "id": 238,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 37.26,
+        "y": 16.51,
+        "z": 0.12,
+        "type": 0,
+        "territory": 1188,
+        "nameid": 4595,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Dock Poga",
+          "ja": "ポガ停船所",
+          "de": "Poga-Dock",
+          "fr": "Embarcadère de Poga"
+        }
+      },
+      {
+        "id": 226,
+        "zoneid": 4506,
+        "map": 858,
+        "x": 15.82,
+        "y": 5.18,
+        "z": 0.12,
+        "type": 1,
+        "territory": 1188,
+        "nameid": 4742,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Arch of the Dawn (Kozama'uka)",
+          "ja": "グルージャジャ凱旋門（コザマル・カ下流域方面）",
+          "de": "Tor der Morgensonne (ins untere Kozama'uka)",
+          "fr": "Arc de Gulool Ja Ja (Kozama'uka)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Kozama'uka",
+      "ja": "コザマル・カ",
+      "de": "Kozama'uka",
+      "fr": "Kozama'uka"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Kugane": {
+    "id": 370,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "e3t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 280,
+    "placename_id": 2404,
+    "placename_sub_id": 0,
+    "region_id": 2402,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 628,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 111,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 12.26,
+        "y": 10.32,
+        "z": 0.04,
+        "type": 0,
+        "territory": 628,
+        "nameid": 2404,
+        "aethernetCoords": {
+          "x": 10900,
+          "y": 630
+        },
+        "name": {
+          "en": "Kugane",
+          "ja": "クガネ",
+          "de": "Kugane",
+          "fr": "Kugane"
+        }
+      },
+      {
+        "id": 113,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 8.97,
+        "y": 14.23,
+        "z": -0.05,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1947,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Pier #1",
+          "ja": "第一波止場",
+          "de": "Pier 1",
+          "fr": "Jetée n°1"
+        }
+      },
+      {
+        "id": 114,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 11.85,
+        "y": 14.14,
+        "z": 0.08,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1948,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Thavnairian Consulate",
+          "ja": "ラザハン大使館前",
+          "de": "Konsulat von Thavnair",
+          "fr": "Consulat de Radz-at-Han"
+        }
+      },
+      {
+        "id": 115,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 11.78,
+        "y": 12.62,
+        "z": 0.04,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1949,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Kogane Dori Markets",
+          "ja": "マーケット（小金通り）",
+          "de": "Kogane-dori (Markt)",
+          "fr": "Marché (Kogane-dori)"
+        }
+      },
+      {
+        "id": 112,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 9.68,
+        "y": 9.69,
+        "z": -0.07,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1946,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Shiokaze Hostelry",
+          "ja": "潮風亭前",
+          "de": "Gasthaus Shiokaze",
+          "fr": "Shiokaze"
+        }
+      },
+      {
+        "id": 116,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 9.71,
+        "y": 7.93,
+        "z": 0.18,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1950,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Bokairo Inn",
+          "ja": "望海楼",
+          "de": "Badehaus Bokairo",
+          "fr": "Auberge du Bokairo"
+        }
+      },
+      {
+        "id": 117,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 13.84,
+        "y": 12.91,
+        "z": 0.12,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1951,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Ruby Bazaar",
+          "ja": "ウルダハ商館前",
+          "de": "Ostaldenard-Handelshaus",
+          "fr": "Bazar de Rubis"
+        }
+      },
+      {
+        "id": 119,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 11.8,
+        "y": 8.25,
+        "z": 0.06,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1953,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Rakuza District",
+          "ja": "楽座街",
+          "de": "Rakuza-Bezirk",
+          "fr": "Quartier de Rakuza"
+        }
+      },
+      {
+        "id": 118,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 13.63,
+        "y": 9.46,
+        "z": 0.11,
+        "type": 1,
+        "territory": 628,
+        "nameid": 1952,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Sekiseigumi Barracks",
+          "ja": "赤誠組屯所南",
+          "de": "Sekiseigumi-Quartier",
+          "fr": "Caserne du Sekiseigumi"
+        }
+      },
+      {
+        "id": 126,
+        "zoneid": 2404,
+        "map": 370,
+        "x": 10.13,
+        "y": 12.14,
+        "z": 0.79,
+        "type": 1,
+        "territory": 628,
+        "nameid": 2353,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Airship Landing",
+          "ja": "クガネ・ランディング",
+          "de": "Luftschiff-Landeplatz",
+          "fr": "Aérodrome de Kugane"
+        }
+      }
+    ],
+    "name": {
+      "en": "Kugane",
+      "ja": "クガネ",
+      "de": "Kugane",
+      "fr": "Kugane"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Labyrinthos": {
+    "id": 695,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "k5f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 477,
+    "placename_id": 3708,
+    "placename_sub_id": 0,
+    "region_id": 3702,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 956,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 166,
+        "zoneid": 3708,
+        "map": 695,
+        "x": 30.29,
+        "y": 11.89,
+        "z": 1.69,
+        "type": 0,
+        "territory": 956,
+        "nameid": 3833,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Archeion",
+          "ja": "アルケイオン保管院",
+          "de": "Archeion",
+          "fr": "Archéion"
+        }
+      },
+      {
+        "id": 167,
+        "zoneid": 3708,
+        "map": 695,
+        "x": 21.58,
+        "y": 20.49,
+        "z": -0.29,
+        "type": 0,
+        "territory": 956,
+        "nameid": 3850,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Sharlayan Hamlet",
+          "ja": "リトルシャーレアン",
+          "de": "Klein-Sharlayan",
+          "fr": "Petite Sharlayan"
+        }
+      },
+      {
+        "id": 168,
+        "zoneid": 3708,
+        "map": 695,
+        "x": 6.95,
+        "y": 27.44,
+        "z": -0.29,
+        "type": 0,
+        "territory": 956,
+        "nameid": 3852,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Aporia",
+          "ja": "アポリア本部",
+          "de": "Aporia",
+          "fr": "L'Aporie"
+        }
+      },
+      {
+        "id": 190,
+        "zoneid": 3708,
+        "map": 695,
+        "x": 20.91,
+        "y": 5.23,
+        "z": 1.79,
+        "type": 1,
+        "territory": 956,
+        "nameid": 4004,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Hall of Artifice (Labyrinthos)",
+          "ja": "アルティフィスホール（ラヴィリンソス方面）",
+          "de": "Halle der Kunstfertigkeit (zum Labyrinthos)",
+          "fr": "Vestibule de l'Ingéniosité (Entrée du Labyrinthos)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Labyrinthos",
+      "ja": "ラヴィリンソス",
+      "de": "Labyrinthos",
+      "fr": "Le Labyrinthos"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Lakeland": {
+    "id": 491,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "n4f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 363,
+    "placename_id": 2953,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 813,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 132,
+        "zoneid": 2953,
+        "map": 491,
+        "x": 36.59,
+        "y": 21.18,
+        "z": 0.22,
+        "type": 0,
+        "territory": 813,
+        "nameid": 3044,
+        "aethernetCoords": {
+          "x": 554,
+          "y": 10487
+        },
+        "name": {
+          "en": "Fort Jobb",
+          "ja": "ジョッブ砦",
+          "de": "Jobb-Feste",
+          "fr": "Fort Jobb"
+        }
+      },
+      {
+        "id": 136,
+        "zoneid": 2953,
+        "map": 491,
+        "x": 6.78,
+        "y": 16.76,
+        "z": 0.52,
+        "type": 0,
+        "territory": 813,
+        "nameid": 3057,
+        "aethernetCoords": {
+          "x": 347,
+          "y": 10462
+        },
+        "name": {
+          "en": "The Ostall Imperative",
+          "ja": "オスタル厳命城",
+          "de": "Ostalls Befehl",
+          "fr": "L'Impératif d'Ostall"
+        }
+      },
+      {
+        "id": 156,
+        "zoneid": 2953,
+        "map": 491,
+        "x": 38.04,
+        "y": 29.65,
+        "z": 0.35,
+        "type": 1,
+        "territory": 813,
+        "nameid": 3335,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Tessellation (Lakeland)",
+          "ja": "テセレーション鉄橋（レイクランド方面）",
+          "de": "Mosaikbrücke (ins Seenland)",
+          "fr": "Le Pavage"
+        }
+      }
+    ],
+    "name": {
+      "en": "Lakeland",
+      "ja": "レイクランド",
+      "de": "Seenland",
+      "fr": "Grand-Lac"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Limsa Lominsa Lower Decks": {
+    "id": 12,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "s1t2/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 72,
+    "placename_id": 29,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 129,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 8,
+        "zoneid": 29,
+        "map": 12,
+        "x": 9.31,
+        "y": 11.25,
+        "z": 0.18,
+        "type": 0,
+        "territory": 129,
+        "nameid": 29,
+        "aethernetCoords": {
+          "x": 640,
+          "y": 1200
+        },
+        "name": {
+          "en": "Limsa Lominsa Lower Decks",
+          "ja": "リムサ・ロミンサ：下甲板層",
+          "de": "Untere Decks",
+          "fr": "Limsa Lominsa - L'Entrepont"
+        }
+      },
+      {
+        "id": 43,
+        "zoneid": 29,
+        "map": 12,
+        "x": 4.57,
+        "y": 12.34,
+        "z": 0.12,
+        "type": 1,
+        "territory": 129,
+        "nameid": 769,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Arcanists' Guild",
+          "ja": "巴術士ギルド前（フェリードック）",
+          "de": "Hermetikergilde (Fähranleger)",
+          "fr": "Guilde des arcanistes (Embarcadère)"
+        }
+      },
+      {
+        "id": 44,
+        "zoneid": 29,
+        "map": 12,
+        "x": 7.62,
+        "y": 14.9,
+        "z": 0.03,
+        "type": 1,
+        "territory": 129,
+        "nameid": 768,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Fishermen's Guild",
+          "ja": "漁師ギルド前（双剣士ギルド）",
+          "de": "Fischergilde (Schurkengilde)",
+          "fr": "L'Escale du pêcheur (Guildes des pêcheurs \u0026 surineurs)"
+        }
+      },
+      {
+        "id": 49,
+        "zoneid": 29,
+        "map": 12,
+        "x": 6.96,
+        "y": 12.24,
+        "z": 0.16,
+        "type": 1,
+        "territory": 129,
+        "nameid": 767,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Hawkers' Alley",
+          "ja": "マーケット（国際街広場）",
+          "de": "Kaufmannsplatz (Markt)",
+          "fr": "Marché (La Camelotade)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Limsa Lominsa Lower Decks",
+      "ja": "リムサ・ロミンサ：下甲板層",
+      "de": "Untere Decks",
+      "fr": "Limsa Lominsa - L'Entrepont"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Limsa Lominsa Upper Decks": {
+    "id": 74,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "s1t1/02",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 73,
+    "placename_id": 28,
+    "placename_sub_id": 725,
+    "region_id": 22,
+    "zone_id": 725,
+    "size_factor": 200,
+    "territory_id": 128,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 93,
+        "zoneid": 28,
+        "map": 74,
+        "x": 10.86,
+        "y": 11.05,
+        "z": 0.91,
+        "type": 1,
+        "territory": 128,
+        "nameid": 725,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Airship Landing",
+          "ja": "リムサ・ロミンサ・ランディング",
+          "de": "Luftschiff-Landeplatz",
+          "fr": "Aérodrome de Limsa Lominsa"
+        }
+      }
+    ],
+    "name": {
+      "en": "Limsa Lominsa Upper Decks",
+      "ja": "リムサ・ロミンサ：上甲板層",
+      "de": "Obere Decks",
+      "fr": "Limsa Lominsa - Le Tillac"
+    },
+    "sub_name": {
+      "en": "Airship Landing",
+      "ja": "リムサ・ロミンサ・ランディング",
+      "de": "Luftschiff-Landeplatz",
+      "fr": "Aérodrome de Limsa Lominsa"
+    }
+  },
+  "Living Memory": {
+    "id": 862,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "x6f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 627,
+    "placename_id": 4510,
+    "placename_sub_id": 0,
+    "region_id": 4502,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1192,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 213,
+        "zoneid": 4510,
+        "map": 862,
+        "x": 21.28,
+        "y": 37.67,
+        "z": 0.53,
+        "type": 0,
+        "territory": 1192,
+        "nameid": 4700,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Leynode Mnemo",
+          "ja": "レイノード・メモリス",
+          "de": "Leyknoten Mnemo",
+          "fr": "Nœud tellurique mnémo"
+        }
+      },
+      {
+        "id": 214,
+        "zoneid": 4510,
+        "map": 862,
+        "x": 34.49,
+        "y": 16.09,
+        "z": 0.24,
+        "type": 0,
+        "territory": 1192,
+        "nameid": 4721,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Leynode Pyro",
+          "ja": "レイノード・ファイア",
+          "de": "Leyknoten Pyro",
+          "fr": "Nœud tellurique pyro"
+        }
+      },
+      {
+        "id": 215,
+        "zoneid": 4510,
+        "map": 862,
+        "x": 16.23,
+        "y": 13.76,
+        "z": 0.54,
+        "type": 0,
+        "territory": 1192,
+        "nameid": 4713,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Leynode Aero",
+          "ja": "レイノード・ウィンド",
+          "de": "Leyknoten Aero",
+          "fr": "Nœud tellurique aéro"
+        }
+      }
+    ],
+    "name": {
+      "en": "Living Memory",
+      "ja": "リビング・メモリー",
+      "de": "Lebende Erinnerung",
+      "fr": "La Mémoire vivante"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Lower La Noscea": {
+    "id": 16,
+    "hierarchy": 1,
+    "priority_ui": 7,
+    "image": "s1f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 75,
+    "placename_id": 31,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 135,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 10,
+        "zoneid": 31,
+        "map": 16,
+        "x": 24.64,
+        "y": 35.13,
+        "z": 0.14,
+        "type": 0,
+        "territory": 135,
+        "nameid": 337,
+        "aethernetCoords": {
+          "x": 780,
+          "y": 1220
+        },
+        "name": {
+          "en": "Moraby Drydocks",
+          "ja": "モラビー造船廠",
+          "de": "Moraby-Trockendocks",
+          "fr": "Chantier naval de Moraby"
+        }
+      },
+      {
+        "id": 46,
+        "zoneid": 31,
+        "map": 16,
+        "x": 20.98,
+        "y": 23.55,
+        "z": 0.7,
+        "type": 1,
+        "territory": 135,
+        "nameid": 771,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Tempest Gate (Lower La Noscea)",
+          "ja": "テンペスト陸門（低地ラノシア方面）",
+          "de": "Sturmtor (Unteres La Noscea)",
+          "fr": "Basse-Noscea via la porte de la Tempête"
+        }
+      }
+    ],
+    "name": {
+      "en": "Lower La Noscea",
+      "ja": "低地ラノシア",
+      "de": "Unteres La Noscea",
+      "fr": "Basse-Noscea"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Mare Lamentorum": {
+    "id": 698,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "u5f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 480,
+    "placename_id": 3711,
+    "placename_sub_id": 0,
+    "region_id": 3704,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 959,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 174,
+        "zoneid": 3711,
+        "map": 698,
+        "x": 9.8,
+        "y": 34.74,
+        "z": 1.32,
+        "type": 0,
+        "territory": 959,
+        "nameid": 3949,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Sinus Lacrimarum",
+          "ja": "涙の入江",
+          "de": "Sinus Lacrimarum",
+          "fr": "Sinus Lacrimarum"
+        }
+      },
+      {
+        "id": 175,
+        "zoneid": 3711,
+        "map": 698,
+        "x": 21.5,
+        "y": 11.54,
+        "z": -1.32,
+        "type": 0,
+        "territory": 959,
+        "nameid": 3966,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Bestways Burrow",
+          "ja": "ベストウェイ・バロー",
+          "de": "Bestways Rast",
+          "fr": "Halot de Bestway"
+        }
+      }
+    ],
+    "name": {
+      "en": "Mare Lamentorum",
+      "ja": "嘆きの海",
+      "de": "Mare Lamentorum",
+      "fr": "Mare Lamentorum"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Middle La Noscea": {
+    "id": 15,
+    "hierarchy": 1,
+    "priority_ui": 6,
+    "image": "s1f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 74,
+    "placename_id": 30,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 134,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 52,
+        "zoneid": 30,
+        "map": 15,
+        "x": 25.98,
+        "y": 16.27,
+        "z": 1.13,
+        "type": 0,
+        "territory": 134,
+        "nameid": 184,
+        "aethernetCoords": {
+          "x": 700,
+          "y": 1170
+        },
+        "name": {
+          "en": "Summerford Farms",
+          "ja": "サマーフォード庄",
+          "de": "Sommerfurt-Höfe",
+          "fr": "Vergers d'Estival"
+        }
+      },
+      {
+        "id": 45,
+        "zoneid": 30,
+        "map": 15,
+        "x": 21.43,
+        "y": 24.43,
+        "z": 0.41,
+        "type": 1,
+        "territory": 134,
+        "nameid": 770,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Zephyr Gate (Middle La Noscea)",
+          "ja": "ゼファー陸門（中央ラノシア方面）",
+          "de": "Zephyr-Tor (Zentrales La Noscea)",
+          "fr": "Noscea centrale via la porte du Zéphyr"
+        }
+      }
+    ],
+    "name": {
+      "en": "Middle La Noscea",
+      "ja": "中央ラノシア",
+      "de": "Zentrales La Noscea",
+      "fr": "Noscea centrale"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Mist": {
+    "id": 72,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "s1h1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 86,
+    "placename_id": 425,
+    "placename_sub_id": 1161,
+    "region_id": 22,
+    "zone_id": 1161,
+    "size_factor": 200,
+    "territory_id": 339,
+    "index": 1,
+    "dungeon": false,
+    "housing": true,
+    "aetherytes": [
+      {
+        "id": 1966088,
+        "zoneid": 425,
+        "map": 72,
+        "x": 8.29,
+        "y": 10.24,
+        "z": 0.29,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1805,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Topmast",
+          "ja": "トップマスト",
+          "de": "Fockmast",
+          "fr": "Le Mât de hune"
+        }
+      },
+      {
+        "id": 1966081,
+        "zoneid": 425,
+        "map": 72,
+        "x": 11.13,
+        "y": 8.96,
+        "z": 0.48,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1200,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mistgate Square",
+          "ja": "ミストゲート・スクエア",
+          "de": "Gezeitentor",
+          "fr": "Place du Frimas"
+        }
+      },
+      {
+        "id": 1966082,
+        "zoneid": 425,
+        "map": 72,
+        "x": 9.17,
+        "y": 9.51,
+        "z": 0.32,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1204,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mist West",
+          "ja": "ミスト・ヴィレッジ北西",
+          "de": "West-Nebeldorf",
+          "fr": "Brumée nord-ouest"
+        }
+      },
+      {
+        "id": 1966083,
+        "zoneid": 425,
+        "map": 72,
+        "x": 13.06,
+        "y": 9.27,
+        "z": 0.42,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1205,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mist Northeast",
+          "ja": "ミスト・ヴィレッジ北東",
+          "de": "Nordost-Nebeldorf",
+          "fr": "Brumée nord-est"
+        }
+      },
+      {
+        "id": 1966084,
+        "zoneid": 425,
+        "map": 72,
+        "x": 11.47,
+        "y": 11.5,
+        "z": 0.06,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1206,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Seagaze Markets",
+          "ja": "シーゲイズ商通り（居住区担当官）",
+          "de": "Seeblick-Markt",
+          "fr": "Bazar du littoral"
+        }
+      },
+      {
+        "id": 1966085,
+        "zoneid": 425,
+        "map": 72,
+        "x": 14.2,
+        "y": 12.04,
+        "z": 0.24,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1207,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mist Southeast",
+          "ja": "ミスト・ヴィレッジ南東",
+          "de": "Südost-Nebeldorf",
+          "fr": "Brumée sud-est"
+        }
+      },
+      {
+        "id": 1966086,
+        "zoneid": 425,
+        "map": 72,
+        "x": 10.12,
+        "y": 12.01,
+        "z": 0.1,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1156,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mist South (Docks)",
+          "ja": "ミスト・ヴィレッジ南（船着場）",
+          "de": "Süd-Nebeldorf - Fähranleger",
+          "fr": "Brumée sud (quai)"
+        }
+      },
+      {
+        "id": 1966087,
+        "zoneid": 425,
+        "map": 72,
+        "x": 12.94,
+        "y": 10.95,
+        "z": 0.18,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1150,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mist East",
+          "ja": "ミスト・ヴィレッジ東",
+          "de": "Ost-Nebeldorf",
+          "fr": "Brumée est"
+        }
+      }
+    ],
+    "name": {
+      "en": "Mist",
+      "ja": "ミスト・ヴィレッジ",
+      "de": "Dorf des Nebels",
+      "fr": "Brumée"
+    },
+    "sub_name": {
+      "en": "Mist",
+      "ja": "ミスト・ヴィレッジ",
+      "de": "Nebeldorf",
+      "fr": "Brumée"
+    }
+  },
+  "Mor Dhona": {
+    "id": 25,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "l1f1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 108,
+    "placename_id": 67,
+    "placename_sub_id": 0,
+    "region_id": 26,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 156,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 24,
+        "zoneid": 67,
+        "map": 25,
+        "x": 22.45,
+        "y": 8.12,
+        "z": 0.2,
+        "type": 0,
+        "territory": 156,
+        "nameid": 411,
+        "aethernetCoords": {
+          "x": 1240,
+          "y": 860
+        },
+        "name": {
+          "en": "Revenant's Toll",
+          "ja": "レヴナンツトール",
+          "de": "Geisterzoll",
+          "fr": "Glas des revenants"
+        }
+      }
+    ],
+    "name": {
+      "en": "Mor Dhona",
+      "ja": "モードゥナ",
+      "de": "Mor Dhona",
+      "fr": "Mor Dhona"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "New Gridania": {
+    "id": 2,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "f1t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 3,
+    "placename_id": 52,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 132,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 2,
+        "zoneid": 52,
+        "map": 2,
+        "x": 12.05,
+        "y": 11.92,
+        "z": 0.01,
+        "type": 0,
+        "territory": 132,
+        "nameid": 52,
+        "aethernetCoords": {
+          "x": 1560,
+          "y": 720
+        },
+        "name": {
+          "en": "New Gridania",
+          "ja": "グリダニア：新市街",
+          "de": "Neu-Gridania",
+          "fr": "Nouvelle Gridania"
+        }
+      },
+      {
+        "id": 25,
+        "zoneid": 52,
+        "map": 2,
+        "x": 14.55,
+        "y": 12.91,
+        "z": -0.03,
+        "type": 1,
+        "territory": 132,
+        "nameid": 782,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Archers' Guild",
+          "ja": "弓術士ギルド前",
+          "de": "Waldläufergilde",
+          "fr": "Guilde des archers"
+        }
+      },
+      {
+        "id": 94,
+        "zoneid": 52,
+        "map": 2,
+        "x": 11.74,
+        "y": 13.17,
+        "z": -0.19,
+        "type": 1,
+        "territory": 132,
+        "nameid": 549,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Airship Landing",
+          "ja": "グリダニア・ランディング",
+          "de": "Luftschiff-Landeplatz (Gridania)",
+          "fr": "Aérodrome de Gridania"
+        }
+      }
+    ],
+    "name": {
+      "en": "New Gridania",
+      "ja": "グリダニア：新市街",
+      "de": "Neu-Gridania",
+      "fr": "Nouvelle Gridania"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "North Shroud": {
+    "id": 7,
+    "hierarchy": 1,
+    "priority_ui": 8,
+    "image": "f1f4/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 8,
+    "placename_id": 57,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 154,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 7,
+        "zoneid": 57,
+        "map": 7,
+        "x": 20.86,
+        "y": 26.27,
+        "z": -0.4,
+        "type": 0,
+        "territory": 154,
+        "nameid": 140,
+        "aethernetCoords": {
+          "x": 1400,
+          "y": 720
+        },
+        "name": {
+          "en": "Fallgourd Float",
+          "ja": "フォールゴウド",
+          "de": "Herbstkürbis-See",
+          "fr": "Radeau de la Calebasse"
+        }
+      },
+      {
+        "id": 32,
+        "zoneid": 57,
+        "map": 7,
+        "x": 30.48,
+        "y": 25.46,
+        "z": -0.01,
+        "type": 1,
+        "territory": 154,
+        "nameid": 598,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Yellow Serpent Gate (North Shroud)",
+          "ja": "黄蛇門（北部森林方面）",
+          "de": "Gelbschlangen-Pforte (zum Nordwald)",
+          "fr": "Forêt du nord via la porte de la Vipère jaune"
+        }
+      }
+    ],
+    "name": {
+      "en": "North Shroud",
+      "ja": "黒衣森：北部森林",
+      "de": "Nordwald",
+      "fr": "Forêt du nord"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Northern Thanalan": {
+    "id": 24,
+    "hierarchy": 1,
+    "priority_ui": 10,
+    "image": "w1f5/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 43,
+    "placename_id": 46,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 147,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 21,
+        "zoneid": 46,
+        "map": 24,
+        "x": 22.07,
+        "y": 30.59,
+        "z": 0.06,
+        "type": 0,
+        "territory": 147,
+        "nameid": 325,
+        "aethernetCoords": {
+          "x": 1280,
+          "y": 1160
+        },
+        "name": {
+          "en": "Camp Bluefog",
+          "ja": "キャンプ・ブルーフォグ",
+          "de": "Camp Blauer Dunst",
+          "fr": "Camp de Brumebleue"
+        }
+      },
+      {
+        "id": 22,
+        "zoneid": 46,
+        "map": 24,
+        "x": 21.08,
+        "y": 20.88,
+        "z": 0.48,
+        "type": 0,
+        "territory": 147,
+        "nameid": 331,
+        "aethernetCoords": {
+          "x": 1260,
+          "y": 1100
+        },
+        "name": {
+          "en": "Ceruleum Processing Plant",
+          "ja": "青燐精製所",
+          "de": "Erdseim-Fabrik",
+          "fr": "Usine de céruleum"
+        }
+      }
+    ],
+    "name": {
+      "en": "Northern Thanalan",
+      "ja": "北ザナラーン",
+      "de": "Nördliches Thanalan",
+      "fr": "Thanalan septentrional"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Old Gridania": {
+    "id": 3,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "f1t2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 4,
+    "placename_id": 53,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 133,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 26,
+        "zoneid": 53,
+        "map": 3,
+        "x": 13.27,
+        "y": 9.08,
+        "z": 0.08,
+        "type": 1,
+        "territory": 133,
+        "nameid": 783,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Leatherworkers' Guild \u0026 Shaded Bower",
+          "ja": "マーケット（革細工師ギルド前）",
+          "de": "Gerbergilde (Markt)",
+          "fr": "Marché (Guilde des tanneurs)"
+        }
+      },
+      {
+        "id": 27,
+        "zoneid": 53,
+        "map": 3,
+        "x": 13.59,
+        "y": 6.61,
+        "z": 0.11,
+        "type": 1,
+        "territory": 133,
+        "nameid": 784,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lancers' Guild",
+          "ja": "槍術士ギルド前",
+          "de": "Pikeniergilde",
+          "fr": "Guilde des maîtres d'hast"
+        }
+      },
+      {
+        "id": 28,
+        "zoneid": 53,
+        "map": 3,
+        "x": 8.3,
+        "y": 10.97,
+        "z": 0.03,
+        "type": 1,
+        "territory": 133,
+        "nameid": 785,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Conjurers' Guild",
+          "ja": "幻術士ギルド前",
+          "de": "Druidengilde",
+          "fr": "Guilde des élémentalistes"
+        }
+      },
+      {
+        "id": 29,
+        "zoneid": 53,
+        "map": 3,
+        "x": 5.08,
+        "y": 7.74,
+        "z": 0.07,
+        "type": 1,
+        "territory": 133,
+        "nameid": 786,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Botanists' Guild",
+          "ja": "園芸師ギルド前",
+          "de": "Gärtnergilde",
+          "fr": "Guilde des botanistes"
+        }
+      },
+      {
+        "id": 30,
+        "zoneid": 53,
+        "map": 3,
+        "x": 9.77,
+        "y": 8.51,
+        "z": 0.06,
+        "type": 1,
+        "territory": 133,
+        "nameid": 787,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mih Khetto's Amphitheatre",
+          "ja": "ミィ・ケット野外音楽堂",
+          "de": "Mih Khettos Amphitheater",
+          "fr": "Amphithéâtre de Mih Khetto"
+        }
+      }
+    ],
+    "name": {
+      "en": "Old Gridania",
+      "ja": "グリダニア：旧市街",
+      "de": "Alt-Gridania",
+      "fr": "Vieille Gridania"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Old Sharlayan": {
+    "id": 693,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "k5t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 475,
+    "placename_id": 3706,
+    "placename_sub_id": 0,
+    "region_id": 3702,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 962,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 182,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 11.25,
+        "y": 11.37,
+        "z": 0.03,
+        "type": 0,
+        "territory": 962,
+        "nameid": 3706,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Old Sharlayan",
+          "ja": "オールド・シャーレアン",
+          "de": "Alt-Sharlayan",
+          "fr": "Vieille Sharlayan"
+        }
+      },
+      {
+        "id": 184,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 5.51,
+        "y": 9.75,
+        "z": 0.2,
+        "type": 1,
+        "territory": 962,
+        "nameid": 3998,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Studium",
+          "ja": "シャーレアン魔法大学",
+          "de": "Magieakademie von Sharlayan",
+          "fr": "Académie de magie"
+        }
+      },
+      {
+        "id": 185,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 9.41,
+        "y": 11.92,
+        "z": 0.02,
+        "type": 1,
+        "territory": 962,
+        "nameid": 3999,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Baldesion Annex",
+          "ja": "バルデシオン分館前",
+          "de": "An Baldesions Annex",
+          "fr": "Annexe des Élèves de Baldesion"
+        }
+      },
+      {
+        "id": 186,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 10.43,
+        "y": 8.01,
+        "z": 0.41,
+        "type": 1,
+        "territory": 962,
+        "nameid": 4000,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Rostra",
+          "ja": "哲学者の広場",
+          "de": "Forum",
+          "fr": "Les Rostres"
+        }
+      },
+      {
+        "id": 187,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 15.41,
+        "y": 8.82,
+        "z": 0.21,
+        "type": 1,
+        "territory": 962,
+        "nameid": 4001,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Leveilleur Estate",
+          "ja": "ルヴェユール邸前",
+          "de": "Am Anwesen der Leveilleurs",
+          "fr": "Résidence des Leveilleur"
+        }
+      },
+      {
+        "id": 188,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 15.47,
+        "y": 11.59,
+        "z": 0.01,
+        "type": 1,
+        "territory": 962,
+        "nameid": 4002,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Journey's End",
+          "ja": "漂流者の丘",
+          "de": "Hügel der Gestrandeten",
+          "fr": "Colline des Naufragés"
+        }
+      },
+      {
+        "id": 189,
+        "zoneid": 3706,
+        "map": 693,
+        "x": 11.52,
+        "y": 13.84,
+        "z": -0.17,
+        "type": 1,
+        "territory": 962,
+        "nameid": 4003,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Scholar's Harbor",
+          "ja": "知神の港",
+          "de": "Thaliaks Pforte",
+          "fr": "Port de l'Érudit"
+        }
+      }
+    ],
+    "name": {
+      "en": "Old Sharlayan",
+      "ja": "オールド・シャーレアン",
+      "de": "Alt-Sharlayan",
+      "fr": "Vieille Sharlayan"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Outer La Noscea": {
+    "id": 30,
+    "hierarchy": 1,
+    "priority_ui": 11,
+    "image": "s1f6/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 79,
+    "placename_id": 350,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 180,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 16,
+        "zoneid": 350,
+        "map": 30,
+        "x": 19.14,
+        "y": 17.1,
+        "z": 0.64,
+        "type": 0,
+        "territory": 180,
+        "nameid": 237,
+        "aethernetCoords": {
+          "x": 680,
+          "y": 960
+        },
+        "name": {
+          "en": "Camp Overlook",
+          "ja": "キャンプ・オーバールック",
+          "de": "Camp Ausblick",
+          "fr": "Camp du Guet"
+        }
+      }
+    ],
+    "name": {
+      "en": "Outer La Noscea",
+      "ja": "外地ラノシア",
+      "de": "Äußeres La Noscea",
+      "fr": "Noscea extérieure"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Radz-at-Han": {
+    "id": 694,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "m5t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 476,
+    "placename_id": 3707,
+    "placename_sub_id": 0,
+    "region_id": 3703,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 963,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 183,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 11.76,
+        "y": 10.91,
+        "z": 0,
+        "type": 0,
+        "territory": 963,
+        "nameid": 3707,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Radz-at-Han",
+          "ja": "ラザハン",
+          "de": "Radz-at-Han",
+          "fr": "Radz-at-Han"
+        }
+      },
+      {
+        "id": 191,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 3.89,
+        "y": 10.72,
+        "z": 0.45,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4005,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Meghaduta",
+          "ja": "メーガドゥータ宮前",
+          "de": "Vorplatz des Meghaduta-Tempels",
+          "fr": "Palais du Meghaduta"
+        }
+      },
+      {
+        "id": 192,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 8.02,
+        "y": 11.8,
+        "z": 0.36,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4006,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Ruveydah Fibers",
+          "ja": "ルヴェーダ製糸局前",
+          "de": "Ruveydahs Zwirn (Zugang)",
+          "fr": "Soierie de Ruveydah"
+        }
+      },
+      {
+        "id": 193,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 8.32,
+        "y": 15.2,
+        "z": 0.28,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4007,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Airship Landing",
+          "ja": "ラザハン・ランディング",
+          "de": "Luftschiff-Landeplatz",
+          "fr": "Aérodrome de Radz-at-Han"
+        }
+      },
+      {
+        "id": 194,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 11.42,
+        "y": 13.42,
+        "z": -0.03,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4008,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Alzadaal's Peace",
+          "ja": "アルザダール廟前",
+          "de": "Bei Alzadaals Ruh",
+          "fr": "Repos d'Alzadaal"
+        }
+      },
+      {
+        "id": 195,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 8.49,
+        "y": 9.34,
+        "z": 0.03,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4009,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Hall of the Radiant Host",
+          "ja": "星戦士団本営前",
+          "de": "Vor der Halle des Himmelsheers",
+          "fr": "Garnison de l'Ost rayonnant"
+        }
+      },
+      {
+        "id": 196,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 10.33,
+        "y": 7.29,
+        "z": -0.01,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4010,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mehryde's Meyhane",
+          "ja": "メリードズメイハネ",
+          "de": "Mehrydes Meyhane",
+          "fr": "Meyhane de Mehryde"
+        }
+      },
+      {
+        "id": 198,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 13.93,
+        "y": 11.55,
+        "z": 0.26,
+        "type": 1,
+        "territory": 963,
+        "nameid": 3878,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Kama",
+          "ja": "カーマ区",
+          "de": "Kama",
+          "fr": "Kama"
+        }
+      },
+      {
+        "id": 199,
+        "zoneid": 3707,
+        "map": 694,
+        "x": 12.44,
+        "y": 6.98,
+        "z": -0.25,
+        "type": 1,
+        "territory": 963,
+        "nameid": 4044,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The High Crucible of Al-Kimiya",
+          "ja": "アルキミヤ製薬堂",
+          "de": "Tiegel von Al-Kimiya",
+          "fr": "Creuset de l'Al-Kimiya"
+        }
+      }
+    ],
+    "name": {
+      "en": "Radz-at-Han",
+      "ja": "ラザハン",
+      "de": "Radz-at-Han",
+      "fr": "Radz-at-Han"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Rhalgr's Reach": {
+    "id": 366,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "g3t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 276,
+    "placename_id": 2403,
+    "placename_sub_id": 0,
+    "region_id": 2400,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 635,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 104,
+        "zoneid": 2403,
+        "map": 366,
+        "x": 12.92,
+        "y": 13.13,
+        "z": 0,
+        "type": 0,
+        "territory": 635,
+        "nameid": 2403,
+        "aethernetCoords": {
+          "x": 2171,
+          "y": 745
+        },
+        "name": {
+          "en": "Rhalgr's Reach",
+          "ja": "ラールガーズリーチ",
+          "de": "Rhalgrs Wacht",
+          "fr": "L'Étendue de Rhalgr"
+        }
+      },
+      {
+        "id": 121,
+        "zoneid": 2403,
+        "map": 366,
+        "x": 9.64,
+        "y": 11.41,
+        "z": 0,
+        "type": 1,
+        "territory": 635,
+        "nameid": 1956,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Western Rhalgr's Reach",
+          "ja": "ラールガーズリーチ西",
+          "de": "Rhalgrs Wacht (Westteil)",
+          "fr": "L'Étendue de Rhalgr - ouest"
+        }
+      },
+      {
+        "id": 122,
+        "zoneid": 2403,
+        "map": 366,
+        "x": 13.28,
+        "y": 9.03,
+        "z": 0.03,
+        "type": 1,
+        "territory": 635,
+        "nameid": 1957,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Northeastern Rhalgr's Reach",
+          "ja": "ラールガーズリーチ北東",
+          "de": "Rhalgrs Wacht (Nordostteil)",
+          "fr": "L'Étendue de Rhalgr - nord-est"
+        }
+      }
+    ],
+    "name": {
+      "en": "Rhalgr's Reach",
+      "ja": "ラールガーズリーチ",
+      "de": "Rhalgrs Wacht",
+      "fr": "L'Étendue de Rhalgr"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Shaaloani": {
+    "id": 860,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "x6f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 625,
+    "placename_id": 4508,
+    "placename_sub_id": 0,
+    "region_id": 4501,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1190,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 207,
+        "zoneid": 4508,
+        "map": 860,
+        "x": 29.04,
+        "y": 30.89,
+        "z": 0,
+        "type": 0,
+        "territory": 1190,
+        "nameid": 4659,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Hhusatahwi",
+          "ja": "フーサタイ宿場町",
+          "de": "Hhusatahwi",
+          "fr": "Hhusatahwi"
+        }
+      },
+      {
+        "id": 208,
+        "zoneid": 4508,
+        "map": 860,
+        "x": 15.53,
+        "y": 19.34,
+        "z": 0.19,
+        "type": 0,
+        "territory": 1190,
+        "nameid": 4667,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Sheshenewezi Springs",
+          "ja": "シェシェネ青燐泉",
+          "de": "Sheshenewezi-Quellen",
+          "fr": "Sources de Sheshenewezi"
+        }
+      },
+      {
+        "id": 209,
+        "zoneid": 4508,
+        "map": 860,
+        "x": 27.55,
+        "y": 10.18,
+        "z": -0.14,
+        "type": 0,
+        "territory": 1190,
+        "nameid": 4664,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mehwahhetsoan",
+          "ja": "メワヘイゾーン",
+          "de": "Mehwahhetsoan",
+          "fr": "Mehwahhetsoan"
+        }
+      },
+      {
+        "id": 229,
+        "zoneid": 4508,
+        "map": 860,
+        "x": 27.2,
+        "y": 36.94,
+        "z": 0.15,
+        "type": 1,
+        "territory": 1190,
+        "nameid": 4745,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Xak Tural Skygate (Shaaloani)",
+          "ja": "サカ・トラル関門（シャーローニ荒野方面）",
+          "de": "Himmelstor von Xak Tural (nach Shaaloani)",
+          "fr": "Porte du Xak Tural (Shaaloani)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Shaaloani",
+      "ja": "シャーローニ荒野",
+      "de": "Shaaloani",
+      "fr": "Shaaloani"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Shirogane": {
+    "id": 364,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "e1h1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 268,
+    "placename_id": 2412,
+    "placename_sub_id": 2341,
+    "region_id": 2402,
+    "zone_id": 2341,
+    "size_factor": 200,
+    "territory_id": 641,
+    "index": 1,
+    "dungeon": false,
+    "housing": true,
+    "aetherytes": [
+      {
+        "id": 1966129,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 9.31,
+        "y": 13.77,
+        "z": 0.02,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1902,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Akanegumo Bridge",
+          "ja": "茜雲桟橋(居住区担当官)",
+          "de": "Akanegumo-Steg",
+          "fr": "Appontement d'Akanegumo"
+        }
+      },
+      {
+        "id": 1966130,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 9.13,
+        "y": 8.88,
+        "z": 0.29,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1903,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Northwestern Shirogane",
+          "ja": "シロガネ北西",
+          "de": "Nordwest-Shirogane",
+          "fr": "Shirogane nord-ouest"
+        }
+      },
+      {
+        "id": 1966131,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 9.29,
+        "y": 10.54,
+        "z": 0.16,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1904,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Western Shirogane",
+          "ja": "シロガネ西",
+          "de": "West-Shirogane",
+          "fr": "Shirogane ouest"
+        }
+      },
+      {
+        "id": 1966132,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 10.87,
+        "y": 10.99,
+        "z": 0.25,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1905,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Kobai Goten",
+          "ja": "紅梅御殿",
+          "de": "Kobai Goten",
+          "fr": "Kobai Goten"
+        }
+      },
+      {
+        "id": 1966133,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 13.25,
+        "y": 11.75,
+        "z": 0.3,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1906,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Northeastern Shirogane",
+          "ja": "シロガネ北東",
+          "de": "Nordost-Shirogane",
+          "fr": "Shirogane nord-est"
+        }
+      },
+      {
+        "id": 1966134,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 8.36,
+        "y": 11.3,
+        "z": 0.09,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1907,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Southwestern Shirogane",
+          "ja": "シロガネ南西",
+          "de": "Südwest-Shirogane",
+          "fr": "Shirogane sud-ouest"
+        }
+      },
+      {
+        "id": 1966135,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 11.11,
+        "y": 13.24,
+        "z": 0.1,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1908,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Southern Shirogane",
+          "ja": "シロガネ南",
+          "de": "Süd-Shirogane",
+          "fr": "Shirogane sud"
+        }
+      },
+      {
+        "id": 1966136,
+        "zoneid": 2412,
+        "map": 364,
+        "x": 12.52,
+        "y": 13.53,
+        "z": 0.1,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1909,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Southeastern Shirogane",
+          "ja": "シロガネ南東",
+          "de": "Südost-Shirogane",
+          "fr": "Shirogane sud-est"
+        }
+      }
+    ],
+    "name": {
+      "en": "Shirogane",
+      "ja": "シロガネ",
+      "de": "Shirogane",
+      "fr": "Shirogane"
+    },
+    "sub_name": {
+      "en": "Shirogane",
+      "ja": "シロガネ",
+      "de": "Shirogane",
+      "fr": "Shirogane"
+    }
+  },
+  "Solution Nine": {
+    "id": 856,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "x6t1/00",
+    "offset_x": 0,
+    "offset_y": 90,
+    "offset_z": null,
+    "map_marker_range": 621,
+    "placename_id": 4503,
+    "placename_sub_id": 0,
+    "region_id": 4501,
+    "zone_id": 0,
+    "size_factor": 180,
+    "territory_id": 1186,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 217,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 12.38,
+        "y": 14.37,
+        "z": 0.08,
+        "type": 0,
+        "territory": 1186,
+        "nameid": 4503,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Solution Nine",
+          "ja": "ソリューション・ナイン",
+          "de": "Lösung Neun",
+          "fr": "Solution Neuf"
+        }
+      },
+      {
+        "id": 230,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 11.77,
+        "y": 18.45,
+        "z": -0.07,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4733,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Information Center",
+          "ja": "インフォメーションセンター前",
+          "de": "Auskunft",
+          "fr": "Centre d'informations"
+        }
+      },
+      {
+        "id": 231,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 20.04,
+        "y": 15.64,
+        "z": 0.6,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4734,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "True Vue",
+          "ja": "トゥルービュー",
+          "de": "Wahrlee",
+          "fr": "Vraie-vision"
+        }
+      },
+      {
+        "id": 232,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 17.6,
+        "y": 17.09,
+        "z": 0.5,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4735,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Neon Stein",
+          "ja": "ネオンスタイン前",
+          "de": "Neonhumpen",
+          "fr": "La Chope à néons"
+        }
+      },
+      {
+        "id": 233,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 19.79,
+        "y": 20.69,
+        "z": 0.6,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4736,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Arcadion",
+          "ja": "アルカディア・ソサエティ前",
+          "de": "Arkadion-Gesellschaft",
+          "fr": "Société de l'Arcadion"
+        }
+      },
+      {
+        "id": 234,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 11.79,
+        "y": 7.34,
+        "z": 0.38,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4737,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Resolution",
+          "ja": "レゾリューション",
+          "de": "Schlichtung",
+          "fr": "Résolution"
+        }
+      },
+      {
+        "id": 235,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 9.26,
+        "y": 14.65,
+        "z": 0,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4738,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Nexus Arcade",
+          "ja": "ネクサスアーケード",
+          "de": "Nexus-Arkaden",
+          "fr": "Arcades marchandes"
+        }
+      },
+      {
+        "id": 236,
+        "zoneid": 4503,
+        "map": 856,
+        "x": 4.88,
+        "y": 16.96,
+        "z": 0.14,
+        "type": 1,
+        "territory": 1186,
+        "nameid": 4739,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Residential Sector",
+          "ja": "レジデンシャルセクター",
+          "de": "Wohnsektor",
+          "fr": "Secteur résidentiel"
+        }
+      }
+    ],
+    "name": {
+      "en": "Solution Nine",
+      "ja": "ソリューション・ナイン",
+      "de": "Lösung Neun",
+      "fr": "Solution Neuf"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "South Shroud": {
+    "id": 6,
+    "hierarchy": 1,
+    "priority_ui": 7,
+    "image": "f1f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 7,
+    "placename_id": 56,
+    "placename_sub_id": 0,
+    "region_id": 23,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 153,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 5,
+        "zoneid": 56,
+        "map": 6,
+        "x": 25.22,
+        "y": 20.03,
+        "z": 0.09,
+        "type": 0,
+        "territory": 153,
+        "nameid": 129,
+        "aethernetCoords": {
+          "x": 1580,
+          "y": 920
+        },
+        "name": {
+          "en": "Quarrymill",
+          "ja": "クォーリーミル",
+          "de": "Mühlenbruch",
+          "fr": "Moulin de la Carrière"
+        }
+      },
+      {
+        "id": 6,
+        "zoneid": 56,
+        "map": 6,
+        "x": 16.94,
+        "y": 28.49,
+        "z": 0.21,
+        "type": 0,
+        "territory": 153,
+        "nameid": 123,
+        "aethernetCoords": {
+          "x": 1520,
+          "y": 980
+        },
+        "name": {
+          "en": "Camp Tranquil",
+          "ja": "キャンプ・トランキル",
+          "de": "Camp Seelenruhe",
+          "fr": "Camp des Sentes tranquilles"
+        }
+      }
+    ],
+    "name": {
+      "en": "South Shroud",
+      "ja": "黒衣森：南部森林",
+      "de": "Südwald",
+      "fr": "Forêt du sud"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Southern Thanalan": {
+    "id": 23,
+    "hierarchy": 1,
+    "priority_ui": 9,
+    "image": "w1f4/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 42,
+    "placename_id": 45,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 146,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 19,
+        "zoneid": 45,
+        "map": 23,
+        "x": 18.43,
+        "y": 13.11,
+        "z": 0.26,
+        "type": 0,
+        "territory": 146,
+        "nameid": 313,
+        "aethernetCoords": {
+          "x": 1360,
+          "y": 1340
+        },
+        "name": {
+          "en": "Little Ala Mhigo",
+          "ja": "リトルアラミゴ",
+          "de": "Klein-Ala Mhigo",
+          "fr": "Petite Ala Mhigo"
+        }
+      },
+      {
+        "id": 20,
+        "zoneid": 45,
+        "map": 23,
+        "x": 15.08,
+        "y": 29.64,
+        "z": 0.08,
+        "type": 0,
+        "territory": 146,
+        "nameid": 323,
+        "aethernetCoords": {
+          "x": 1360,
+          "y": 1440
+        },
+        "name": {
+          "en": "Forgotten Springs",
+          "ja": "忘れられたオアシス",
+          "de": "Die Vergessene Oase",
+          "fr": "Oasis oubliée"
+        }
+      }
+    ],
+    "name": {
+      "en": "Southern Thanalan",
+      "ja": "南ザナラーン",
+      "de": "Südliches Thanalan",
+      "fr": "Thanalan méridional"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Thavnair": {
+    "id": 696,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "m5f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 478,
+    "placename_id": 3709,
+    "placename_sub_id": 0,
+    "region_id": 3703,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 957,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 169,
+        "zoneid": 3709,
+        "map": 696,
+        "x": 25.37,
+        "y": 34.23,
+        "z": 0.05,
+        "type": 0,
+        "territory": 957,
+        "nameid": 3880,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Yedlihmad",
+          "ja": "イェドリマン",
+          "de": "Yedlihmad",
+          "fr": "Yedlihmad"
+        }
+      },
+      {
+        "id": 170,
+        "zoneid": 3709,
+        "map": 696,
+        "x": 10.94,
+        "y": 22.35,
+        "z": 0.02,
+        "type": 0,
+        "territory": 957,
+        "nameid": 3886,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Great Work",
+          "ja": "デミールの遺烈郷",
+          "de": "Daemirs Werk",
+          "fr": "Le Grand Œuvre"
+        }
+      },
+      {
+        "id": 171,
+        "zoneid": 3709,
+        "map": 696,
+        "x": 29.47,
+        "y": 16.6,
+        "z": 0.03,
+        "type": 0,
+        "territory": 957,
+        "nameid": 3894,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Palaka's Stand",
+          "ja": "パーラカの里",
+          "de": "Palakas Ruh",
+          "fr": "Écoute des Palaka"
+        }
+      },
+      {
+        "id": 197,
+        "zoneid": 3709,
+        "map": 696,
+        "x": 31.9,
+        "y": 8.99,
+        "z": 0.55,
+        "type": 1,
+        "territory": 957,
+        "nameid": 4011,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Gate of First Sight (Thavnair)",
+          "ja": "真眼門（サベネア島方面）",
+          "de": "Tor des Wahrsehers (nach Thavnair) ",
+          "fr": "Porte de l'Œil pur (Sortie de la ville)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Thavnair",
+      "ja": "サベネア島",
+      "de": "Thavnair",
+      "fr": "Thavnair"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Azim Steppe": {
+    "id": 372,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "e3f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 283,
+    "placename_id": 2411,
+    "placename_sub_id": 0,
+    "region_id": 2401,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 622,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 109,
+        "zoneid": 2411,
+        "map": 372,
+        "x": 32.78,
+        "y": 28.13,
+        "z": -0.2,
+        "type": 0,
+        "territory": 622,
+        "nameid": 2814,
+        "aethernetCoords": {
+          "x": 10357,
+          "y": 234
+        },
+        "name": {
+          "en": "Reunion",
+          "ja": "再会の市",
+          "de": "Reunion",
+          "fr": "Ralliement"
+        }
+      },
+      {
+        "id": 110,
+        "zoneid": 2411,
+        "map": 372,
+        "x": 23.26,
+        "y": 22.17,
+        "z": 1.14,
+        "type": 0,
+        "territory": 622,
+        "nameid": 2822,
+        "aethernetCoords": {
+          "x": 10291,
+          "y": 174
+        },
+        "name": {
+          "en": "The Dawn Throne",
+          "ja": "明けの玉座",
+          "de": "Morgenthron",
+          "fr": "Trône de l'Aube"
+        }
+      },
+      {
+        "id": 128,
+        "zoneid": 2411,
+        "map": 372,
+        "x": 6.54,
+        "y": 23.98,
+        "z": 1.27,
+        "type": 0,
+        "territory": 622,
+        "nameid": 2850,
+        "aethernetCoords": {
+          "x": 10291,
+          "y": 174
+        },
+        "name": {
+          "en": "Dhoro Iloh",
+          "ja": "ドーロ・イロー",
+          "de": "Dhoro Iloh",
+          "fr": "Dhoro Iloh"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Azim Steppe",
+      "ja": "アジムステップ",
+      "de": "Azim-Steppe",
+      "fr": "Steppe d'Azim"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Churning Mists": {
+    "id": 214,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "d2f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 164,
+    "placename_id": 2002,
+    "placename_sub_id": 0,
+    "region_id": 498,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 400,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 78,
+        "zoneid": 2002,
+        "map": 214,
+        "x": 27.63,
+        "y": 34.4,
+        "z": -0.43,
+        "type": 0,
+        "territory": 400,
+        "nameid": 2042,
+        "aethernetCoords": {
+          "x": 600,
+          "y": 350
+        },
+        "name": {
+          "en": "Moghome",
+          "ja": "モグモグホーム",
+          "de": "Moglingen",
+          "fr": "Nid-Mog"
+        }
+      },
+      {
+        "id": 79,
+        "zoneid": 2002,
+        "map": 214,
+        "x": 11.02,
+        "y": 28.81,
+        "z": 0.49,
+        "type": 0,
+        "territory": 400,
+        "nameid": 2046,
+        "aethernetCoords": {
+          "x": 580,
+          "y": 340
+        },
+        "name": {
+          "en": "Zenith",
+          "ja": "白亜の宮殿",
+          "de": "Kreidetempel",
+          "fr": "Zénith"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Churning Mists",
+      "ja": "ドラヴァニア雲海",
+      "de": "Wallende Nebel",
+      "fr": "L'Écume des cieux de Dravania"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Crystarium": {
+    "id": 497,
+    "hierarchy": 1,
+    "priority_ui": 8,
+    "image": "n4t1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 370,
+    "placename_id": 2951,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 819,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 133,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 9.83,
+        "y": 11.37,
+        "z": 0.02,
+        "type": 0,
+        "territory": 819,
+        "nameid": 2951,
+        "aethernetCoords": {
+          "x": 623,
+          "y": 10560
+        },
+        "name": {
+          "en": "The Crystarium",
+          "ja": "クリスタリウム",
+          "de": "Crystarium",
+          "fr": "Cristarium"
+        }
+      },
+      {
+        "id": 149,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 11.12,
+        "y": 14.17,
+        "z": -0.08,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3328,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Musica Universalis Markets",
+          "ja": "マーケット（ムジカ・ユニバーサリス）",
+          "de": "Musica Universalis (Markt)",
+          "fr": "Marché (Musica Universalis)"
+        }
+      },
+      {
+        "id": 150,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 9.05,
+        "y": 10.03,
+        "z": 0,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3329,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Temenos Rookery",
+          "ja": "テメノスルカリー牧場",
+          "de": "Tierhof Temenos",
+          "fr": "Couvée de Temenos"
+        }
+      },
+      {
+        "id": 151,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 12.51,
+        "y": 10.88,
+        "z": -0.01,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3330,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Dossal Gate",
+          "ja": "ドッサル大門前（星見の間）",
+          "de": "Propylaeum (Okular)",
+          "fr": "La Courtine"
+        }
+      },
+      {
+        "id": 152,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 11.95,
+        "y": 15.63,
+        "z": 0,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3331,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Pendants",
+          "ja": "ペンダント居住館前",
+          "de": "Isomorph-Quartiere",
+          "fr": "Les Pendants"
+        }
+      },
+      {
+        "id": 153,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 12.59,
+        "y": 8.58,
+        "z": 0.35,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3332,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Amaro Launch",
+          "ja": "アマロ桟橋前",
+          "de": "Amaro-Flugsteig",
+          "fr": "Jetée des amaros"
+        }
+      },
+      {
+        "id": 154,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 10.24,
+        "y": 7.82,
+        "z": 0.19,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3333,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Crystalline Mean",
+          "ja": "ミーン工芸館前",
+          "de": "Manufaktur der Gemeinschaft",
+          "fr": "Halle du Juste"
+        }
+      },
+      {
+        "id": 155,
+        "zoneid": 2951,
+        "map": 497,
+        "x": 10.12,
+        "y": 6.46,
+        "z": -0.38,
+        "type": 1,
+        "territory": 819,
+        "nameid": 3334,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Cabinet of Curiosity",
+          "ja": "博物陳列館前",
+          "de": "Kabinett der Kuriositäten",
+          "fr": "Cabinet de curiosités"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Crystarium",
+      "ja": "クリスタリウム",
+      "de": "Crystarium",
+      "fr": "Cristarium"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Doman Enclave": {
+    "id": 463,
+    "hierarchy": 1,
+    "priority_ui": 0,
+    "image": "e3ec/00",
+    "offset_x": 23,
+    "offset_y": 34,
+    "offset_z": null,
+    "map_marker_range": 313,
+    "placename_id": 2813,
+    "placename_sub_id": 0,
+    "region_id": 2401,
+    "zone_id": 0,
+    "size_factor": 400,
+    "territory_id": 759,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 127,
+        "zoneid": 2813,
+        "map": 463,
+        "x": 7.54,
+        "y": 6.61,
+        "z": 0,
+        "type": 0,
+        "territory": 759,
+        "nameid": 2813,
+        "aethernetCoords": {
+          "x": 10231,
+          "y": 460
+        },
+        "name": {
+          "en": "The Doman Enclave",
+          "ja": "ドマ町人地",
+          "de": "Domanische Enklave",
+          "fr": "Quartier enclavé de Doma"
+        }
+      },
+      {
+        "id": 130,
+        "zoneid": 2813,
+        "map": 463,
+        "x": 5.38,
+        "y": 8.54,
+        "z": 0,
+        "type": 1,
+        "territory": 759,
+        "nameid": 2859,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Southern Enclave",
+          "ja": "ドマ町人地南（栗斎塾）",
+          "de": "Enklave Süd (Rissai-Schule)",
+          "fr": "Quartier enclavé sud (école Rissai-juku)"
+        }
+      },
+      {
+        "id": 129,
+        "zoneid": 2813,
+        "map": 463,
+        "x": 6.82,
+        "y": 4.75,
+        "z": 0,
+        "type": 1,
+        "territory": 759,
+        "nameid": 2860,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Northern Enclave",
+          "ja": "ドマ町人地北（無二庭園・田園地）",
+          "de": "Enklave Nord (Reisfelder und Einzig-Garten)",
+          "fr": "Quartier enclavé nord (jardins de Muniteien/rizières de Den'en-chi)"
+        }
+      },
+      {
+        "id": 162,
+        "zoneid": 2813,
+        "map": 463,
+        "x": 8.57,
+        "y": 8.38,
+        "z": -0.05,
+        "type": 1,
+        "territory": 759,
+        "nameid": 2934,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Ferry Docks",
+          "ja": "船着場",
+          "de": "Fähranleger",
+          "fr": "Embarcadère"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Doman Enclave",
+      "ja": "ドマ町人地",
+      "de": "Domanische Enklave",
+      "fr": "Quartier enclavé de Doma"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Dravanian Forelands": {
+    "id": 212,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "d2f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 162,
+    "placename_id": 2000,
+    "placename_sub_id": 0,
+    "region_id": 498,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 398,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 76,
+        "zoneid": 2000,
+        "map": 212,
+        "x": 33.47,
+        "y": 23.19,
+        "z": -0.52,
+        "type": 0,
+        "territory": 398,
+        "nameid": 2018,
+        "aethernetCoords": {
+          "x": 700,
+          "y": 400
+        },
+        "name": {
+          "en": "Tailfeather",
+          "ja": "テイルフェザー",
+          "de": "Fiederhag",
+          "fr": "La Penne"
+        }
+      },
+      {
+        "id": 77,
+        "zoneid": 2000,
+        "map": 212,
+        "x": 16.63,
+        "y": 23.24,
+        "z": -0.22,
+        "type": 0,
+        "territory": 398,
+        "nameid": 2025,
+        "aethernetCoords": {
+          "x": 650,
+          "y": 400
+        },
+        "name": {
+          "en": "Anyx Trine",
+          "ja": "不浄の三塔",
+          "de": "Trinär-Annex",
+          "fr": "Annexe Trine"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Dravanian Forelands",
+      "ja": "高地ドラヴァニア",
+      "de": "Dravanisches Vorland",
+      "fr": "Avant-pays dravanien"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Dravanian Hinterlands": {
+    "id": 213,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "d2f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 163,
+    "placename_id": 2001,
+    "placename_sub_id": 0,
+    "region_id": 498,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 399,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 92,
+        "zoneid": 2001,
+        "map": 213,
+        "x": 18.16,
+        "y": 10.56,
+        "z": 1.04,
+        "type": 1,
+        "territory": 399,
+        "nameid": 1683,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Epilogue Gate (Eastern Hinterlands)",
+          "ja": "裏表紙門（低地ドラヴァニア東方面）",
+          "de": "Nachworttor (Östliches Hinterland)",
+          "fr": "Pontarrière (Arrière-pays est)"
+        }
+      },
+      {
+        "id": 91,
+        "zoneid": 2001,
+        "map": 213,
+        "x": 11.94,
+        "y": 12.83,
+        "z": 1.52,
+        "type": 1,
+        "territory": 399,
+        "nameid": 1682,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Prologue Gate (Western Hinterlands)",
+          "ja": "表紙門（低地ドラヴァニア西方面）",
+          "de": "Vorworttor (Westliches Hinterland)",
+          "fr": "Pontavant (Arrière-pays ouest)"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Dravanian Hinterlands",
+      "ja": "低地ドラヴァニア",
+      "de": "Dravanisches Hinterland",
+      "fr": "Arrière-pays dravanien"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Fringes": {
+    "id": 367,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "g3f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 277,
+    "placename_id": 2406,
+    "placename_sub_id": 0,
+    "region_id": 2400,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 612,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 98,
+        "zoneid": 2406,
+        "map": 367,
+        "x": 8.74,
+        "y": 11.26,
+        "z": 1.3,
+        "type": 0,
+        "territory": 612,
+        "nameid": 2613,
+        "aethernetCoords": {
+          "x": 1984,
+          "y": 777
+        },
+        "name": {
+          "en": "Castrum Oriens",
+          "ja": "カストルム・オリエンス",
+          "de": "Castrum Oriens",
+          "fr": "Castrum Oriens"
+        }
+      },
+      {
+        "id": 99,
+        "zoneid": 2406,
+        "map": 367,
+        "x": 29.99,
+        "y": 26.35,
+        "z": 1.14,
+        "type": 0,
+        "territory": 612,
+        "nameid": 2634,
+        "aethernetCoords": {
+          "x": 2116,
+          "y": 870
+        },
+        "name": {
+          "en": "The Peering Stones",
+          "ja": "ピーリングストーンズ",
+          "de": "Die Spähenden Steine",
+          "fr": "Rochers d'aguet"
+        }
+      },
+      {
+        "id": 123,
+        "zoneid": 2406,
+        "map": 367,
+        "x": 30.04,
+        "y": 10.88,
+        "z": 0.61,
+        "type": 1,
+        "territory": 612,
+        "nameid": 1958,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Fringes Gate",
+          "ja": "ギラバニア辺境地帯方面",
+          "de": "Tor zum Grenzland",
+          "fr": "Les Marges"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Fringes",
+      "ja": "ギラバニア辺境地帯",
+      "de": "Abanisches Grenzland",
+      "fr": "Les Marges"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Goblet": {
+    "id": 83,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "w1h1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 67,
+    "placename_id": 427,
+    "placename_sub_id": 1163,
+    "region_id": 24,
+    "zone_id": 1163,
+    "size_factor": 200,
+    "territory_id": 341,
+    "index": 1,
+    "dungeon": false,
+    "housing": true,
+    "aetherytes": [
+      {
+        "id": 1966120,
+        "zoneid": 427,
+        "map": 83,
+        "x": 9.41,
+        "y": 12.78,
+        "z": 0.19,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1809,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Sultana's Breath",
+          "ja": "ナナモ大風車",
+          "de": "Nanamo-Windrad",
+          "fr": "Le Souffle de la Sultane"
+        }
+      },
+      {
+        "id": 1966113,
+        "zoneid": 427,
+        "map": 83,
+        "x": 11.12,
+        "y": 8.68,
+        "z": -0.08,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1213,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet Exchange",
+          "ja": "ゴブレット市場（居住区担当官）",
+          "de": "Kuppenmarkt",
+          "fr": "Place de la Bourse"
+        }
+      },
+      {
+        "id": 1966114,
+        "zoneid": 427,
+        "map": 83,
+        "x": 13.68,
+        "y": 9.7,
+        "z": -0.32,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1214,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet Northeast",
+          "ja": "ゴブレットビュート北東",
+          "de": "Kelchkuppe Nordost",
+          "fr": "La Coupe nord-est"
+        }
+      },
+      {
+        "id": 1966115,
+        "zoneid": 427,
+        "map": 83,
+        "x": 9.14,
+        "y": 10.24,
+        "z": 0.08,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1215,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet West",
+          "ja": "ゴブレットビュート西",
+          "de": "Kelchkuppe West",
+          "fr": "La Coupe ouest"
+        }
+      },
+      {
+        "id": 1966116,
+        "zoneid": 427,
+        "map": 83,
+        "x": 11.16,
+        "y": 11.5,
+        "z": -0.24,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1210,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Brimming Heart",
+          "ja": "ブリミングハート広場",
+          "de": "Das Überströmende Herz",
+          "fr": "Pleincœur "
+        }
+      },
+      {
+        "id": 1966117,
+        "zoneid": 427,
+        "map": 83,
+        "x": 14.1,
+        "y": 12.34,
+        "z": -0.37,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1153,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet Southeast",
+          "ja": "ゴブレットビュート南東",
+          "de": "Kelchkuppe Südost",
+          "fr": "La Coupe sud-est"
+        }
+      },
+      {
+        "id": 1966118,
+        "zoneid": 427,
+        "map": 83,
+        "x": 11.67,
+        "y": 7.42,
+        "z": -0.12,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1152,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet North",
+          "ja": "ゴブレットビュート北",
+          "de": "Kelchkuppe Nord",
+          "fr": "La Coupe nord"
+        }
+      },
+      {
+        "id": 1966119,
+        "zoneid": 427,
+        "map": 83,
+        "x": 14.44,
+        "y": 10.58,
+        "z": -0.31,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1216,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Goblet East",
+          "ja": "ゴブレットビュート東",
+          "de": "Kelchkuppe Ost",
+          "fr": "La Coupe est"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Goblet",
+      "ja": "ゴブレットビュート",
+      "de": "Kelchkuppe",
+      "fr": "La Coupe"
+    },
+    "sub_name": {
+      "en": "The Goblet",
+      "ja": "ゴブレットビュート",
+      "de": "Kelchkuppe",
+      "fr": "La Coupe"
+    }
+  },
+  "The Gold Saucer": {
+    "id": 197,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "w1ed/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 148,
+    "placename_id": 1484,
+    "placename_sub_id": 1500,
+    "region_id": 24,
+    "zone_id": 1500,
+    "size_factor": 400,
+    "territory_id": 388,
+    "index": 2,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 69,
+        "zoneid": 1484,
+        "map": 197,
+        "x": 5.86,
+        "y": 5.41,
+        "z": 0,
+        "type": 1,
+        "territory": 388,
+        "nameid": 1524,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Chocobo Square",
+          "ja": "チョコボスクウェア",
+          "de": "Chocobo-Platz",
+          "fr": "Square des chocobos"
+        }
+      },
+      {
+        "id": 89,
+        "zoneid": 1484,
+        "map": 197,
+        "x": 7.14,
+        "y": 6.64,
+        "z": 0,
+        "type": 1,
+        "territory": 388,
+        "nameid": 1646,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Minion Square",
+          "ja": "チョコボスクウェア（ミニオンスクウェア）",
+          "de": "Chocobo-Platz (Halle der Trabanten)",
+          "fr": "Square des chocobos (square des mascottes)"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Gold Saucer",
+      "ja": "ゴールドソーサー",
+      "de": "Gold Saucer",
+      "fr": "Gold Saucer"
+    },
+    "sub_name": {
+      "en": "Chocobo Square",
+      "ja": "チョコボスクウェア",
+      "de": "Chocobo-Platz",
+      "fr": "Square des chocobos"
+    }
+  },
+  "The Lavender Beds": {
+    "id": 82,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "f1h1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 66,
+    "placename_id": 426,
+    "placename_sub_id": 1165,
+    "region_id": 23,
+    "zone_id": 1165,
+    "size_factor": 200,
+    "territory_id": 340,
+    "index": 1,
+    "dungeon": false,
+    "housing": true,
+    "aetherytes": [
+      {
+        "id": 1966104,
+        "zoneid": 426,
+        "map": 82,
+        "x": 16,
+        "y": 8.9,
+        "z": 0.53,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1807,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lily Hills",
+          "ja": "リリーヒルズ",
+          "de": "Lilienhügel",
+          "fr": "Plaine-aux-Lys"
+        }
+      },
+      {
+        "id": 1966097,
+        "zoneid": 426,
+        "map": 82,
+        "x": 12.02,
+        "y": 8.98,
+        "z": 0.65,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1226,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Dappled Stalls",
+          "ja": "樹冠商店街（居住区担当官）",
+          "de": "Baumkronen-Markt",
+          "fr": "Comptoirs de la Canopée"
+        }
+      },
+      {
+        "id": 1966098,
+        "zoneid": 426,
+        "map": 82,
+        "x": 9.5,
+        "y": 10.16,
+        "z": 0.31,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1223,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lavender Northwest",
+          "ja": "ラベンダーベッド北西",
+          "de": "Nordwestliche Lavendelbeete",
+          "fr": "Lavandière nord-ouest"
+        }
+      },
+      {
+        "id": 1966099,
+        "zoneid": 426,
+        "map": 82,
+        "x": 10.98,
+        "y": 10.43,
+        "z": 0.39,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1220,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Wildflower Stalls",
+          "ja": "若草商店街",
+          "de": "Wildblumen-Basar",
+          "fr": "Comptoirs de la Bouquetière"
+        }
+      },
+      {
+        "id": 1966100,
+        "zoneid": 426,
+        "map": 82,
+        "x": 13.3,
+        "y": 12.98,
+        "z": 0.06,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1224,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lavender Southeast",
+          "ja": "ラベンダーベッド南東",
+          "de": "Südöstliche Lavendelbeete",
+          "fr": "Lavandière sud-est"
+        }
+      },
+      {
+        "id": 1966101,
+        "zoneid": 426,
+        "map": 82,
+        "x": 9.98,
+        "y": 13.4,
+        "z": 0.05,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1225,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lavender Southwest",
+          "ja": "ラベンダーベッド南西",
+          "de": "Südwestliche Lavendelbeete",
+          "fr": "Lavandière sud-ouest"
+        }
+      },
+      {
+        "id": 1966102,
+        "zoneid": 426,
+        "map": 82,
+        "x": 13.15,
+        "y": 10.82,
+        "z": 0.33,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1151,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Lavender East",
+          "ja": "ラベンダーベッド東",
+          "de": "Östliche Lavendelbeete",
+          "fr": "Lavandière est"
+        }
+      },
+      {
+        "id": 1966103,
+        "zoneid": 426,
+        "map": 82,
+        "x": 11.35,
+        "y": 15.01,
+        "z": 0.02,
+        "type": 1,
+        "territory": 0,
+        "nameid": 1222,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Amethyst Shallows",
+          "ja": "紫水桟橋",
+          "de": "Amethyst-Steg",
+          "fr": "Appontement de l'Améthyste"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Lavender Beds",
+      "ja": "ラベンダーベッド",
+      "de": "Lavendelbeete",
+      "fr": "Lavandière"
+    },
+    "sub_name": {
+      "en": "The Lavender Beds",
+      "ja": "ラベンダーベッド",
+      "de": "Lavendelbeete",
+      "fr": "Lavandière"
+    }
+  },
+  "The Lochs": {
+    "id": 369,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "g3f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 279,
+    "placename_id": 2408,
+    "placename_sub_id": 0,
+    "region_id": 2400,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 621,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 102,
+        "zoneid": 2408,
+        "map": 369,
+        "x": 8.44,
+        "y": 20.97,
+        "z": 0.5,
+        "type": 0,
+        "territory": 621,
+        "nameid": 2670,
+        "aethernetCoords": {
+          "x": 2459,
+          "y": 829
+        },
+        "name": {
+          "en": "Porta Praetoria",
+          "ja": "ポルタ・プレトリア",
+          "de": "Porta Praetoria",
+          "fr": "Porta Praetoria"
+        }
+      },
+      {
+        "id": 103,
+        "zoneid": 2408,
+        "map": 369,
+        "x": 33.89,
+        "y": 34.45,
+        "z": 0.8,
+        "type": 0,
+        "territory": 621,
+        "nameid": 2693,
+        "aethernetCoords": {
+          "x": 2632,
+          "y": 925
+        },
+        "name": {
+          "en": "The Ala Mhigan Quarter",
+          "ja": "アラミガン・クォーター",
+          "de": "Mhigisches Wohnviertel",
+          "fr": "Faubourg mhigois"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Lochs",
+      "ja": "ギラバニア湖畔地帯",
+      "de": "Das Fenn",
+      "fr": "Les Lacs"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Peaks": {
+    "id": 368,
+    "hierarchy": 1,
+    "priority_ui": 4,
+    "image": "g3f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 278,
+    "placename_id": 2407,
+    "placename_sub_id": 0,
+    "region_id": 2400,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 620,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 100,
+        "zoneid": 2407,
+        "map": 368,
+        "x": 23.68,
+        "y": 6.42,
+        "z": 1.18,
+        "type": 0,
+        "territory": 620,
+        "nameid": 2646,
+        "aethernetCoords": {
+          "x": 2323,
+          "y": 768
+        },
+        "name": {
+          "en": "Ala Gannha",
+          "ja": "アラガーナ",
+          "de": "Ala Gannha",
+          "fr": "Ala Gannha"
+        }
+      },
+      {
+        "id": 101,
+        "zoneid": 2407,
+        "map": 368,
+        "x": 15.96,
+        "y": 36.39,
+        "z": 2.57,
+        "type": 0,
+        "territory": 620,
+        "nameid": 2660,
+        "aethernetCoords": {
+          "x": 2270,
+          "y": 952
+        },
+        "name": {
+          "en": "Ala Ghiri",
+          "ja": "アラギリ",
+          "de": "Ala Ghiri",
+          "fr": "Ala Ghiri"
+        }
+      },
+      {
+        "id": 124,
+        "zoneid": 2407,
+        "map": 368,
+        "x": 8.59,
+        "y": 5.73,
+        "z": 0.5,
+        "type": 1,
+        "territory": 620,
+        "nameid": 1959,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Peaks Gate",
+          "ja": "ギラバニア山岳地帯方面",
+          "de": "Tor zu den Zinnen",
+          "fr": "Les Pics"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Peaks",
+      "ja": "ギラバニア山岳地帯",
+      "de": "Die Zinnen",
+      "fr": "Les Pics"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Pillars": {
+    "id": 219,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "r2t2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 160,
+    "placename_id": 2301,
+    "placename_sub_id": 0,
+    "region_id": 25,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 419,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 87,
+        "zoneid": 2301,
+        "map": 219,
+        "x": 11.25,
+        "y": 10.5,
+        "z": 0.15,
+        "type": 1,
+        "territory": 419,
+        "nameid": 1658,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Last Vigil",
+          "ja": "ラストヴィジル（フォルタン伯爵邸）",
+          "de": "Die Letzte Wacht (Anwesen der Fortemps)",
+          "fr": "Le Dernier Vigile (manoir des Fortemps)"
+        }
+      },
+      {
+        "id": 83,
+        "zoneid": 2301,
+        "map": 219,
+        "x": 14.04,
+        "y": 10.01,
+        "z": -0.1,
+        "type": 1,
+        "territory": 419,
+        "nameid": 1654,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Athenaeum Astrologicum",
+          "ja": "聖ガンリオル占星院前（イシュガルド・ランディング）",
+          "de": "Sankt Guenriol-Akademie für Astrologie (Luftschiff-Landeplatz)",
+          "fr": "Collège d'astromancie Saint-Guenriol (aérodrome d'Ishgard)"
+        }
+      },
+      {
+        "id": 84,
+        "zoneid": 2301,
+        "map": 219,
+        "x": 8.47,
+        "y": 10.85,
+        "z": -0.13,
+        "type": 1,
+        "territory": 419,
+        "nameid": 1655,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Jeweled Crozier",
+          "ja": "マーケット（宝杖通り）",
+          "de": "Ferula-Zeile (Markt)",
+          "fr": "Marché (Crosseron précieux)"
+        }
+      },
+      {
+        "id": 85,
+        "zoneid": 2301,
+        "map": 219,
+        "x": 9.57,
+        "y": 8.85,
+        "z": 0.1,
+        "type": 1,
+        "territory": 419,
+        "nameid": 1656,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Saint Reymanaud's Cathedral",
+          "ja": "聖レマノー大聖堂（聖アンダリム神学院）",
+          "de": "Sankt Reymanaud-Kathedrale (Sankt Endalim-Theologikum)",
+          "fr": "Cathédrale Saint-Reymanaud (scolasticat Saint-Endalim)"
+        }
+      },
+      {
+        "id": 86,
+        "zoneid": 2301,
+        "map": 219,
+        "x": 12.92,
+        "y": 8.85,
+        "z": 0.1,
+        "type": 1,
+        "territory": 419,
+        "nameid": 1657,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Tribunal",
+          "ja": "神聖裁判所",
+          "de": "Hochtribunal der Heiligen Inquisition",
+          "fr": "Tribunal du Saint-Office"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Pillars",
+      "ja": "イシュガルド：上層",
+      "de": "Strebewerk",
+      "fr": "Ishgard - Les Contreforts"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Rak'tika Greatwood": {
+    "id": 495,
+    "hierarchy": 1,
+    "priority_ui": 6,
+    "image": "n4f5/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 367,
+    "placename_id": 2957,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 817,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 142,
+        "zoneid": 2957,
+        "map": 495,
+        "x": 19.3,
+        "y": 27.27,
+        "z": -0.2,
+        "type": 0,
+        "territory": 817,
+        "nameid": 3170,
+        "aethernetCoords": {
+          "x": 475,
+          "y": 10224
+        },
+        "name": {
+          "en": "Slitherbough",
+          "ja": "スリザーバウ",
+          "de": "Schlangenzweig",
+          "fr": "Serpentige"
+        }
+      },
+      {
+        "id": 143,
+        "zoneid": 2957,
+        "map": 495,
+        "x": 29.16,
+        "y": 17.41,
+        "z": 0.2,
+        "type": 0,
+        "territory": 817,
+        "nameid": 3179,
+        "aethernetCoords": {
+          "x": 544,
+          "y": 10157
+        },
+        "name": {
+          "en": "Fanow",
+          "ja": "ファノヴの里",
+          "de": "Fanow",
+          "fr": "Fanow"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Rak'tika Greatwood",
+      "ja": "ラケティカ大森林",
+      "de": "Der Große Wald Rak'tika",
+      "fr": "Rak'tika"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Ruby Sea": {
+    "id": 371,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "e3f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 281,
+    "placename_id": 2409,
+    "placename_sub_id": 0,
+    "region_id": 2401,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 613,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 105,
+        "zoneid": 2409,
+        "map": 371,
+        "x": 28.69,
+        "y": 16.04,
+        "z": -1.2,
+        "type": 0,
+        "territory": 613,
+        "nameid": 2769,
+        "aethernetCoords": {
+          "x": 10501,
+          "y": 388
+        },
+        "name": {
+          "en": "Tamamizu",
+          "ja": "碧のタマミズ",
+          "de": "Tamamizu",
+          "fr": "Tamamizu"
+        }
+      },
+      {
+        "id": 106,
+        "zoneid": 2409,
+        "map": 371,
+        "x": 23.34,
+        "y": 9.7,
+        "z": 0.03,
+        "type": 0,
+        "territory": 613,
+        "nameid": 2773,
+        "aethernetCoords": {
+          "x": 10463,
+          "y": 358
+        },
+        "name": {
+          "en": "Onokoro",
+          "ja": "オノコロ島",
+          "de": "Onokoro",
+          "fr": "Onokoro"
+        }
+      },
+      {
+        "id": 120,
+        "zoneid": 2409,
+        "map": 371,
+        "x": 38.4,
+        "y": 38.43,
+        "z": 0.05,
+        "type": 1,
+        "territory": 613,
+        "nameid": 1954,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Ruby Price",
+          "ja": "紅玉海方面",
+          "de": "Rubin-Seefestung",
+          "fr": "Mer de Rubis"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Ruby Sea",
+      "ja": "紅玉海",
+      "de": "Rubinsee",
+      "fr": "Mer de Rubis"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Sea of Clouds": {
+    "id": 215,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "a2f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 165,
+    "placename_id": 2100,
+    "placename_sub_id": 0,
+    "region_id": 497,
+    "zone_id": 0,
+    "size_factor": 95,
+    "territory_id": 401,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 72,
+        "zoneid": 2100,
+        "map": 215,
+        "x": 10.41,
+        "y": 33.4,
+        "z": -1.23,
+        "type": 0,
+        "territory": 401,
+        "nameid": 2116,
+        "aethernetCoords": {
+          "x": 1450,
+          "y": 300
+        },
+        "name": {
+          "en": "Camp Cloudtop",
+          "ja": "キャンプ・クラウドトップ",
+          "de": "Camp Wolkenwipfel",
+          "fr": "Camp de Cime-des-nuages"
+        }
+      },
+      {
+        "id": 73,
+        "zoneid": 2100,
+        "map": 215,
+        "x": 10.52,
+        "y": 14.43,
+        "z": -0.52,
+        "type": 0,
+        "territory": 401,
+        "nameid": 2123,
+        "aethernetCoords": {
+          "x": 1450,
+          "y": 260
+        },
+        "name": {
+          "en": "Ok' Zundu",
+          "ja": "オク・ズンド",
+          "de": "Ok' Zundo",
+          "fr": "Ok' Zundu"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Sea of Clouds",
+      "ja": "アバラシア雲海",
+      "de": "Abalathisches Wolkenmeer",
+      "fr": "L'Écume des cieux d'Abalathia"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "The Tempest": {
+    "id": 496,
+    "hierarchy": 1,
+    "priority_ui": 7,
+    "image": "n4f6/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 368,
+    "placename_id": 2958,
+    "placename_sub_id": 0,
+    "region_id": 2950,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 818,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 147,
+        "zoneid": 2958,
+        "map": 496,
+        "x": 32.74,
+        "y": 17.27,
+        "z": 3.48,
+        "type": 0,
+        "territory": 818,
+        "nameid": 3195,
+        "aethernetCoords": {
+          "x": 333,
+          "y": 10723
+        },
+        "name": {
+          "en": "The Ondo Cups",
+          "ja": "オンドの潮溜まり",
+          "de": "Ondo-Becken",
+          "fr": "Baïne"
+        }
+      },
+      {
+        "id": 148,
+        "zoneid": 2958,
+        "map": 496,
+        "x": 18.55,
+        "y": 25.56,
+        "z": -2.82,
+        "type": 0,
+        "territory": 818,
+        "nameid": 3205,
+        "aethernetCoords": {
+          "x": 202,
+          "y": 10776
+        },
+        "name": {
+          "en": "The Macarenses Angle",
+          "ja": "マカレンサス広場",
+          "de": "Macarenses-Forum",
+          "fr": "Carré macarien"
+        }
+      }
+    ],
+    "name": {
+      "en": "The Tempest",
+      "ja": "テンペスト",
+      "de": "Tempest",
+      "fr": "La Tempête"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Tuliyollal": {
+    "id": 855,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "y6t1/00",
+    "offset_x": 50,
+    "offset_y": -70,
+    "offset_z": null,
+    "map_marker_range": 620,
+    "placename_id": 4504,
+    "placename_sub_id": 0,
+    "region_id": 4500,
+    "zone_id": 0,
+    "size_factor": 180,
+    "territory_id": 1185,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 216,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 12.72,
+        "y": 11.2,
+        "z": 0,
+        "type": 0,
+        "territory": 1185,
+        "nameid": 4504,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Tuliyollal",
+          "ja": "トライヨラ",
+          "de": "Tuliyollal",
+          "fr": "Tuliyollal"
+        }
+      },
+      {
+        "id": 218,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 5,
+        "y": 10.03,
+        "z": 0.03,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4726,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Dirigible Landing",
+          "ja": "気球発着場前",
+          "de": "Ballonplatz",
+          "fr": "Embarcadère à ballons"
+        }
+      },
+      {
+        "id": 219,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 9.71,
+        "y": 11.05,
+        "z": 0.39,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4727,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Resplendent Quarter",
+          "ja": "翼鏡の街",
+          "de": "Glanzfeder-Viertel",
+          "fr": "La Nuée bigarrée"
+        }
+      },
+      {
+        "id": 220,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 10.44,
+        "y": 14.88,
+        "z": -0.15,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4728,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The For'ard Cabins",
+          "ja": "フォルアード・キャビンズ前",
+          "de": "Kielkajüten",
+          "fr": "Cabines de Proue"
+        }
+      },
+      {
+        "id": 221,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 13.11,
+        "y": 13.79,
+        "z": -0.11,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4729,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Bayside Bevy Marketplace",
+          "ja": "マーケット（ベイサイド・ベヴィー）",
+          "de": "Küstenkolonie (Markt)",
+          "fr": "Marché (Baie commerçante)"
+        }
+      },
+      {
+        "id": 222,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 11.45,
+        "y": 6.58,
+        "z": 1,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4730,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Vollok Shoonsa",
+          "ja": "ヴォロク連王宮前",
+          "de": "Vollok Shoonsa",
+          "fr": "Palais de Vollok Shoonsa"
+        }
+      },
+      {
+        "id": 223,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 16.7,
+        "y": 11.69,
+        "z": -0.18,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4731,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Wachumeqimeqi",
+          "ja": "ワチュメキメキ万貨街",
+          "de": "Markt von Wachumeqimeqi",
+          "fr": "Bazar aux Mille Perles"
+        }
+      },
+      {
+        "id": 224,
+        "zoneid": 4504,
+        "map": 855,
+        "x": 14.73,
+        "y": 4.36,
+        "z": 0.47,
+        "type": 1,
+        "territory": 1185,
+        "nameid": 4732,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Brightploom Post",
+          "ja": "ブライトプルーム・ポスト前",
+          "de": "Grellfeder-Posten",
+          "fr": "Vigie de Claireplume"
+        }
+      }
+    ],
+    "name": {
+      "en": "Tuliyollal",
+      "ja": "トライヨラ",
+      "de": "Tuliyollal",
+      "fr": "Tuliyollal"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Ul'dah - Steps of Nald": {
+    "id": 13,
+    "hierarchy": 1,
+    "priority_ui": 2,
+    "image": "w1t1/01",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 59,
+    "placename_id": 40,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 200,
+    "territory_id": 130,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 9,
+        "zoneid": 40,
+        "map": 13,
+        "x": 8.36,
+        "y": 7.98,
+        "z": -0.04,
+        "type": 0,
+        "territory": 130,
+        "nameid": 40,
+        "aethernetCoords": {
+          "x": 1260,
+          "y": 1380
+        },
+        "name": {
+          "en": "Ul'dah - Steps of Nald",
+          "ja": "ウルダハ：ナル回廊",
+          "de": "Nald-Kreuzgang",
+          "fr": "Ul'dah - Faubourg de Nald"
+        }
+      },
+      {
+        "id": 33,
+        "zoneid": 40,
+        "map": 13,
+        "x": 12.56,
+        "y": 8.88,
+        "z": 0.04,
+        "type": 1,
+        "territory": 130,
+        "nameid": 772,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Adventurers' Guild",
+          "ja": "冒険者ギルド前",
+          "de": "Abenteurergilde",
+          "fr": "Guilde des aventuriers"
+        }
+      },
+      {
+        "id": 34,
+        "zoneid": 40,
+        "map": 13,
+        "x": 8.13,
+        "y": 12.67,
+        "z": 0.14,
+        "type": 1,
+        "territory": 130,
+        "nameid": 773,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Thaumaturges' Guild",
+          "ja": "呪術士ギルド前",
+          "de": "Thaumaturgengilde",
+          "fr": "Guilde des occultistes"
+        }
+      }
+    ],
+    "name": {
+      "en": "Ul'dah - Steps of Nald",
+      "ja": "ウルダハ：ナル回廊",
+      "de": "Nald-Kreuzgang",
+      "fr": "Ul'dah - Faubourg de Nald"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Ul'dah - Steps of Thal": {
+    "id": 73,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "w1t2/02",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 62,
+    "placename_id": 41,
+    "placename_sub_id": 698,
+    "region_id": 24,
+    "zone_id": 698,
+    "size_factor": 200,
+    "territory_id": 131,
+    "index": 2,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 37,
+        "zoneid": 41,
+        "map": 73,
+        "x": 9.23,
+        "y": 13.06,
+        "z": 0.41,
+        "type": 1,
+        "territory": 131,
+        "nameid": 776,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Alchemists' Guild",
+          "ja": "錬金術師ギルド前",
+          "de": "Alchemistengilde",
+          "fr": "Guilde des alchimistes"
+        }
+      },
+      {
+        "id": 51,
+        "zoneid": 41,
+        "map": 73,
+        "x": 11.37,
+        "y": 10.81,
+        "z": 0.3,
+        "type": 1,
+        "territory": 131,
+        "nameid": 778,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The Chamber of Rule",
+          "ja": "ウルダハ王政庁",
+          "de": "Kammer der Regentschaft",
+          "fr": "Hall de la Loi"
+        }
+      }
+    ],
+    "name": {
+      "en": "Ul'dah - Steps of Thal",
+      "ja": "ウルダハ：ザル回廊",
+      "de": "Thal-Kreuzgang",
+      "fr": "Ul'dah - Faubourg de Thal"
+    },
+    "sub_name": {
+      "en": "Hustings Strip",
+      "ja": "政庁層",
+      "de": "Ebene der Redner",
+      "fr": "District politique"
+    }
+  },
+  "Ultima Thule": {
+    "id": 699,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "u5f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 481,
+    "placename_id": 3712,
+    "placename_sub_id": 0,
+    "region_id": 3704,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 960,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 179,
+        "zoneid": 3712,
+        "map": 699,
+        "x": 10.61,
+        "y": 27.11,
+        "z": 0.71,
+        "type": 0,
+        "territory": 960,
+        "nameid": 3973,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Reah Tahra",
+          "ja": "リア・ターラ",
+          "de": "Reah Tahra",
+          "fr": "Reah Tahra"
+        }
+      },
+      {
+        "id": 180,
+        "zoneid": 3712,
+        "map": 699,
+        "x": 22.8,
+        "y": 8.59,
+        "z": 2.69,
+        "type": 0,
+        "territory": 960,
+        "nameid": 3978,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Abode of the Ea",
+          "ja": "イーアの里",
+          "de": "Domizil der Ea",
+          "fr": "Demeure des Éas"
+        }
+      },
+      {
+        "id": 181,
+        "zoneid": 3712,
+        "map": 699,
+        "x": 31.29,
+        "y": 28.29,
+        "z": 4.36,
+        "type": 0,
+        "territory": 960,
+        "nameid": 3983,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Base Omicron",
+          "ja": "オミクロンベース",
+          "de": "Omikron-Basis",
+          "fr": "Base des Omicrons"
+        }
+      }
+    ],
+    "name": {
+      "en": "Ultima Thule",
+      "ja": "ウルティマ・トゥーレ",
+      "de": "Ultima Thule",
+      "fr": "Ultima Thulé"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Upper La Noscea": {
+    "id": 19,
+    "hierarchy": 1,
+    "priority_ui": 10,
+    "image": "s1f5/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 78,
+    "placename_id": 34,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 139,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 15,
+        "zoneid": 34,
+        "map": 19,
+        "x": 30.25,
+        "y": 23.18,
+        "z": 0.04,
+        "type": 0,
+        "territory": 139,
+        "nameid": 239,
+        "aethernetCoords": {
+          "x": 760,
+          "y": 1000
+        },
+        "name": {
+          "en": "Camp Bronze Lake",
+          "ja": "キャンプ・ブロンズレイク",
+          "de": "Camp Bronzesee",
+          "fr": "Camp du lac d'Airain"
+        }
+      }
+    ],
+    "name": {
+      "en": "Upper La Noscea",
+      "ja": "高地ラノシア",
+      "de": "Oberes La Noscea",
+      "fr": "Haute-Noscea"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Urqopacha": {
+    "id": 857,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "y6f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 622,
+    "placename_id": 4505,
+    "placename_sub_id": 0,
+    "region_id": 4500,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1187,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 200,
+        "zoneid": 4505,
+        "map": 857,
+        "x": 28.26,
+        "y": 13.35,
+        "z": -1.6,
+        "type": 0,
+        "territory": 1187,
+        "nameid": 4550,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Wachunpelo",
+          "ja": "ワチュン・ペロ",
+          "de": "Wachunpelo",
+          "fr": "Wachunpelo"
+        }
+      },
+      {
+        "id": 201,
+        "zoneid": 4505,
+        "map": 857,
+        "x": 30.9,
+        "y": 34.39,
+        "z": 1.15,
+        "type": 0,
+        "territory": 1187,
+        "nameid": 4562,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Worlar's Echo",
+          "ja": "ウォーラーの残響",
+          "de": "Worlars Echo",
+          "fr": "L'Écho de Worlar"
+        }
+      },
+      {
+        "id": 225,
+        "zoneid": 4505,
+        "map": 857,
+        "x": 34.53,
+        "y": 12.63,
+        "z": -1.2,
+        "type": 1,
+        "territory": 1187,
+        "nameid": 4741,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Arch of the Dawn (Urqopacha)",
+          "ja": "グルージャジャ凱旋門（オルコ・パチャ方面）",
+          "de": "Tor der Morgensonne (nach Urqopacha)",
+          "fr": "Arc de Gulool Ja Ja (Urqopacha)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Urqopacha",
+      "ja": "オルコ・パチャ",
+      "de": "Urqopacha",
+      "fr": "Urqopacha"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Western La Noscea": {
+    "id": 18,
+    "hierarchy": 1,
+    "priority_ui": 9,
+    "image": "s1f4/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 77,
+    "placename_id": 33,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 138,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 13,
+        "zoneid": 33,
+        "map": 18,
+        "x": 34.54,
+        "y": 31.65,
+        "z": 0.09,
+        "type": 0,
+        "territory": 138,
+        "nameid": 218,
+        "aethernetCoords": {
+          "x": 600,
+          "y": 1100
+        },
+        "name": {
+          "en": "Swiftperch",
+          "ja": "スウィフトパーチ入植地",
+          "de": "Tölpelturm-Siedlung",
+          "fr": "Le Martinet"
+        }
+      },
+      {
+        "id": 14,
+        "zoneid": 33,
+        "map": 18,
+        "x": 26.85,
+        "y": 25.87,
+        "z": -0.23,
+        "type": 0,
+        "territory": 138,
+        "nameid": 223,
+        "aethernetCoords": {
+          "x": 540,
+          "y": 1100
+        },
+        "name": {
+          "en": "Aleport",
+          "ja": "エールポート",
+          "de": "Bierhafen",
+          "fr": "Port-aux-Ales"
+        }
+      }
+    ],
+    "name": {
+      "en": "Western La Noscea",
+      "ja": "西ラノシア",
+      "de": "Westliches La Noscea",
+      "fr": "Noscea occidentale"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Western Thanalan": {
+    "id": 20,
+    "hierarchy": 1,
+    "priority_ui": 6,
+    "image": "w1f1/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 40,
+    "placename_id": 42,
+    "placename_sub_id": 0,
+    "region_id": 24,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 140,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 17,
+        "zoneid": 42,
+        "map": 20,
+        "x": 22.96,
+        "y": 16.85,
+        "z": 0.45,
+        "type": 0,
+        "territory": 140,
+        "nameid": 271,
+        "aethernetCoords": {
+          "x": 1120,
+          "y": 1260
+        },
+        "name": {
+          "en": "Horizon",
+          "ja": "ホライズン",
+          "de": "Horizont",
+          "fr": "Horizon"
+        }
+      },
+      {
+        "id": 38,
+        "zoneid": 42,
+        "map": 20,
+        "x": 30.46,
+        "y": 24.84,
+        "z": 0.93,
+        "type": 1,
+        "territory": 140,
+        "nameid": 779,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Gate of the Sultana (Western Thanalan)",
+          "ja": "ナナモ新門（西ザナラーン方面）",
+          "de": "Neues Sultana-Tor (Westliches Thanalan)",
+          "fr": "Thanalan occidental via la porte de Nanamo"
+        }
+      }
+    ],
+    "name": {
+      "en": "Western Thanalan",
+      "ja": "西ザナラーン",
+      "de": "Westliches Thanalan",
+      "fr": "Thanalan occidental"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Wolves' Den Pier": {
+    "id": 51,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "s1p1/00",
+    "offset_x": -77,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 83,
+    "placename_id": 358,
+    "placename_sub_id": 0,
+    "region_id": 22,
+    "zone_id": 0,
+    "size_factor": 400,
+    "territory_id": 250,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 55,
+        "zoneid": 358,
+        "map": 51,
+        "x": 5.4,
+        "y": 5.65,
+        "z": 0.05,
+        "type": 0,
+        "territory": 250,
+        "nameid": 358,
+        "aethernetCoords": {
+          "x": 600,
+          "y": 1240
+        },
+        "name": {
+          "en": "Wolves' Den Pier",
+          "ja": "ウルヴズジェイル係船場",
+          "de": "Wolfshöhlen-Pier",
+          "fr": "Jetée de l'Antre des loups"
+        }
+      }
+    ],
+    "name": {
+      "en": "Wolves' Den Pier",
+      "ja": "ウルヴズジェイル係船場",
+      "de": "Wolfshöhlen-Pier",
+      "fr": "Jetée de l'Antre des loups"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Yak T'el": {
+    "id": 859,
+    "hierarchy": 1,
+    "priority_ui": 5,
+    "image": "y6f3/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 624,
+    "placename_id": 4507,
+    "placename_sub_id": 0,
+    "region_id": 4500,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 1189,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 205,
+        "zoneid": 4507,
+        "map": 859,
+        "x": 13.74,
+        "y": 12.89,
+        "z": 0.24,
+        "type": 0,
+        "territory": 1189,
+        "nameid": 4614,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Iq Br'aax",
+          "ja": "イクブラーシャ",
+          "de": "Iq Br'aax",
+          "fr": "Iq Br'aax"
+        }
+      },
+      {
+        "id": 206,
+        "zoneid": 4507,
+        "map": 859,
+        "x": 36.11,
+        "y": 32.07,
+        "z": -1.33,
+        "type": 0,
+        "territory": 1189,
+        "nameid": 4625,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Mamook",
+          "ja": "マムーク",
+          "de": "Mamook",
+          "fr": "Mamook"
+        }
+      },
+      {
+        "id": 228,
+        "zoneid": 4507,
+        "map": 859,
+        "x": 21.86,
+        "y": 8.15,
+        "z": 0.08,
+        "type": 1,
+        "territory": 1189,
+        "nameid": 4744,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "Dirigible Landing (Yak T'el)",
+          "ja": "気球発着場（ヤクテル樹海方面）",
+          "de": "Ballonplatz (nach Yak T'el)",
+          "fr": "Embarcadère à ballons (Yak T'el)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Yak T'el",
+      "ja": "ヤクテル樹海",
+      "de": "Yak T'el",
+      "fr": "Yak T'el"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  },
+  "Yanxia": {
+    "id": 354,
+    "hierarchy": 1,
+    "priority_ui": 3,
+    "image": "e3f2/00",
+    "offset_x": 0,
+    "offset_y": 0,
+    "offset_z": null,
+    "map_marker_range": 282,
+    "placename_id": 2410,
+    "placename_sub_id": 0,
+    "region_id": 2401,
+    "zone_id": 0,
+    "size_factor": 100,
+    "territory_id": 614,
+    "index": 0,
+    "dungeon": false,
+    "housing": false,
+    "aetherytes": [
+      {
+        "id": 107,
+        "zoneid": 2410,
+        "map": 354,
+        "x": 30.16,
+        "y": 19.49,
+        "z": 0.68,
+        "type": 0,
+        "territory": 614,
+        "nameid": 2793,
+        "aethernetCoords": {
+          "x": 10231,
+          "y": 460
+        },
+        "name": {
+          "en": "Namai",
+          "ja": "ナマイ村",
+          "de": "Namai",
+          "fr": "Namai"
+        }
+      },
+      {
+        "id": 108,
+        "zoneid": 2410,
+        "map": 354,
+        "x": 26.42,
+        "y": 13.27,
+        "z": 0.04,
+        "type": 0,
+        "territory": 614,
+        "nameid": 2805,
+        "aethernetCoords": {
+          "x": 10207,
+          "y": 420
+        },
+        "name": {
+          "en": "The House of the Fierce",
+          "ja": "烈士庵",
+          "de": "Klause der Grimmigen",
+          "fr": "Cercle des Intrépides"
+        }
+      },
+      {
+        "id": 131,
+        "zoneid": 2410,
+        "map": 354,
+        "x": 11.78,
+        "y": 32.26,
+        "z": 0.01,
+        "type": 1,
+        "territory": 614,
+        "nameid": 2861,
+        "aethernetCoords": {
+          "x": 0,
+          "y": 0
+        },
+        "name": {
+          "en": "The One River",
+          "ja": "無二江流域（ヤンサ方面）",
+          "de": "Goldbecken (Yanxia)",
+          "fr": "Bassin rutilant (Yanxia)"
+        }
+      }
+    ],
+    "name": {
+      "en": "Yanxia",
+      "ja": "ヤンサ",
+      "de": "Yanxia",
+      "fr": "Yanxia"
+    },
+    "sub_name": {
+      "en": "",
+      "ja": "",
+      "de": "",
+      "fr": ""
+    }
+  }
+}

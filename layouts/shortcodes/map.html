@@ -9,11 +9,11 @@
     <div class="xiv-map">
     <img class="xiv-map--image" src="https://v2.xivapi.com/api/asset/map/{{$mapObj.image}}" alt="" />
     {{- range $mapObj.aetherytes }}
-        {{- $markerImage := "/xiv/marker.png" -}}
+        {{- $markerImage := "/xiv/marker/pin.webp" -}}
         {{- if eq (int .type) 0 -}}
-            {{- $markerImage = "/xiv/aetheryte.png" -}}
+            {{- $markerImage = "/xiv/marker/aetheryte.webp" -}}
         {{- else if eq (int .type) 1 -}}
-            {{- $markerImage = "/xiv/aetheryte_shard.png" -}}
+            {{- $markerImage = "/xiv/marker/aetheryte_shard.webp" -}}
         {{- end -}}
         {{- $scale := div (mul $mapObj.size_factor 50) 2048 -}}
         {{- $offset := 1 -}}
