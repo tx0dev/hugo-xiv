@@ -10,7 +10,7 @@
 {{- $dbType := "" -}}
 {{- $dbId := "" -}}
 {{- if $dbRef -}}
-    {{- $parts := split $dbRef "=" -}}
+    {{- $parts := split $dbRef ":" -}}
     {{- if ge (len $parts) 2 -}}
         {{- $dbType = index $parts 0 -}}
         {{- $dbId = index $parts 1 -}}
