@@ -4,7 +4,7 @@
     "currency": "Steel Amalj'ok",
     "societyId": "065016",
     "currencyId": "065050",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "A Realm Reborn",
     "location": {
       "name": "Ring of Ash",
@@ -19,7 +19,7 @@
     "societyId": "065017",
     "currency": "Sylphic Goldleaf",
     "currencyId": "065051",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "A Realm Reborn",
     "location": {
       "name": "Little Solace",
@@ -34,7 +34,7 @@
     "currency": "Titan Cobaltpiece",
     "societyId": "065019",
     "currencyId": "065052",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "A Realm Reborn",
     "location": {
       "name": "The 789th Order Dig",
@@ -49,7 +49,7 @@
     "currency": "Rainbowtide Psashp",
     "societyId": "065020",
     "currencyId": "065053",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "A Realm Reborn",
     "location": {
       "name": "Novv's Nursery",
@@ -64,7 +64,7 @@
     "currency": "Ixali Oaknot",
     "societyId": "065018",
     "currencyId": "065054",
-    "focus": "Crafting",
+    "focus": ["Crafting"],
     "expansion": "A Realm Reborn",
     "location": {
       "name": "The Hawthorne Hut",
@@ -79,7 +79,7 @@
     "currency": "Vanu Whitebone",
     "societyId": "065036",
     "currencyId": "065055",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Heavensward",
     "location": {
       "name": "Ok' Gundu Nakki",
@@ -94,7 +94,7 @@
     "currency": "Black Copper Gil",
     "societyId": "065037",
     "currencyId": "065056",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Heavensward",
     "location": {
       "name": "Loth ast Vath",
@@ -109,7 +109,7 @@
     "currency": "Carved Kupo Nut",
     "societyId": "065039",
     "currencyId": "065057",
-    "focus": "Crafting",
+    "focus": ["Crafting"],
     "expansion": "Heavensward",
     "location": {
       "name": "Bahrr Lehs",
@@ -124,7 +124,7 @@
     "currency": "Kojin Sango",
     "societyId": "065048",
     "currencyId": "065058",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Stormblood",
     "location": {
       "name": "Tamamizu",
@@ -139,7 +139,7 @@
     "currency": "Ananta Dreamstaff",
     "societyId": "065047",
     "currencyId": "065061",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Stormblood",
     "location": {
       "name": "Castellum Velodyna",
@@ -169,7 +169,7 @@
     "currency": "Fae Fancies",
     "societyId": "065072",
     "currencyId": "065074",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Shadowbringers",
     "location": {
       "name": "Lydha Lran",
@@ -184,7 +184,7 @@
     "currency": "Qitari Compliment",
     "societyId": "065076",
     "currencyId": "065077",
-    "focus": "Gathering",
+    "focus": ["Gathering"],
     "expansion": "Shadowbringers",
     "location": {
       "name": "Hopl's Stopple",
@@ -199,7 +199,7 @@
     "currency": "Hammered Frogment",
     "societyId": "065079",
     "currencyId": "065080",
-    "focus": "Crafting",
+    "focus": ["Crafting"],
     "expansion": "Shadowbringers",
     "location": {
       "name": "Watts's Anvil",
@@ -214,7 +214,7 @@
     "currency": "Arkasodara Pana",
     "societyId": "065092",
     "currencyId": "065091",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Endwalker",
     "location": {
       "name": "Svarna",
@@ -229,7 +229,7 @@
     "currency": "Omicron Omnitoken",
     "societyId": "065093",
     "currencyId": "065095",
-    "focus": "Gathering",
+    "focus": ["Gathering"],
     "expansion": "Endwalker",
     "location": {
       "name": "A-4 Research",
@@ -244,7 +244,7 @@
     "currency": "Loporrit Carat",
     "societyId": "065101",
     "currencyId": "065100",
-    "focus": "Crafting",
+    "focus": ["Crafting"],
     "expansion": "Endwalker",
     "location": {
       "name": "Hoper's Hold",
@@ -259,7 +259,7 @@
     "currency": "Pelu Pelplume",
     "societyId": "065113",
     "currencyId": "065111",
-    "focus": "Combat",
+    "focus": ["Combat"],
     "expansion": "Dawntrail",
     "location": {
       "name": "Dock Poga",

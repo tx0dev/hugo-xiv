@@ -1,0 +1,39 @@
+{
+  "db": {
+    "item": "item",
+    "quest": "quest",
+    "duty": "duty",
+    "npc": "npc/npc",
+    "enemy": "npc/enemy",
+    "recipe": "recipe",
+    "gathering": "gathering",
+    "achievement": "achievement",
+    "text_command": "text_command",
+    "shop": "shop"
+  },
+  "quest": {
+    "msq": "Main Story quest",
+    "side": "Quest",
+    "repeat": "Repeatable quest",
+    "other": "Other quest",
+    "feature": "Feature quest",
+    "featurerepeat": "Repeatable feature quest",
+    "levequest": "Levequest"
+  },
+  "npc": {
+    "levemete": "Guildleve NPC",
+    "mob": "Monster"
+  },
+  "duty": {
+    "dungeon": "Dungeon",
+    "guildhest": "Guildhest",
+    "chaotic": "Chaotic",
+    "pvp": "PvP",
+    "raid": "Raid",
+    "trial": "Trial",
+    "ultimate": "Ultimate Raid",
+    "variant": "Variant Dungeon",
+    "deep": "Deep Dungeon",
+    "field": "Field Opertations"
+  }
+}

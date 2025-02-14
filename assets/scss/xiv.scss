@@ -15,29 +15,33 @@
 }
 
 .xiv {
-    @include xiv-base;
-    &-pill {
+    &-pill,
+    &-db {
+        @include xiv-base;
         padding: 0 4px;
     }
-    &-icon {
-        background-size: 1.3em 1.3em;
+}
+
+@each $type, $icons in $xiv-icons {
+    .xiv-#{$type} {
+        @include xiv-ref-base;
         background-position: left 2px center;
         padding: 0px 4px 0px ($icon-size + 0.3em);
-        &--aetheryte {
-            background-image: url("xiv/aetheryte.png");
-        }
-        &--db {
-            background-image: url("xiv/eorzea-db.png");
+        @each $icon in $icons {
+            &--#{$icon}::before {
+                background-image: url("/xiv/#{$type}/#{$icon}.webp");
+            }
         }
     }
 }
 
+// Token have their icon on the right side.
 .xiv-token {
     @include xiv-token-base;
 
     // Generate classes for each currency type
     // Data is generated from the json file by the xiv_utils code.
-    @each $category, $items in $xiv-currencies {
+    @each $category, $items in $xiv-tokens {
         @each $name in $items {
             &--#{$name}::after {
                 background-image: url("/xiv/#{$category}/#{$name}.webp");

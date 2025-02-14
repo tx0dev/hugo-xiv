@@ -12,13 +12,28 @@ $icon-size: 1.3em;
     display: inline-block;
     background-color: rgba(128, 128, 128, 0.2);
     border-radius: 4px;
-    vertical-align: middle;
 }
 
+@mixin xiv-ref-base {
+    @include xiv-base;
+    background-position: left center;
+    padding: ($icon-size + 0.3em) 0px 0px 4px;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: $icon-size;
+        height: $icon-size;
+        background-size: $icon-size $icon-size;
+    }
+}
 @mixin xiv-token-base {
-    @extend .xiv;
+    @include xiv-base;
     background-position: right center;
     padding: 0px ($icon-size + 0.3em) 0px 4px;
+    //vertical-align: middle;
     &::after {
         content: "";
         position: absolute;

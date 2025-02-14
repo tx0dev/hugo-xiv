@@ -10,7 +10,8 @@
     "field": "061837",
     "chaotic": "061850",
     "lore": "061392",
-    "deep": "061824"
+    "deep": "061824",
+    "variant": "061846"
   },
   "quest": {
     "msq": "061432",
@@ -28,5 +29,69 @@
   },
   "misc": {
     "xiv": "061396"
+  },
+  "npc": {
+    "mob": "060004",
+    "levemete": "061422",
+    "zodiac": "060096",
+    "store": "060412",
+    "merchant": "060413",
+    "trader": "060935",
+    "trader_gemstone": "060987",
+    "npc": "060001",
+    "mender": "060434",
+    "delivery": "060927"
+  },
+  "fate": {
+    "slay": "060501",
+    "boss": "060502",
+    "collect": "060503",
+    "chase": "060506",
+    "defend": "060504",
+    "escort": "060505",
+    "fate": "060458",
+    "nautorious": "060958"
+  },
+  "rank": {
+    "p1": "061701",
+    "p2": "061702",
+    "p3": "061703",
+    "p4": "061704",
+    "p5": "061705",
+    "p6": "061706",
+    "a1": "061707",
+    "a2": "061708",
+    "a3": "061709",
+    "a4": "061710",
+    "a5": "061711",
+    "a6": "061712"
+  },
+  "marker": {
+    "pin": "060442",
+    "aetheryte": "060453",
+    "aetheryte_shard": "060430",
+    "slay": "060511",
+    "inn": "060559",
+    "flag": "060561",
+    "retainer": "060560",
+    "mail": "060551",
+    "mender": "060434",
+    "boss": "060401",
+    "merchant": "060413",
+    "trader": "060935",
+    "settlement": "060448",
+    "fate": "060458",
+    "quarying": "060437",
+    "quarying_spoil": "060463",
+    "mining": "060438",
+    "mining_unspoiled": "060464",
+    "logging": "060433",
+    "logging_unspoiled": "060462",
+    "harversting": "060432",
+    "harvesting_unspoiled": "060461",
+    "fishing": "060465",
+    "fishing_unspoiled": "060466",
+    "spearfishing": "060929",
+    "spearfishing_unspoiled": "060930"
   }
 }

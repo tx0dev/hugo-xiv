@@ -13,9 +13,9 @@
 
 {{/* Check in Society */}}
 {{- if not $validCurrency -}}
-    {{- if index site.Data.xiv_society $type -}}
+    {{- if index site.Data.xiv_societies $type -}}
         {{- $validCurrency = true -}}
-        {{- $currencyName = (index site.Data.xiv_.society $type).currency -}}
+        {{- $currencyName = (index site.Data.xiv_societies $type).currency -}}
     {{- end -}}
 {{- end -}}
 {{- if not $validCurrency -}}

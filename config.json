@@ -3,6 +3,7 @@
   "xivApiUrl": "http://xivapi.com",
   "currencies": "data/xiv_currencies.json",
   "icons": "data/xiv_icons.json",
+  "societies": "data/xiv_societies.json",
   "scssVariables": "assets/scss/_xiv_variables.scss",
   "sources": {
     "maps": "https://raw.githubusercontent.com/ffxiv-teamcraft/ffxiv-teamcraft/refs/heads/staging/libs/data/src/lib/json/maps.json",
