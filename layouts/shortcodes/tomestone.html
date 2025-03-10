@@ -6,5 +6,5 @@
 {{- end -}}
 
 {{- $tomestone := index site.Data.xiv_currencies.tomestone $type -}}
-{{- partial "xiv/token.html" (dict "type" $type "text" $text "currencyName" $tomestone) -}}
+{{- partial "xiv/token.html" (dict "type" $type "text" $text "currencyName" $tomestone.name) -}}
 {{- /* end */ -}}

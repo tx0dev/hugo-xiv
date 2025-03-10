@@ -50,7 +50,7 @@
     "defend": "060504",
     "escort": "060505",
     "fate": "060458",
-    "nautorious": "060958"
+    "notorious": "060958"
   },
   "rank": {
     "p1": "061701",
@@ -82,16 +82,16 @@
     "settlement": "060448",
     "fate": "060458",
     "quarying": "060437",
-    "quarying_spoil": "060463",
+    "quarying-spoil": "060463",
     "mining": "060438",
-    "mining_unspoiled": "060464",
+    "mining-unspoiled": "060464",
     "logging": "060433",
-    "logging_unspoiled": "060462",
+    "logging-unspoiled": "060462",
     "harversting": "060432",
-    "harvesting_unspoiled": "060461",
+    "harvesting-unspoiled": "060461",
     "fishing": "060465",
-    "fishing_unspoiled": "060466",
+    "fishing-unspoiled": "060466",
     "spearfishing": "060929",
-    "spearfishing_unspoiled": "060930"
+    "spearfishing-unspoiled": "060930"
   }
 }

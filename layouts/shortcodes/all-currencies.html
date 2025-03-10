@@ -32,7 +32,7 @@
 
 <h3>Society Currencies</h3>
 <ul>
-{{- range $key, $value := site.Data.xiv_society -}}
+{{- range $key, $value := site.Data.xiv_societies -}}
     <li>{{- partial "xiv/token.html" (dict "type" $key "text" "999,999" "currencyName" $value.currency) -}} : {{ $value.currency }} ({{ $value.name }} - {{ $value.expansion }})</li>
 {{- end -}}
 </ul>
@@ -40,6 +40,5 @@
 {{- define "currency" -}}
 <span
     class="xiv-token xiv-token--{{ .type }}"
-    title="{{ .currencyName  }}"
->{{ .text | safeHTML }}<span class="sr-only"> {{ .currencyName }}</span></span>
+    title="{{ .currencyName  }}">{{ .text | safeHTML }}<span class="sr-only"> {{ .currencyName }}</span></span>
 {{- end -}}

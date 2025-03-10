@@ -1,0 +1,20 @@
+<h3>Quests</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_types.quest -}}
+<li><code>{{$key}}</code>: <span class="xiv-quest xiv-quest--{{$key}}" title="{{$value}}">{{$value}}</span></li>
+{{- end -}}
+</ul>
+
+<h3>Duty</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_types.duty -}}
+<li><code>{{$key}}</code>: <span class="xiv-duty xiv-duty--{{$key}}" title="{{$value}}">{{$value}}</span></li>
+{{- end -}}
+</ul>
+
+<h3>NPC</h3>
+<ul>
+{{- range $key, $value := site.Data.xiv_types.npc -}}
+<li><code>{{$key}}</code>: <span class="xiv-npc xiv-npc--{{$key}}" title="{{$value}}">{{$value}}</span></li>
+{{- end -}}
+</ul>
