@@ -4,6 +4,7 @@
 {{- $fateType := .Get "fate" -}}
 {{- $npcType := .Get "npc" -}}
 {{- $dbRef := .Get "db" -}}
+{{- $dmgType := .Get "dmg" -}}
 {{- $href := .Get "href" -}}
 
 {{/* Parse DB reference */}}
@@ -36,6 +37,10 @@
     {{- $hasIcon = true -}}
     {{- $npcTitle := index site.Data.xiv_types.npc $npcType -}}
     {{- $content = printf `<span class="xiv-npc xiv-npc--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $npcType $npcTitle $text $npcTitle -}}
+{{- else if $dmgType -}}
+    {{- $hasIcon = true -}}
+    {{- $dmgName := index site.Data.xiv_icons.dmg $dmgType "name" -}}
+    {{- $content = printf `<span class="xiv-dmg xiv-dmg--%s" title="%s">%s<span class="sr-only"> %s</span></span>` $dmgType $dmgName $text $dmgName -}}
 {{- else -}}
     {{- $content = $text -}}
 {{- end -}}

@@ -1,6 +1,6 @@
 {
   "rateLimit": 500,
-  "xivApiUrl": "http://xivapi.com",
+  "xivApiUrl": "http://v2.xivapi.com/api",
   "currencies": "data/xiv_currencies.json",
   "icons": "data/xiv_icons.json",
   "societies": "data/xiv_societies.json",

@@ -1,10 +1,10 @@
 {{- range $cat, $icons := site.Data.xiv_icons -}}
 <h4>{{$cat}}</h4>
-    {{- range $icon, $code := $icons -}}
-    <div style="margin:4px; display: inline-block;"><span class="xiv-{{$cat}} xiv-{{$cat}}--{{$icon}}" title="{{$icon}}">{{$icon}} - {{$code}}</span></div>
+    {{- range $iconkey, $icon := $icons -}}
+    <div style="margin:4px; display: inline-block;"><span class="xiv-{{$cat}} xiv-{{$cat}}--{{$iconkey}}" title="{{$icon.name}}">{{$iconkey}} - {{$icon.id}}</span></div>
     {{- end -}}
     <br />
-    {{- range $icon, $code := $icons -}}
-    <div style="margin:4px; display: inline-block; "><img src="/xiv/{{$cat}}/{{$icon}}.webp" title="{{$icon}}" style="width: 3em; height: 3em;"/></div>
+    {{- range $iconkey, $icon := $icons -}}
+    <div style="margin:4px; display: inline-block; "><img src="/xiv/{{$cat}}/{{$iconkey}}.webp" title="{{$icon.name}} - {{$icon.id}}" style="width: 3em; height: 3em;"/></div>
     {{- end -}}
 {{- end -}}

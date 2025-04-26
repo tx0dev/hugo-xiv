@@ -1,102 +1,354 @@
 {
   "duty": {
-    "pvp": "061806",
-    "trial": "061804",
-    "raid": "061802",
-    "dungeon": "061801",
-    "guildhest": "061803",
-    "roulette": "061807",
-    "ultimate": "061832",
-    "field": "061837",
-    "chaotic": "061850",
-    "lore": "061392",
-    "deep": "061824",
-    "variant": "061846"
+    "pvp": {
+      "id": "061806",
+      "name": "PvP"
+    },
+    "trial": {
+      "id": "061804",
+      "name": "Trial"
+    },
+    "raid": {
+      "id": "061802",
+      "name": "Raid"
+    },
+    "dungeon": {
+      "id": "061801",
+      "name": "Dungeon"
+    },
+    "guildhest": {
+      "id": "061803",
+      "name": "Guildhest"
+    },
+    "roulette": {
+      "id": "061807",
+      "name": "Roulette"
+    },
+    "ultimate": {
+      "id": "061832",
+      "name": "Ultimate Raid"
+    },
+    "field": {
+      "id": "061837",
+      "name": "Field Operations"
+    },
+    "chaotic": {
+      "id": "061850",
+      "name": "Chaotic"
+    },
+    "lore": {
+      "id": "061392",
+      "name": "Lore"
+    },
+    "deep": {
+      "id": "061824",
+      "name": "Deep Dungeon"
+    },
+    "variant": {
+      "id": "061846",
+      "name": "Variant Dungeon"
+    }
   },
   "quest": {
-    "msq": "061432",
-    "side": "061431",
-    "repeat": "061433",
-    "other": "061436",
-    "feature": "061439",
-    "featurerepeat": "061941",
-    "levequest": "071241",
-    "stellarmission": "065123",
-    "criticalmission": "065124",
-    "redalertmission": "065125",
-    "bunnymission": "065130"
+    "msq": {
+      "id": "061432",
+      "name": "Main Story Quest"
+    },
+    "side": {
+      "id": "061431",
+      "name": "Quest"
+    },
+    "repeat": {
+      "id": "061433",
+      "name": "Repeatable quest"
+    },
+    "other": {
+      "id": "061436",
+      "name": "Other quest"
+    },
+    "feature": {
+      "id": "061439",
+      "name": "Feature quest"
+    },
+    "featurerepeat": {
+      "id": "061941",
+      "name": "Feature Repeatable quest"
+    },
+    "levequest": {
+      "id": "071241",
+      "name": "Levequest"
+    },
+    "stellarmission": {
+      "id": "065123",
+      "name": "Stellar Mission"
+    },
+    "criticalmission": {
+      "id": "065124",
+      "name": "Critical Mission"
+    },
+    "redalertmission": {
+      "id": "065125",
+      "name": "Red Alert Mission"
+    },
+    "bunnymission": {
+      "id": "065130",
+      "name": "Bunny Mission??"
+    }
   },
   "dmg": {
-    "physical": "060011",
-    "magical": "060012",
-    "unique": "060013"
+    "physical": {
+      "id": "060011",
+      "name": "Physical"
+    },
+    "magical": {
+      "id": "060012",
+      "name": "Magical"
+    },
+    "unique": {
+      "id": "060013",
+      "name": "Unique"
+    }
   },
   "misc": {
-    "xiv": "061396"
+    "xiv": {
+      "id": "061396",
+      "name": "XIV"
+    }
   },
   "npc": {
-    "mob": "060004",
-    "levemete": "061422",
-    "zodiac": "060096",
-    "store": "060412",
-    "merchant": "060413",
-    "trader": "060935",
-    "trader_gemstone": "060987",
-    "npc": "060001",
-    "mender": "060434",
-    "delivery": "060927"
+    "mob": {
+      "id": "060004",
+      "name": "Mob"
+    },
+    "levemete": {
+      "id": "061422",
+      "name": "Levemete"
+    },
+    "zodiac": {
+      "id": "060096",
+      "name": "Zodiac"
+    },
+    "store": {
+      "id": "060412",
+      "name": "Store"
+    },
+    "merchant": {
+      "id": "060413",
+      "name": "Merchant"
+    },
+    "trader": {
+      "id": "060935",
+      "name": "Trader"
+    },
+    "tradergemstone": {
+      "id": "060987",
+      "name": "Gemstone Trader"
+    },
+    "npc": {
+      "id": "060001",
+      "name": "NPC"
+    },
+    "mender": {
+      "id": "060434",
+      "name": "Mender"
+    },
+    "delivery": {
+      "id": "060927",
+      "name": "Delivery"
+    }
   },
   "fate": {
-    "slay": "060501",
-    "boss": "060502",
-    "collect": "060503",
-    "chase": "060506",
-    "defend": "060504",
-    "escort": "060505",
-    "fate": "060458",
-    "notorious": "060958",
-    "rebuild": "60858"
+    "slay": {
+      "id": "060501",
+      "name": "Slay"
+    },
+    "boss": {
+      "id": "060502",
+      "name": "Boss"
+    },
+    "collect": {
+      "id": "060503",
+      "name": "Collect"
+    },
+    "chase": {
+      "id": "060506",
+      "name": "Chase"
+    },
+    "defend": {
+      "id": "060504",
+      "name": "Defend"
+    },
+    "escort": {
+      "id": "060505",
+      "name": "Escort"
+    },
+    "fate": {
+      "id": "060458",
+      "name": "Fate"
+    },
+    "notorious": {
+      "id": "060958",
+      "name": "Notorious Monster"
+    },
+    "rebuild": {
+      "id": "060858",
+      "name": "Rebuild"
+    }
   },
   "rank": {
-    "p1": "061701",
-    "p2": "061702",
-    "p3": "061703",
-    "p4": "061704",
-    "p5": "061705",
-    "p6": "061706",
-    "a1": "061707",
-    "a2": "061708",
-    "a3": "061709",
-    "a4": "061710",
-    "a5": "061711",
-    "a6": "061712"
+    "p1": {
+      "id": "061701",
+      "name": "Passive 1"
+    },
+    "p2": {
+      "id": "061702",
+      "name": "Passive 2"
+    },
+    "p3": {
+      "id": "061703",
+      "name": "Passive 3"
+    },
+    "p4": {
+      "id": "061704",
+      "name": "Passive 4"
+    },
+    "p5": {
+      "id": "061705",
+      "name": "Passive 5"
+    },
+    "p6": {
+      "id": "061706",
+      "name": "Passive 6"
+    },
+    "a1": {
+      "id": "061707",
+      "name": "Aggresive 1"
+    },
+    "a2": {
+      "id": "061708",
+      "name": "Aggresive 2"
+    },
+    "a3": {
+      "id": "061709",
+      "name": "Aggresive 3"
+    },
+    "a4": {
+      "id": "061710",
+      "name": "Aggresive 4"
+    },
+    "a5": {
+      "id": "061711",
+      "name": "Aggresive 5"
+    },
+    "a6": {
+      "id": "061712",
+      "name": "Aggresive 6"
+    }
   },
   "marker": {
-    "pin": "060442",
-    "aetheryte": "060453",
-    "aetheryte_shard": "060430",
-    "slay": "060511",
-    "inn": "060559",
-    "flag": "060561",
-    "retainer": "060560",
-    "mail": "060551",
-    "mender": "060434",
-    "boss": "060401",
-    "merchant": "060413",
-    "trader": "060935",
-    "settlement": "060448",
-    "fate": "060458",
-    "quarying": "060437",
-    "quarying-spoil": "060463",
-    "mining": "060438",
-    "mining-unspoiled": "060464",
-    "logging": "060433",
-    "logging-unspoiled": "060462",
-    "harversting": "060432",
-    "harvesting-unspoiled": "060461",
-    "fishing": "060465",
-    "fishing-unspoiled": "060466",
-    "spearfishing": "060929",
-    "spearfishing-unspoiled": "060930"
+    "pin": {
+      "id": "060442",
+      "name": "Pin"
+    },
+    "aetheryte": {
+      "id": "060453",
+      "name": "Aetheryte"
+    },
+    "aetheryte-shard": {
+      "id": "060430",
+      "name": "Aetheryte Shard"
+    },
+    "slay": {
+      "id": "060511",
+      "name": "Slay"
+    },
+    "inn": {
+      "id": "060559",
+      "name": "Inn"
+    },
+    "flag": {
+      "id": "060561",
+      "name": "Flag"
+    },
+    "retainer": {
+      "id": "060560",
+      "name": "Retainer"
+    },
+    "mail": {
+      "id": "060551",
+      "name": "Mail"
+    },
+    "mender": {
+      "id": "060434",
+      "name": "Mender"
+    },
+    "boss": {
+      "id": "060401",
+      "name": "Boss"
+    },
+    "merchant": {
+      "id": "060413",
+      "name": "Merchant"
+    },
+    "trader": {
+      "id": "060935",
+      "name": "Trader"
+    },
+    "settlement": {
+      "id": "060448",
+      "name": "Settlement"
+    },
+    "fate": {
+      "id": "060458",
+      "name": "Fate"
+    },
+    "quarying": {
+      "id": "060437",
+      "name": "Quarying"
+    },
+    "quarying-spoil": {
+      "id": "060463",
+      "name": "Quarying Spoil"
+    },
+    "mining": {
+      "id": "060438",
+      "name": "Mining"
+    },
+    "mining-unspoiled": {
+      "id": "060464",
+      "name": "Mining Unspoiled"
+    },
+    "logging": {
+      "id": "060433",
+      "name": "Logging"
+    },
+    "logging-unspoiled": {
+      "id": "060462",
+      "name": "Logging Unspoiled"
+    },
+    "harversting": {
+      "id": "060432",
+      "name": "Harversting"
+    },
+    "harvesting-unspoiled": {
+      "id": "060461",
+      "name": "Harvesting Unspoiled"
+    },
+    "fishing": {
+      "id": "060465",
+      "name": "Fishing"
+    },
+    "fishing-unspoiled": {
+      "id": "060466",
+      "name": "Fishing Unspoiled"
+    },
+    "spearfishing": {
+      "id": "060929",
+      "name": "Spearfishing"
+    },
+    "spearfishing-unspoiled": {
+      "id": "060930",
+      "name": "Spearfishing Unspoiled"
+    }
   }
 }

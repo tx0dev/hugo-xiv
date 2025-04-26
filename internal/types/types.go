@@ -69,7 +69,12 @@ type SocietyLocation struct {
 }
 
 // Icons represents the icons.json structure
-type Icons map[string]map[string]string
+type Icons map[string]map[string]IconItem
+
+type IconItem struct {
+	Name string `json:"name"`
+	ID   string `json:"id"`
+}
 
 // Map represents a map
 type Map struct {

@@ -25,11 +25,18 @@ func DownloadIcon(baseURL, category, iconID, name string) error {
 		return fmt.Errorf("failed to create directory: %v", err)
 	}
 
+	// if the IconID is "0", it's a placeholder, skip it
+	if iconID == "0" {
+		fmt.Printf("   -> Skipping placeholder icon %s\n", name)
+		return nil
+	}
+
 	destPath := filepath.Join(dir, name+".webp")
 	if _, err := os.Stat(destPath); err == nil {
 		// File already exists, skip
 		return nil
 	}
+
 	// Wait for rate limiter (limiter is in fetch.go)
 	ctx := context.Background()
 	limiter := config.GetLimiter()
@@ -39,8 +46,10 @@ func DownloadIcon(baseURL, category, iconID, name string) error {
 	}
 
 	// Generate URL
+	// v2 Format: https://v2.xivapi.com/api/asset?path=ui/icon/060000/060858_hr1.tex&format=png
+	// https://v2.xivapi.com/api/asset?path=ui/icon/060000/060858_hr1.tex&format=png
 	folder := iconID[:3] + "000"
-	url := fmt.Sprintf("%s/i/%s/%s.png", baseURL, folder, iconID)
+	url := fmt.Sprintf("%s/asset?path=ui/icon/%s/%s_hr1.tex&format=png", baseURL, folder, iconID)
 
 	// Download the file (fetchData is in fetch.go, but for icons we need image decoding)
 	resp, err := http.Get(url)
@@ -76,9 +85,9 @@ func DownloadIcon(baseURL, category, iconID, name string) error {
 
 func ProcessIcons(config types.Config, icons types.Icons) error {
 	fmt.Printf("==> Processing %s\n", config.Icons)
-	for category, iconMap := range icons {
-		for name, iconID := range iconMap {
-			if err := DownloadIcon(config.XIVApiUrl, category, iconID, name); err != nil {
+	for category, iconCategoryMap := range icons {
+		for iconKey, iconItem := range iconCategoryMap {
+			if err := DownloadIcon(config.XIVApiUrl, category, iconItem.ID, iconKey); err != nil {
 				fmt.Printf("Error downloading icon: %v\n", err)
 				return err // Return error to stop processing if icon download fails
 			}
