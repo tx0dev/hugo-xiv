@@ -59,6 +59,14 @@
     "achievement": {
       "name": "Achievement Certificate",
       "id": "065059"
+    },
+    "cosmocredit": {
+      "name": "Cosmocredit",
+      "id": "065112"
+    },
+    "lunarcredit": {
+      "name": "Lunar Credit",
+      "id": "065126"
     }
   },
   "tomestone": {
@@ -186,12 +194,18 @@
       "name": "Allagan Tomestone of Aesthetics",
       "id": "065107",
       "added": "7.0",
-      "obsolete": null
+      "obsolete": "7.2"
     },
     "heliometry": {
       "name": "Allagan Tomestone of Heliometry",
       "id": "065108",
       "added": "7.05",
+      "obsolete": null
+    },
+    "mathematic": {
+      "name": "Allagan Tomestone of Mathematic",
+      "id": "065122",
+      "added": "7.2",
       "obsolete": null
     }
   },

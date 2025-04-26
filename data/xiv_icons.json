@@ -20,7 +20,11 @@
     "other": "061436",
     "feature": "061439",
     "featurerepeat": "061941",
-    "levequest": "071241"
+    "levequest": "071241",
+    "stellarmission": "065123",
+    "criticalmission": "065124",
+    "redalertmission": "065125",
+    "bunnymission": "065130"
   },
   "dmg": {
     "physical": "060011",
@@ -50,7 +54,8 @@
     "defend": "060504",
     "escort": "060505",
     "fate": "060458",
-    "notorious": "060958"
+    "notorious": "060958",
+    "rebuild": "60858"
   },
   "rank": {
     "p1": "061701",

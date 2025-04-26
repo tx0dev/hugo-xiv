@@ -268,5 +268,13 @@
       "x": 32.2,
       "y": 16.8
     }
+  },
+  "mamoolja": {
+    "name": "Mamool Ja",
+    "currency": "",
+    "societyId": "065115",
+    "currencyId": "0",
+    "focus": ["Combat"],
+    "expansion": "Downtrail"
   }
 }
