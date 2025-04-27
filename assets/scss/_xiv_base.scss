@@ -59,13 +59,13 @@ $icon-size: 1.3em;
 
 @mixin xiv-tooltip-base {
     /* Tooltip baseline */
-    &::after {
+    &[data-tooltip]::after {
         @include xiv-tooltip-style;
         content: attr(data-tooltip); /* Use the data-tooltip attribute value */
         border-radius: 5px;
     }
     /* The little triangle */
-    &::before {
+    &[data-tooltip]::before {
         @include xiv-tooltip-style;
         content: "";
         transform: rotate(45deg);
@@ -73,8 +73,8 @@ $icon-size: 1.3em;
         z-index: -2;
     }
     /* Show the tooltip on hover */
-    &:hover::after,
-    &:hover::before {
+    &[data-tooltip]:hover::after,
+    &[data-tooltip]:hover::before {
         opacity: 1; /* Leave some transparency */
         visibility: visible;
     }
