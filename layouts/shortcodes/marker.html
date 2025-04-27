@@ -1,13 +1,13 @@
 {{- $text := .Get "text" -}}
 {{- $x := .Get "x" -}}
 {{- $y := .Get "y" -}}
-{{- $img := .Get "img" | default "flag" -}}
+{{- $icon := .Get "icon" | default "flag" -}}
 {{ with .Parent }}
 {{- $map := .Get 0 -}}
 
 
-{{- if not (index site.Data.xiv_icons.marker $img) -}}
-    {{- errorf "Invalid Map marker name: %s" $img -}}
+{{- if not (index site.Data.xiv_icons.marker $icon) -}}
+    {{- errorf "Invalid Map marker name: %s" $icon -}}
 {{- end -}}
 
 {{- $mapObj := index site.Data.xiv_maps $map -}}
@@ -16,8 +16,8 @@
 {{- $xPercent := mul (sub $x $offset) $scale -}}
 {{- $yPercent := mul (sub $y $offset) $scale -}}
 {{- if $text -}}
-<div class="xiv-map--marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%; background-image: url(/xiv/marker/{{ $img }}.webp);" data-tooltip="{{$text}}"></div>
+<div class="xiv-map--marker" style="left:{{$xPercent}}%;top:{{$yPercent}}%;background-image:url(/xiv/marker/{{$icon}}.webp);" data-tooltip="{{$text}}"></div>
 {{- else -}}
-<div class="xiv-map--marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%; background-image: url(/xiv/marker/{{ $img }}.webp);"></div>
+<div class="xiv-map--marker" style="left:{{$xPercent}}%;top:{{$yPercent}}%;background-image:url(/xiv/marker/{{$icon}}.webp);"></div>
 {{- end -}}
 {{- end -}}

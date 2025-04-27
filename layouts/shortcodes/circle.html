@@ -1,8 +1,8 @@
 {{- $text := .Get "text" -}}
 {{- $x := .Get "x" -}}
 {{- $y := .Get "y" -}}
-{{- $size := .Get "size" -}}
-{{- $img := .Get "img" | default "" -}}
+{{- $size := .Get "size" | default "75" -}}
+{{- $icon := .Get "icon" | default "" -}}
 {{ with .Parent }}
 {{- $map := .Get 0 -}}
 
@@ -13,12 +13,12 @@
     {{- $yPercent := mul (sub $y $offset) $scale -}}
 
     {{- if $text -}}
-    <div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;" data-tooltip="{{$text}}">
+    <div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;--s:{{$size}}px" data-tooltip="{{$text}}">
     {{- else -}}
-    <div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;">
+    <div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;--s:{{$size}}px">
     {{- end -}}
-    {{- if $img -}}
-        <img height="32px" width="32px" src="/xiv/marker/{{ $img }}.webp">
+    {{- if $icon -}}
+        <img height="32px" width="32px" src="/xiv/marker/{{$icon}}.webp">
     {{- end -}}
     </div>
 {{- end -}}

@@ -24,14 +24,8 @@
         {{- $xPercent := mul (sub .x $offset) $scale -}}
         {{- $yPercent := mul (sub .y $offset) $scale -}}
         <div class="xiv-map--marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%;background-image: url({{ $markerImage }});" data-tooltip="{{.name.en}}"></div>
-
-
         <!--<img src="{{ $markerImage }}" class="marker" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%;" data-tooltip="{{.name.en}}"/>-->
     {{- end -}}
     {{.Inner}}
     </div>
 </div>
-
-
-<style>
-</style>
