@@ -11,9 +11,14 @@
 {{- $offset := 1 -}}
 {{- $xPercent := mul (sub $x $offset) $scale -}}
 {{- $yPercent := mul (sub $y $offset) $scale -}}
-<div class="xiv-map--circle" style="left: {{ $xPercent }}%; top: {{ $yPercent }}%; " data-tooltip="{{$text}}">
-    {{- if $img -}}
-        <img height="32px" width="32px" src="/xiv/marker/{{ $img }}.webp">
-    {{- end -}}
+
+{{- if $text -}}
+<div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;" data-tooltip="{{$text}}">
+{{- else -}}
+<div class="xiv-map--circle" style="left:{{$xPercent}}%;top:{{$yPercent}}%;">
+{{- end -}}
+{{- if $img -}}
+    <img height="32px" width="32px" src="/xiv/marker/{{ $img }}.webp">
+{{- end -}}
 </div>
 {{- end -}}
