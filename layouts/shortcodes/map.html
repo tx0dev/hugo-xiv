@@ -1,4 +1,5 @@
 {{- $map := .Get 0 -}}
+{{- $title := .Get 1 | default "" -}}
 
 {{- if not (index site.Data.xiv_maps $map) -}}
     {{- errorf "Invalid Map name: %s" $map -}}
@@ -6,6 +7,9 @@
 
 {{- $mapObj := index site.Data.xiv_maps $map -}}
 <div class="xiv-container">
+    {{- if $title -}}
+        <div class="xiv-map--title">{{$title}}</div>
+    {{- end -}}
     <div class="xiv-map">
     <img class="xiv-map--image" src="https://v2.xivapi.com/api/asset/map/{{$mapObj.image}}" alt="" />
     {{- range $mapObj.aetherytes }}

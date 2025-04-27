@@ -17,7 +17,7 @@ for the toolip to work, add the following somewhere in the body of your HTML:
 ```go
 {{- partials "xiv/eorzea_db.html" . -}}
 ```
-The file will only inject the Eorzea Database data. javascript when a `xiv` shortcode is present.
+The partial will only inject the [Eorzea Database javascript](https://na.finalfantasyxiv.com/lodestone/special/fankit/tooltip/) when a `xiv` shortcode is present.
 
 ## Features
 

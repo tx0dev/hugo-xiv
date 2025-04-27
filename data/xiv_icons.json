@@ -306,9 +306,9 @@
       "id": "060437",
       "name": "Quarying"
     },
-    "quarying-spoil": {
+    "quarying-unspoil": {
       "id": "060463",
-      "name": "Quarying Spoil"
+      "name": "Quarying Unspoiled"
     },
     "mining": {
       "id": "060438",
@@ -349,6 +349,14 @@
     "spearfishing-unspoiled": {
       "id": "060930",
       "name": "Spearfishing Unspoiled"
+    },
+    "levemete": {
+      "id": "071241",
+      "name": "Levemete"
+    },
+    "mob": {
+      "id": "060004",
+      "name": "Monster"
     }
   }
 }
